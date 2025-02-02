@@ -1,5 +1,5 @@
 ---
-icon: user-hair
+icon: box
 layout:
   title:
     visible: true

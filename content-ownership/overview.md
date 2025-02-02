@@ -1,5 +1,5 @@
 ---
-icon: user-hair
+icon: panorama
 layout:
   title:
     visible: true
