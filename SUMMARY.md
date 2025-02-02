@@ -16,8 +16,9 @@
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Bridge](blockchain/bridge.md)
-* [Advertise](blockchain/advertise.md)
 * [Faucet](blockchain/faucet.md)
+* [Timelines](blockchain/timelines.md)
+* [Advertise](blockchain/advertise.md)
 * [AI Agents](blockchain/ai-agents.md)
 
 ## Identity
