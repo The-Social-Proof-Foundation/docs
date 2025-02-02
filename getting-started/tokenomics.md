@@ -46,7 +46,7 @@ At MySocial, we believe in empowering users with complete freedom over their tok
 
 The MySo tokenomics prioritizes community empowerment, contributor incentives, and sustainable development.
 
-<figure><img src="http://localhost:3000/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1400%2Fformat%3Awebp%2F1*UCSbtsf1GVln1tnSL1aoPQ.png&#x26;w=3840&#x26;q=75" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/myso-tokenomics.png" alt=""><figcaption></figcaption></figure>
 
 ### Community (51%)
 
