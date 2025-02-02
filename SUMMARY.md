@@ -29,8 +29,7 @@
 * [xkLogin](identity/zkLogin.md)
 * [Social Graphs](identity/social-graphs.md)
 * [Tokens](identity/tokens.md)
-
-## Wallets
+* [Wallets](identity/wallets.md)
   * [Keys and Addresses](identity/wallets/keys-and-addreses.md)
   * [Signatures](identity/wallets/signatures.md)
   * [Multisig](identity/wallets/multisig.md)
@@ -50,10 +49,9 @@
 * [API](developer-tools/api.md)
 * [GraphQL](developer-tools/graphql.md)
 * [Rust](developer-tools/rust.md)
-
-## Typescript
-* [Typescript SDK](developer-tools/typescript-sdk.md)
-* [Frontend Components](developer-tools/frontend-components.md)
+* [Typescript](developer-tools/typescript.md)
+  * [Typescript SDK](developer-tools/typescript-sdk.md)
+  * [Frontend Components](developer-tools/frontend-components.md)
 
 ## Nodes & Validators
 * [Run a Full Node](nodes-and-validators/run-a-full-node.md)
