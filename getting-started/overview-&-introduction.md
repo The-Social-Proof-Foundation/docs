@@ -1,8 +1,8 @@
 ---
-icon: layer-group
+icon: file-lines
 ---
 
-# Tech Stack
+# Overview & Introduction
 
 {% hint style="info" %}
 Content will be available shortly. Please check back soon!

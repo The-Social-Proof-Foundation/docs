@@ -1,8 +1,8 @@
 ---
-icon: map-location-dot
+icon: server
 ---
 
-# Scaling Roadmap
+# CLI
 
 {% hint style="info" %}
 Content will be available shortly. Please check back soon!

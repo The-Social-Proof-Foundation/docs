@@ -1,6 +1,6 @@
 ---
 icon: file-lines
-cover: .gitbook/assets/Screenshot 2025-01-06 at 2.33.45 PM.png
+cover: .gitbook/assets/cover.png
 coverY: 0
 layout:
   cover:

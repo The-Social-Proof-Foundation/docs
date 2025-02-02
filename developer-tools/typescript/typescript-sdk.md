@@ -1,8 +1,8 @@
 ---
-icon: lock
+icon: typescript
 ---
 
-# Security
+# Typescript SDK
 
 {% hint style="info" %}
 Content will be available shortly. Please check back soon!
