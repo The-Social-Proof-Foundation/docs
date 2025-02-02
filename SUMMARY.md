@@ -48,10 +48,10 @@
 * [CLI](developer-tools/cli.md)
 * [API](developer-tools/api.md)
 * [GraphQL](developer-tools/graphql.md)
-* [Rust](developer-tools/rust.md)
 * [Typescript](developer-tools/typescript.md)
   * [Typescript SDK](developer-tools/typescript-sdk.md)
   * [Frontend Components](developer-tools/frontend-components.md)
+* [Rust](developer-tools/rust.md)
 
 ## Nodes & Validators
 * [Run a Full Node](nodes-and-validators/run-a-full-node.md)
