@@ -4,6 +4,17 @@ description: >-
   decentralization. Here’s an overview of our roadmap, detailing the six phases
   of development:
 icon: map-location
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Roadmap
