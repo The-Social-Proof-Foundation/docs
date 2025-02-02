@@ -9,7 +9,7 @@
 * [Tokenomics](getting-started/tokenomics.md)
 * [Advertise](getting-started/advertise.md)
 * [Intellectual Property](getting-started/intellectual-property.md)
-* [Whitepaper](getting-started/publish-your-docs.md)
+* [Whitepaper](getting-started/whitepaper.md)
 
 ## Blockchain
 
