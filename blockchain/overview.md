@@ -30,16 +30,16 @@ DPoS aligns the incentives of validators and users, ensuring MySocial remains fa
 
 ## Network Infrastructure
 ### Mainnet
-• Mainnet – The primary network where real-world transactions occur. This is the production environment where users, creators, and developers interact with live applications.
+The primary network where real-world transactions occur. This is the production environment where users, creators, and developers interact with live applications.
 
 ### Testnet
-• Testnet – A public staging network where developers can test updates and improvements before deploying to Mainnet. This ensures stability and security for all MySocial applications.
+A public staging network where developers can test updates and improvements before deploying to Mainnet. This ensures stability and security for all MySocial applications.
 
 ### Devnet
-• Devnet – An experimental network that allows developers to test the latest features and protocol upgrades before they reach Testnet or Mainnet.
+An experimental network that allows developers to test the latest features and protocol upgrades before they reach Testnet or Mainnet.
 
 ### Localnet
-• Localnet – Developers can run a private MySocial network on their local machine to streamline the development process without needing an external network connection.
+Developers can run a private MySocial network on their local machine to streamline the development process without needing an external network connection.
 
 ## Technical Stack
 ### Move Programming Language
