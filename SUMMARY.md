@@ -4,11 +4,10 @@
 
 ## Getting Started
 
+* [Overview & Introduction](getting-started/overview-&-introduction.md)
 * [Roadmap](getting-started/roadmap.md)
-* [Governance](getting-started/governance.md)
-* [Tech Stack](getting-started/tech-stack.md)
 * [Tokenomics](getting-started/tokenomics.md)
-* [Advertise](getting-started/advertise.md)
+* [Governance](getting-started/governance.md)
 * [Intellectual Property](getting-started/intellectual-property.md)
 * [Decentralization](getting-started/decentralization.md)
 * [Whitepaper](getting-started/whitepaper.md)
@@ -18,33 +17,42 @@
 * [Overview](blockchain/overview.md)
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
-* [Content Moderation](blockchain/content-moderation.md)
-* [API](blockchain/api.md)
-* [GraphQL](blockchain/graphql.md)
+* [Advertise](getting-started/advertise.md)
 * [Bridge](blockchain/bridge.md)
-* [Order Book](blockchain/oder-book.md)
+* [Faucet](blockchain/faucet.md)
+* [Order Book](blockchain/order-book.md)
 * [AI Agents](blockchain/ai-agents.md)
 
 ## Identity
 
 * [Overview](identity/overview.md)
-* [Connect a Wallet](identity/connect-a-wallet.md)
-* [ZK Login](identity/zkLogin.md)
+* [Name Service](identity/name-service.md)
+* [xkLogin](identity/zkLogin.md)
+* [Social Graphs](identity/social-graphs.md)
+* [Tokens](identity/tokens.md)
 
-## SDK's
+### Wallets
+* [Keys and Addresses](identity/wallets/keys-and-addreses.md)
+* [Signatures](identity/wallets/signatures.md)
+* [Multisig](identity/wallets/multisig.md)
+* [Intent Signing](identity/wallets/intent-signing.md)
 
-* [Introduction](sdks/introduction.md)
-* [Typescript](sdks/typescript.md)
+## Content Ownership
+* [Intellectual Property](content-ownership/intellectual-property.md)
+* [Proof of Creativity](content-ownership/proof-of-creativity.md)
+* [Content Moderation](content-ownership/content-moderation.md)
 
 ## Storage
-
 * [Site Hosting](storage/site-hosting.md)
+* [Media Storage](storage/media-storage.md)
 
-## CLI
-
-* [Install](cli/install.md)
+## Developer Tools
+* [CLI](developer-tools/cli.md)
+* [Frontend Components](developer-tools/frontend-components.md)
+* [Typescript SDK](developer-tools/typescript-sdk.md)
+* [GraphQL](developer-tools/graphql.md)
+* [Rust](developer-tools/rust.md)
 
 ## Nodes & Validators
-
 * [Run a Full Node](nodes-and-validators/run-a-full-node.md)
 * [Run a Validator](nodes-and-validators/run-a-validator.md)
