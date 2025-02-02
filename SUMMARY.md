@@ -30,6 +30,10 @@
 * [Introduction](sdks/introduction.md)
 * [Typescript](sdks/typescript.md)
 
+## Storage
+
+* [Site Hosting](storage/site-hosting.md)
+
 ## CLI
 
 * [Install](cli/install.md)
