@@ -4,7 +4,6 @@
 
 ## Getting Started
 
-* [Overview & Introduction](getting-started/overview-&-introduction.md)
 * [Roadmap](getting-started/roadmap.md)
 * [Tokenomics](getting-started/tokenomics.md)
 * [Decentralization](getting-started/decentralization.md)
@@ -36,12 +35,14 @@
 
 ## Content Ownership
 
+* [Overview](content-ownership/overview.md)
 * [Intellectual Property](content-ownership/intellectual-property.md)
 * [Proof of Creativity](content-ownership/proof-of-creativity.md)
 * [Content Moderation](content-ownership/content-moderation.md)
 
 ## Storage
 
+* [Overview](storage/overview.md)
 * [Site Hosting](storage/site-hosting.md)
 * [Media Storage](storage/media-storage.md)
 

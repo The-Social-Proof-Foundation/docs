@@ -1,5 +1,5 @@
 ---
-icon: file-lines
+icon: user-hair
 layout:
   title:
     visible: true
@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Overview & Introduction
+# Overview
 
 {% hint style="info" %}
 Content will be available shortly. Please check back soon!
