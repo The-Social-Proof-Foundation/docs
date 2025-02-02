@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: palette
 ---
 
 # Proof of Creativity

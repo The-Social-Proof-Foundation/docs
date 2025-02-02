@@ -1,9 +1,9 @@
 ---
+icon: chart-pie
 description: >-
   At the core of MySocial’s architecture is the belief that ownership and value
   should be distributed equitably among the community, without hidden agendas or
   conflicts of interest.
-icon: coin
 cover: ../.gitbook/assets/Tokenomics Cover Photo.png
 coverY: 0
 layout:

@@ -1,5 +1,5 @@
 ---
-icon: user
+icon: signature
 ---
 
 # Name Service

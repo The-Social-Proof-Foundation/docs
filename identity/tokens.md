@@ -1,5 +1,5 @@
 ---
-icon: token
+icon: coins
 ---
 
 # Tokens

@@ -1,5 +1,5 @@
 ---
-icon: fingerprint
+icon: bridge-suspension
 ---
 
 # Bridge
@@ -9,4 +9,3 @@ icon: fingerprint
 Content will be available shortly. Please check back soon!
 
 Accept USDC, Tether, Bitcoin, & Ethereum
-

@@ -1,5 +1,5 @@
 ---
-icon: share-nodes
+icon: cube
 ---
 
 # Run a Full Node

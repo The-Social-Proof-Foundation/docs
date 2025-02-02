@@ -1,5 +1,5 @@
 ---
-icon: typescript
+icon: code
 ---
 
 # Typescript

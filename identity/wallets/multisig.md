@@ -1,5 +1,5 @@
 ---
-icon: wallet
+icon: signature-lock
 ---
 
 # Multisig

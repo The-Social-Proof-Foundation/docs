@@ -1,5 +1,5 @@
 ---
-icon: graph
+icon: users-rectangle
 ---
 
 # Social Graphs

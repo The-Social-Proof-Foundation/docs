@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: signature
 ---
 
 # Signatures

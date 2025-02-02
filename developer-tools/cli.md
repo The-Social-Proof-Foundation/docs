@@ -1,5 +1,5 @@
 ---
-icon: server
+icon: terminal
 ---
 
 # CLI

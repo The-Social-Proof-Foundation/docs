@@ -1,5 +1,5 @@
 ---
-icon: fingerprint
+icon: server
 ---
 
 # Site Hosting
@@ -12,4 +12,4 @@ https://github.com/MystenLabs/walrus-docs/blob/main/docs/walrus-sites/intro.md
 
 https://walrus.site/
 
-** They are not upgradeable 
+\*\* They are not upgradeable

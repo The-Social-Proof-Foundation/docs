@@ -1,5 +1,5 @@
 ---
-icon: wallet
+icon: key
 ---
 
 # Keys and Addresses

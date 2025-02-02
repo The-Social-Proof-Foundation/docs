@@ -1,5 +1,5 @@
 ---
-icon: fingerprint
+icon: boxes-stacked
 ---
 
 # Decentralization

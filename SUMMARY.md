@@ -17,7 +17,7 @@
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Bridge](blockchain/bridge.md)
-* [Advertise](getting-started/advertise.md)
+* [Advertise](blockchain/advertise.md)
 * [Faucet](blockchain/faucet.md)
 * [Order Book](blockchain/order-book.md)
 * [AI Agents](blockchain/ai-agents.md)
@@ -36,23 +36,27 @@
 * [Tokens](identity/tokens.md)
 
 ## Content Ownership
+
 * [Intellectual Property](content-ownership/intellectual-property.md)
 * [Proof of Creativity](content-ownership/proof-of-creativity.md)
 * [Content Moderation](content-ownership/content-moderation.md)
 
 ## Storage
+
 * [Site Hosting](storage/site-hosting.md)
 * [Media Storage](storage/media-storage.md)
 
 ## Developer Tools
+
 * [CLI](developer-tools/cli.md)
 * [API](developer-tools/api.md)
 * [GraphQL](developer-tools/graphql.md)
 * [Typescript](developer-tools/typescript.md)
-  * [Typescript SDK](developer-tools/typescript-sdk.md)
-  * [Frontend Components](developer-tools/frontend-components.md)
+  * [Typescript SDK](developer-tools/typescript/typescript-sdk.md)
+  * [Frontend Components](developer-tools/typescript/frontend-components.md)
 * [Rust](developer-tools/rust.md)
 
 ## Nodes & Validators
+
 * [Run a Full Node](nodes-and-validators/run-a-full-node.md)
 * [Run a Validator](nodes-and-validators/run-a-validator.md)

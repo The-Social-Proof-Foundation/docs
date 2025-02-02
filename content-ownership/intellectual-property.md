@@ -1,5 +1,5 @@
 ---
-icon: fingerprint
+icon: copyright
 ---
 
 # Intellectual Property

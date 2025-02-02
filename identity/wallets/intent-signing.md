@@ -1,5 +1,5 @@
 ---
-icon: lock
+icon: pen-nib
 ---
 
 # Intent Signing

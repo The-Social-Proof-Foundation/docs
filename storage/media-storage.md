@@ -1,5 +1,5 @@
 ---
-icon: storage
+icon: photo-film-music
 ---
 
 # Media Storage
