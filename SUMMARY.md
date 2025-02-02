@@ -16,7 +16,6 @@
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Bridge](blockchain/bridge.md)
-* [Faucet](blockchain/faucet.md)
 * [Timelines](blockchain/timelines.md)
 * [Advertise](blockchain/advertise.md)
 * [AI Agents](blockchain/ai-agents.md)
@@ -53,6 +52,7 @@
 ## Developer Tools
 
 * [CLI](developer-tools/cli.md)
+* [Faucet](developer-tools/faucet.md)
 * [API](developer-tools/api.md)
 * [GraphQL](developer-tools/graphql.md)
 * [Typescript](developer-tools/typescript.md)
