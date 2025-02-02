@@ -5,6 +5,7 @@
 ## Getting Started
 
 * [Roadmap](getting-started/roadmap.md)
+* [Governance](getting-started/governance.md)
 * [Tech Stack](getting-started/tech-stack.md)
 * [Tokenomics](getting-started/tokenomics.md)
 * [Advertise](getting-started/advertise.md)
