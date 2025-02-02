@@ -48,7 +48,7 @@ Once a proposal is approved by the Delegate Council, it proceeds to the Communit
 
 • Supermajority: A two-thirds majority (66%) for significant changes, such as a major protocol update.
 
-### Implementation of Approved Proposals
+## Implementation of Approved Proposals
 
 Approved proposals are implemented according to a predefined timeline, with designated individuals or teams responsible for execution. This ensures accountability and clarity in the implementation process.
 
