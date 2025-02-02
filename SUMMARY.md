@@ -19,7 +19,6 @@
 * [Bridge](blockchain/bridge.md)
 * [Advertise](blockchain/advertise.md)
 * [Faucet](blockchain/faucet.md)
-* [Order Book](blockchain/order-book.md)
 * [AI Agents](blockchain/ai-agents.md)
 
 ## Identity
@@ -45,6 +44,9 @@
 
 * [Site Hosting](storage/site-hosting.md)
 * [Media Storage](storage/media-storage.md)
+
+## Order Book
+* [Overview](order-book/overview.md)
 
 ## Developer Tools
 
