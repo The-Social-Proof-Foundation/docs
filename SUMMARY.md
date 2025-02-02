@@ -26,14 +26,14 @@
 
 * [Overview](identity/overview.md)
 * [Name Service](identity/name-service.md)
-* [xkLogin](identity/zkLogin.md)
-* [Social Graphs](identity/social-graphs.md)
-* [Tokens](identity/tokens.md)
 * [Wallets](identity/wallets.md)
   * [Keys and Addresses](identity/wallets/keys-and-addreses.md)
   * [Signatures](identity/wallets/signatures.md)
   * [Multisig](identity/wallets/multisig.md)
   * [Intent Signing](identity/wallets/intent-signing.md)
+* [zkLogin](identity/zkLogin.md)
+* [Social Graphs](identity/social-graphs.md)
+* [Tokens](identity/tokens.md)
 
 ## Content Ownership
 * [Intellectual Property](content-ownership/intellectual-property.md)

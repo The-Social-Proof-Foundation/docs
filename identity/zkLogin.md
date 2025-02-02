@@ -2,7 +2,7 @@
 icon: fingerprint
 ---
 
-# ZK Login
+# zkLogin
 
 [zkLogin](https://docs.sui.io/concepts/cryptography/zklogin)
 
