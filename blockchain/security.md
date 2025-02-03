@@ -17,11 +17,11 @@ layout:
 
 At MySocial, we prioritize the security of our users’ data and assets, ensuring a safe and trustworthy platform for social interactions. Our comprehensive security framework is designed to protect user information, maintain data integrity, and uphold privacy.
 
-## Security Features
+## Features
 
 MySocial employs advanced security measures to safeguard user assets and data. Each asset is associated with a unique identifier and is accessible only by its owner through a private cryptographic key. This ensures that only the rightful owner can authorize transactions involving their assets. Additionally, our platform utilizes smart contracts written in the Move programming language, which define the rules for asset interactions. These contracts are auditable, allowing for transparency and verification of the predefined logic governing asset usage.
 
-## Security Architecture
+## Architecture
 
 Our platform operates on a decentralized network of independent validators that process transactions and maintain the system’s integrity. We implement Byzantine Fault Tolerant (BFT) consensus protocols, enabling the network to function correctly even if a subset of validators behaves maliciously or encounters failures. Each validator’s voting power is determined through a staking mechanism, where users delegate their tokens to support chosen validators. As long as more than two-thirds of the total stake is held by honest validators, the network remains secure and reliable.
 

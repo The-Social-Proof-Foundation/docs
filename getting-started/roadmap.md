@@ -17,9 +17,6 @@ layout:
     visible: true
 ---
 
-# Roadmap
-
-
 # **Phase 1: Establishing the Foundation (Done)**
 
 In this initial phase, we’re laying the groundwork for MySocial by focusing on:

@@ -21,14 +21,10 @@ Our custom bridge enables users to transfer assets from external blockchains, sp
 
 ## How It Works
 
-1.	Initiating the Transfer
-•	Users access the MySocial bridging interface and specify the type and amount of tokens they wish to transfer (e.g., USDC or MySo).
-2.	Generating a Unique Wallet Address on Base EVM
-•	The system generates a unique wallet address on the Base EVM network specifically for the user’s intended transfer.
-3.	Sending Tokens to the Generated Address
-•	Users send the specified amount of tokens from their external wallet to the generated Base EVM wallet address.
-4.	Automatic Detection and Transfer to MySocial Chain
-•	Once the tokens are received on the Base EVM address, the system verifies the transaction and automatically transfers the equivalent amount of native MySocial tokens to the user’s corresponding wallet on the MySocial chain.
+1.	**Initiating the Transfer** -	Users access the MySocial bridging interface and specify the type and amount of tokens they wish to transfer (e.g., USDC or MySo).
+2.	**Generating a Unique Wallet Address on Base EVM** - The system generates a unique wallet address on the Base EVM network specifically for the user’s intended transfer.
+3.	**Sending Tokens to the Generated Address** -	Users send the specified amount of tokens from their external wallet to the generated Base EVM wallet address.
+4.	**Automatic Detection and Transfer to MySocial Chain** -	Once the tokens are received on the Base EVM address, the system verifies the transaction and automatically transfers the equivalent amount of native MySocial tokens to the user’s corresponding wallet on the MySocial chain.
 
 ## Treasury Management
 
