@@ -1,5 +1,5 @@
 ---
-icon: terminal
+icon: dev
 layout:
   title:
     visible: true
