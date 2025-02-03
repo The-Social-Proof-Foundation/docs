@@ -17,7 +17,7 @@ layout:
 
 As MySocial prepares to launch its mainnet, we are committed to ensuring that our blockchain infrastructure can scale efficiently to meet increasing user demands. Our current implementation utilizes the Sui blockchain, which employs the Narwhal and Bullshark protocols to achieve high throughput and low latency. To further enhance performance and aim for a throughput of 1 million transactions per second (TPS), we plan to integrate advanced consensus mechanisms, specifically Rorqual and Shoal++.
 
-##Current Implementation
+## Current Implementation
 
 Sui is a Layer 1 blockchain that utilizes a Delegated Proof-of-Stake (DPoS) consensus mechanism. Its architecture is designed for scalability and efficiency, employing parallel transaction processing to achieve high throughput. The consensus mechanism comprises two primary components:
 	1.	Narwhal: Acts as a mempool and data availability layer, organizing transactions into a Directed Acyclic Graph (DAG) to ensure efficient data dissemination.
@@ -48,10 +48,10 @@ To integrate Rorqual into our existing infrastructure, we will undertake the fol
 	•	High Throughput: By allowing multiple validators to propose blocks in parallel, Shoal++ maximizes network bandwidth utilization and enhances scalability.
 	•	Robustness: The protocol is designed to handle network faults gracefully, maintaining performance even under adverse conditions.
 
-##Integration Strategy for Shoal++
+## Integration Strategy for Shoal++
 
 To replace the current Bullshark consensus with Shoal++, we will follow these steps:
-	1.	Protocol Analysis: Examine the existing Bullshark consensus mechanism to determine the necessary modifications for Shoal++ integration. This involves understanding the consensus flow and identifying replacement points.
+1.	Protocol Analysis: Examine the existing Bullshark consensus mechanism to determine the necessary modifications for Shoal++ integration This involves understanding the consensus flow and identifying replacement points.
 	2.	Consensus Layer Modification: Implement Shoal++ within the consensus layer, ensuring compatibility with the existing DAG structure provided by Narwhal (now enhanced with Rorqual). This step requires careful protocol engineering to maintain consensus integrity.
 	3.	Validator Coordination: Update validator nodes to support Shoal++, including changes to block proposal and voting mechanisms. Validators will need to be synchronized to operate under the new consensus rules.
 	4.	Comprehensive Testing: Conduct rigorous testing to validate the new consensus mechanism's performance, focusing on metrics such as transaction finality time, throughput, and fault tolerance. This phase ensures that Shoal++ meets our performance and reliability standards.

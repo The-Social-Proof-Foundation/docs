@@ -28,20 +28,19 @@ Consensus Mechanism: Delegated Proof-of-Stake (DPoS) MySocial utilizes a Delegat
 DPoS aligns the incentives of validators and users, ensuring MySocial remains fast, secure, and efficient without the high energy costs associated with older blockchain models.
 
 ## Network Infrastructure
-### Mainnet
+#### Mainnet
 The primary network where real-world transactions occur. This is the production environment where users, creators, and developers interact with live applications.
 
-### Testnet
+#### Testnet
 A public staging network where developers can test updates and improvements before deploying to Mainnet. This ensures stability and security for all MySocial applications.
 
-### Devnet
+#### Devnet
 An experimental network that allows developers to test the latest features and protocol upgrades before they reach Testnet or Mainnet.
 
-### Localnet
+#### Localnet
 Developers can run a private MySocial network on their local machine to streamline the development process without needing an external network connection.
 
-## Technical Stack
-### Move Programming Language
+## Move Programming Language
 MySocial leverages Move, a powerful and flexible smart contract language originally developed by Meta (formerly Facebook) for the Diem blockchain project. Move provides a secure and efficient framework for handling on-chain assets, such as NFTs, user identities, and social graphs.
 
 Unlike traditional smart contract languages that rely on account-based models, Move utilizes an object-based model, allowing for greater control and composability of digital assets. This is particularly beneficial for social applications, where dynamic interactions between users and content require more flexibility than traditional blockchain architectures provide.
