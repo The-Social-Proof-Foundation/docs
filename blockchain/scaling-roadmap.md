@@ -35,11 +35,10 @@ This combination allows Sui to process transactions efficiently, but as MySocial
 ## Integration Strategy for Rorqual
 
 To integrate Rorqual into our existing infrastructure, we will undertake the following steps:
-1.	Assessment and Planning: Conduct a thorough analysis of the current Narwhal implementation to identify integration points for Rorqual. This involves understanding the dependencies and interactions within the mempool layer.
-2.	TEE Infrastructure Deployment: Set up the necessary TEE infrastructure across validator nodes to support Rorqual's requirements. This includes configuring hardware and software components to establish a trusted execution environment.
-3.	Protocol Integration: Modify the existing Narwhal protocol to incorporate Rorqual's communication mechanisms, ensuring that transactions are processed within the TEE framework. This step requires careful coding and testing to maintain system integrity.
-4.	Testing and Validation: Perform extensive testing in a controlled environment to validate the integration, focusing on performance metrics such as latency, throughput, and security. This phase ensures that the integration meets our performance goals without compromising security.
-5.	Deployment and Monitoring: Roll out the integrated system to the mainnet, accompanied by continuous monitoring to promptly identify and address any issues. Ongoing performance assessments will guide further optimizations.
+1.	TEE Infrastructure Deployment: Set up the necessary TEE infrastructure across validator nodes to support Rorqual's requirements. This includes configuring hardware and software components to establish a trusted execution environment.
+2.	Protocol Integration: Modify the existing Narwhal protocol to incorporate Rorqual's communication mechanisms, ensuring that transactions are processed within the TEE framework. This step requires careful coding and testing to maintain system integrity.
+3.	Testing and Validation: Perform extensive testing in a controlled environment to validate the integration, focusing on performance metrics such as latency, throughput, and security. This phase ensures that the integration meets our performance goals without compromising security.
+4.	Deployment and Monitoring: Roll out the integrated system to the mainnet, accompanied by continuous monitoring to promptly identify and address any issues. Ongoing performance assessments will guide further optimizations.
 
 ## Integration of Shoal++
 
@@ -51,11 +50,10 @@ To integrate Rorqual into our existing infrastructure, we will undertake the fol
 ## Integration Strategy for Shoal++
 
 To replace the current Bullshark consensus with Shoal++, we will follow these steps:
-1.	Protocol Analysis: Examine the existing Bullshark consensus mechanism to determine the necessary modifications for Shoal++ integration This involves understanding the consensus flow and identifying replacement points.
-2.	Consensus Layer Modification: Implement Shoal++ within the consensus layer, ensuring compatibility with the existing DAG structure provided by Narwhal (now enhanced with Rorqual). This step requires careful protocol engineering to maintain consensus integrity.
-3.	Validator Coordination: Update validator nodes to support Shoal++, including changes to block proposal and voting mechanisms. Validators will need to be synchronized to operate under the new consensus rules.
-4.	Comprehensive Testing: Conduct rigorous testing to validate the new consensus mechanism's performance, focusing on metrics such as transaction finality time, throughput, and fault tolerance. This phase ensures that Shoal++ meets our performance and reliability standards.
-5.	Mainnet Deployment: Deploy the updated consensus mechanism to the mainnet, with continuous monitoring to ensure stability and performance. Any issues identified post-deployment will be addressed promptly to maintain system integrity.
+1.	Consensus Layer Modification: Implement Shoal++ within the consensus layer, ensuring compatibility with the existing DAG structure provided by Narwhal (now enhanced with Rorqual). This step requires careful protocol engineering to maintain consensus integrity.
+2.	Validator Coordination: Update validator nodes to support Shoal++, including changes to block proposal and voting mechanisms. Validators will need to be synchronized to operate under the new consensus rules.
+3.	Comprehensive Testing: Conduct rigorous testing to validate the new consensus mechanism's performance, focusing on metrics such as transaction finality time, throughput, and fault tolerance. This phase ensures that Shoal++ meets our performance and reliability standards.
+4.	Mainnet Deployment: Deploy the updated consensus mechanism to the mainnet, with continuous monitoring to ensure stability and performance. Any issues identified post-deployment will be addressed promptly to maintain system integrity.
 
 ## Goals and Benefits
 
