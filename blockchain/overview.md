@@ -15,7 +15,6 @@ layout:
 
 # Overview
 
-## Introduction
 MySocial is a next-generation Layer 1 blockchain optimized for social interactions, ensuring fast, low-cost transactions while giving users complete ownership of their content and social connections. Built as a fork of the Sui blockchain, MySocial leverages its cutting-edge technology, including parallel transaction execution, object-based data storage, and the Move programming language, to deliver a highly scalable and developer-friendly platform for social applications.
 
 ## The MySocial Blockchain

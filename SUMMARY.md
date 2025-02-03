@@ -51,8 +51,8 @@
 
 ## Developer Tools
 
-* [CLI](developer-tools/cli.md)
 * [Faucet](developer-tools/faucet.md)
+* [CLI](developer-tools/cli.md)
 * [API](developer-tools/api.md)
 * [GraphQL](developer-tools/graphql.md)
 * [Typescript](developer-tools/typescript.md)
