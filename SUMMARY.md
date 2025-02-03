@@ -16,7 +16,7 @@
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Bridge](blockchain/bridge.md)
-* [Timelines](blockchain/timelines.md)
+* [Platforms](blockchain/platforms.md)
 * [Advertise](blockchain/advertise.md)
 * [AI Agents](blockchain/ai-agents.md)
 
