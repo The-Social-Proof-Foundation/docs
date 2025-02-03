@@ -1,5 +1,5 @@
 ---
-icon: platform
+icon: layer-group
 layout:
   title:
     visible: true
