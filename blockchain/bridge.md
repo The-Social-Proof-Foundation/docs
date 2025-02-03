@@ -17,8 +17,6 @@ layout:
 
 At MySocial, we prioritize seamless and secure asset transfers between external blockchains and our platform. While we plan to integrate with established bridging solutions like [Wormhole](https://wormhole.com/) in the future, we have developed a custom bridging mechanism to facilitate the transfer of assets such as USDC and MYSO tokens onto the MySocial chain.
 
-## Overview
-
 Our custom bridge enables users to transfer assets from external blockchains, specifically from Base’s Ethereum Virtual Machine (EVM) network, to the MySocial network. This is achieved by sending tokens to a uniquely generated wallet address on the Base EVM, which is securely linked to a corresponding wallet on the MySocial chain. Upon receipt of these tokens, the system automatically credits the equivalent amount of native MySocial tokens to the user’s account, ensuring a straightforward and efficient onboarding process.
 
 ## How It Works
@@ -32,9 +30,9 @@ Our custom bridge enables users to transfer assets from external blockchains, sp
 4.	Automatic Detection and Transfer to MySocial Chain
 •	Once the tokens are received on the Base EVM address, the system verifies the transaction and automatically transfers the equivalent amount of native MySocial tokens to the user’s corresponding wallet on the MySocial chain.
 
-## Liquidity Pool Management
+## Treasury Management
 
-To facilitate these transactions, MySocial maintains a dedicated liquidity pool. This pool ensures that there are sufficient native MySocial tokens available to fulfill incoming bridging requests, providing users with a smooth and efficient experience.
+To facilitate these transactions, MySocial maintains a dedicated Treasury. This Treasury ensures that there are sufficient native MySocial tokens available to fulfill incoming bridging requests, providing users with a smooth and efficient experience.
 
 ## Security Considerations
 
