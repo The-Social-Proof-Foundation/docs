@@ -35,9 +35,9 @@ Advertisers can create ads through the MySocial Advertising Platform. Before bei
 
 When an approved ad is displayed on an integrated platform:
 
-- The content creator receives a percentage of the ad revenue for hosting the ad
-- The platform earns a share of the revenue for facilitating the ad display
-- The viewer who watches the ad receives compensation for their engagement
+- **Content creator** receives a percentage of the ad revenue for hosting the ad
+- **Platform** earns a share of the revenue for facilitating the ad display
+- **Viewer** who watches the ad receives compensation for their engagement
 
 ### 3. Ad View Verification
 
