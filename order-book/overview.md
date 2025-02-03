@@ -16,7 +16,7 @@ icon: fingerprint
 
 MySocial uses an advanced on-chain trading protocol that merges the precision of Central Limit Order Books (CLOBs) with the continuous liquidity of Automated Market Makers (AMMs). This hybrid model provides deep liquidity, efficient order execution, and the scalability required to support the high transaction volume of a social media-driven economy.
 
-## How MySocial’s Order Book Works
+## How it Works
 
 ### On-Chain CLOB Matching
 
@@ -32,18 +32,18 @@ Orders submitted to the MySocial order book are executed based on the following 
 To maintain continuous liquidity, MySocial incorporates an AMM fallback mechanism that interacts with liquidity pools. If an order remains unmatched on the CLOB due to a lack of liquidity at a specific price level, the system routes the remainder of the order to AMM pools to provide instant execution.
 
 This method ensures that:
-•	Traders receive the best possible price using order book matching first.
-•	Unmatched portions of market orders execute against an AMM pool when necessary.
-•	Liquidity providers (LPs) earn fees by supplying assets to AMM pools, supporting deeper liquidity.
+- Traders receive the best possible price using order book matching first.
+- Unmatched portions of market orders execute against an AMM pool when necessary.
+- Liquidity providers (LPs) earn fees by supplying assets to AMM pools, supporting deeper liquidity.
 
 ### Security and Finality
 
 Unlike traditional exchanges that rely on external sequencers or off-chain computation, MySocial executes all trades on-chain, ensuring full transparency and verifiability. The system does not rely on custodial intermediaries, meaning users maintain full control of their assets throughout the trade lifecycle.
 
 Additionally, MySocial:
-•	Guarantees trade finality on-chain through deterministic execution.
-•	Prevents transaction frontrunning by utilizing fair transaction ordering.
-•	Uses the native MYSO token for transaction fees, eliminating the need for external utility tokens.
+- Guarantees trade finality on-chain through deterministic execution.
+- Prevents transaction frontrunning by utilizing fair transaction ordering.
+- Uses the native MYSO token for transaction fees, eliminating the need for external utility tokens.
 
 ###   Scalability & Performance
 
