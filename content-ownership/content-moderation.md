@@ -15,9 +15,7 @@ layout:
 
 # Content Moderation
 
-## Initial Approach
-
-At MySocial, we are committed to fostering a platform that upholds freedom of expression while adhering to legal standards. At launch, our content moderation policy will focus on the following:
+We are committed to fostering a platform that upholds freedom of expression while adhering to legal standards. At launch, our content moderation policy will focus on the following:
 
 - **Legal Compliance:** We will remove any content deemed illegal under United States law. This includes, but is not limited to, content related to child exploitation, incitement to violence, and other unlawful activities.
 
