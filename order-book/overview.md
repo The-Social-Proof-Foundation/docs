@@ -21,7 +21,7 @@ MySocial uses an advanced on-chain trading protocol that merges the precision of
 
 ### On-Chain CLOB Matching
 
-MySocial’s core order matching engine runs entirely on-chain, ensuring transparency, verifiability, and decentralization. The CLOB maintains an active list of buy and sell limit orders, matching them based on price-time priority. This guarantees efficient price discovery while ensuring minimal slippage for large orders.
+MySocial’s core order-matching engine runs entirely on-chain, ensuring transparency, verifiability, and decentralization. The CLOB maintains an active list of buy and sell limit orders, matching them based on price-time priority. This guarantees efficient price discovery while ensuring minimal slippage for large orders.
 
 Orders submitted to the MySocial order book are executed based on the following logic:
 

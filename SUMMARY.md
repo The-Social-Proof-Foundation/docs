@@ -46,9 +46,10 @@
 * [Media Storage](storage/media-storage.md)
 
 ## Order Book
+
 * [Overview](order-book/overview.md)
-* [Tokens](identity/tokens.md)
-* [Content](identity/content.md)
+* [Tokens](order-book/tokens.md)
+* [Content](order-book/content.md)
 
 ## Developer Tools
 
