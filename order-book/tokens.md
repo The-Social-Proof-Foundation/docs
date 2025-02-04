@@ -1,6 +1,6 @@
 ---
 icon: coins
-layout:
+'---layout':
   title:
     visible: true
   description:
