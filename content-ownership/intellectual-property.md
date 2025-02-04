@@ -14,15 +14,12 @@ layout:
 ---
 
 # Intellectual Property
-
 MySocial is built on the idea that content creators should fully own their work. Unlike traditional social media platforms where content rights are often transferred to the platform itself, MySocial ensures that users maintain full control over their creative work. This system ensures that videos, photos, articles, and other digital assets belong to their creators, allowing them to earn money from their content.
 
 ## On-Chain IP Registration System
-
 To prove ownership and control monetization, MySocial offers a decentralized IP registration system. This system lets creators officially register their content on the MySocial blockchain, ensuring it is safe and verifiable.
 
 ### MySocial IP Address (MyIP)
-
 Every registered piece of content receives a unique **MySocial IP address (MyIP)**, which acts like a digital certificate proving ownership.
 
 * The MyIP is stored permanently on the blockchain and linked to the creator’s profile.
@@ -30,7 +27,6 @@ Every registered piece of content receives a unique **MySocial IP address (MyIP)
 * Once registered, the IP cannot be changed, deleted, or claimed by someone else unless the owner transfers it.
 
 ## Monetization and Content Protection
-
 By registering content with MySocial, creators gain exclusive rights to:
 
 * **License** and sell their content, allowing them to earn revenue.
@@ -39,7 +35,6 @@ By registering content with MySocial, creators gain exclusive rights to:
 Protect against content theft, since ownership is permanently recorded on the blockchain, making disputes easier to resolve.
 
 ## Blockchain-Powered Licensing with NFT-Like Objects
-
 MySocial enhances content ownership with NFT-like objects, offering advanced digital rights management:
 
 * MySocial uses the Move programming language, where content acts as independent objects that can be bought, sold, or transferred just like NFTs.
@@ -47,8 +42,18 @@ MySocial enhances content ownership with NFT-like objects, offering advanced dig
 * Smart contracts allow creators to set licensing rules, automate royalty payments, and control content distribution.
 * Businesses and individuals can easily purchase, rent, or license content on the blockchain, ensuring fairness and transparency.
 
-## Compatibility and Cross-Platform Use
+## Use Cases
+### Digital Publishing and Licensing
+One key use case for MyIP is in the digital publishing industry. For example, a news website writing an article about a topic may want to use a **licensed photograph** to complement their content. With MySocial, they can:
 
+- Obtain a license for the photo and receive a **custom embed code** to integrate the MyIP content directly into their article.
+- If the license expires, the embedded content is **automatically removed**, ensuring fair use and proper content rights management.
+- If the article is also **published on the MySocial blockchain with MyIP**, and it contains the licensed image within it, the article can earn a **royalty from tips on the image**. 
+- When users tip the image directly, a portion of the tip can go to the image creator, and another portion can go to the article owner, ensuring **fair value distribution** for each contribution to the overall content.
+
+This **nested licensing model** ensures that everyone involved in content creation, from photographers to publishers, is properly compensated in a transparent, automated way.
+
+## Compatibility and Cross-Platform Use
 The MySocial Metadata Standard is designed for seamless integration with other platforms, ensuring:
 
 * Easy compatibility with other blockchain marketplaces and apps.
@@ -57,13 +62,10 @@ The MySocial Metadata Standard is designed for seamless integration with other p
 The ability to move content across different Web3 platforms while retaining ownership and rights.
 
 ## Conclusion
-
 MySocial’s blockchain-based IP system gives creators full control over their content, allowing them to own, protect, and monetize their work without relying on middlemen. By providing unique MyIP addresses, structured metadata, and smart contract-driven licensing, MySocial sets a new standard for digital content ownership in the social media space.
 
 
-
-
-
+ **MyIP Metadata Standard Template:**
 ```
 {
   "title": "MyIP Metadata Standard",
