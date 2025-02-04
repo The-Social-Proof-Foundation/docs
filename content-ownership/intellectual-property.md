@@ -64,8 +64,7 @@ The ability to move content across different Web3 platforms while retaining owne
 ## Conclusion
 MySocial’s blockchain-based IP system gives creators full control over their content, allowing them to own, protect, and monetize their work without relying on middlemen. By providing unique MyIP addresses, structured metadata, and smart contract-driven licensing, MySocial sets a new standard for digital content ownership in the social media space.
 
-
- **MyIP Metadata Standard Template:**
+## MyIP Metadata Standard Template
 ```
 {
   "title": "MyIP Metadata Standard",
