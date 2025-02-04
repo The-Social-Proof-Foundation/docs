@@ -31,7 +31,6 @@
   * [Intent Signing](identity/wallets/intent-signing.md)
 * [zkLogin](identity/zkLogin.md)
 * [Social Graphs](identity/social-graphs.md)
-* [Tokens](identity/tokens.md)
 
 ## Content Ownership
 
@@ -48,6 +47,8 @@
 
 ## Order Book
 * [Overview](order-book/overview.md)
+* [Tokens](identity/tokens.md)
+* [Content](identity/content.md)
 
 ## Developer Tools
 
