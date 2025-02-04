@@ -15,7 +15,9 @@ Posts can be tokenized and listed on the **Central Limit Order Book (CLOB)**, en
 - **Creator Compensation Model**: The original creator sets a **fixed fee** when listing their post, ensuring fair compensation without direct market manipulation.
 - **Non-Participation Rule for Creators**: To prevent rug-pulling, **creators cannot actively trade their own content**, ensuring the order book remains decentralized and trustless.
 
-Content Trading can be structured in two ways depending on the community's tolerance:
+## Content Trading Rollout
+
+Content Trading can be launched in two ways depending on the community's tolerance:
 
 ### **1. High-Tier Access (Top 5% of Engaged Posts)**
 

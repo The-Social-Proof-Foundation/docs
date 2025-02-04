@@ -31,7 +31,7 @@ This approach allows platforms to remain independent while utilizing a shared bl
 
 Beyond platform-level tokens, we are also exploring the introduction of **User Tokens**, which allow individuals to establish their own social economies. These tokens provide a unique opportunity for users to invest in the future success and likeness of a creator, strengthening the connection between supporters and influencers.
 
-User Tokens can be structured in two ways depending on the community's tolerance:
+User Tokens can be launched in two ways depending on the community's tolerance:
 
 1. **High-Tier Access (Top 5% of Users)**
 
