@@ -15,7 +15,7 @@ layout:
 
 # Scaling Roadmap
 
-As MySocial prepares to launch its mainnet, we are committed to ensuring that our blockchain infrastructure can scale efficiently to meet increasing user demands. Our current implementation utilizes the Sui blockchain, which employs the Narwhal and Bullshark protocols to achieve high throughput and low latency. To further enhance performance and aim for a throughput of 1 million transactions per second (TPS), we plan to integrate advanced consensus mechanisms, specifically Rorqual and Shoal++.
+As MySocial prepares to launch its mainnet, we are committed to ensuring that our blockchain infrastructure can scale efficiently to meet increasing user demands. Our current implementation utilizes the Sui blockchain, which employs the Narwhal and Bullshark protocols to achieve high throughput and low latency. To further enhance performance and aim for a throughput of **1 million transactions per second (TPS)**, we plan to integrate advanced consensus mechanisms, specifically Rorqual and Shoal++.
 
 ## Current Implementation
 
@@ -58,9 +58,8 @@ To replace the current Bullshark consensus with Shoal++, we will follow these st
 ## Goals and Benefits
 
 By integrating Rorqual and Shoal++ into our blockchain infrastructure, MySocial aims to achieve the following:
-•	Triple Throughput: Enhance the current system's throughput by a factor of three, moving closer to our goal of 1 million TPS.
-•	Reduced Latency: Achieve sub-second transaction finality, providing a seamless user experience.
-•	Enhanced Security: Leverage TEEs to bolster security against potential attacks, ensuring data integrity and user trust.
-•	Scalability: Build a robust infrastructure capable of handling exponential growth in user activity without compromising performance.
+* Triple Throughput: Enhance the current system's throughput by a factor of three, moving closer to our goal of **1 million TPS**.
+* Reduced Latency: Achieve sub-second transaction finality, providing a seamless user experience.
+* Enhanced Security: Leverage TEEs to bolster security against potential attacks, ensuring data integrity and user trust.
 
-Through these strategic integrations, MySocial is poised to become one of the fastest and most secure blockchain platforms globally, ready to meet the demands of a multiple viral social platforms.
+Through these strategic integrations, MySocial is poised to become the **fastest blockchain in the world**, ready to meet the demands of a multiple viral social platforms.
