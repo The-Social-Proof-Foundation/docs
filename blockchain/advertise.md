@@ -17,6 +17,10 @@ layout:
 
 The MySocial Advertising Platform is a revolutionary ad network built on the MySocial blockchain, designed to create a fair and transparent ecosystem for advertisers, content creators, and viewers. Our platform ensures that all stakeholders are rewarded for their contributions while maintaining integrity through a built-in trust and verification system.
 
+{% hint style="info" %}
+The MySocial Advertising Platform will be implemented post-mainnet launch.
+{% endhint %}
+
 ## Key Features
 
 - **Content Creator Monetization:** Creators earn a share of ad revenue when ads are displayed on their content

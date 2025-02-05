@@ -40,7 +40,7 @@ This design encourages long-term value accrual to token-holders and avoids infla
 
 ## No Lock-Ups: Freedom for All Token-Holders
 
-At MySocial, we believe in empowering users with complete freedom over their tokens. Unlike many projects that impose lengthy lock-up periods to stabilize the market artificially, we allow token-holders to freely manage their assets. This approach ensures that only those who believe in MySocial’s long-term vision remain invested while giving others the flexibility to exit if they choose. By doing so, we foster a community of engaged and committed participants without coercion.
+We believe in empowering users with complete freedom over their tokens. Unlike many projects that impose lengthy lock-up periods to stabilize the market artificially, we allow token-holders to freely manage their assets. This approach ensures that only those who believe in MySocial’s long-term vision remain invested while giving others the flexibility to exit if they choose. By doing so, we foster a community of engaged and committed participants without coercion.
 
 ## Fair Token Distribution
 

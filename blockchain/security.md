@@ -15,7 +15,7 @@ layout:
 
 # Security
 
-At MySocial, we prioritize the security of our users’ data and assets, ensuring a safe and trustworthy platform for social interactions. Our comprehensive security framework is designed to protect user information, maintain data integrity, and uphold privacy.
+We prioritize the security of our users’ data and assets, ensuring a safe and trustworthy platform for social interactions. Our comprehensive security framework is designed to protect user information, maintain data integrity, and uphold privacy.
 
 ## Features
 

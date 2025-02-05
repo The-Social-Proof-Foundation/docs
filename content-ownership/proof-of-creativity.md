@@ -17,6 +17,10 @@ layout:
 
 The MySocial **Proof-of-Creativity (PoC) Protocol** is designed to assess the uniqueness and originality of content registered under **MyIP**. This protocol ensures fair attribution, prevents plagiarism, and helps creators retain control over their work. By analyzing content against a comprehensive set of originality metrics, PoC assigns a **creativity score** and detects potential duplications within the MySocial ecosystem.
 
+{% hint style="info" %}
+The Proof-of-Creativity (PoC) Protocol will be implemented post-mainnet launch.
+{% endhint %}
+
 ## How It Works
 
 PoC uses a **multi-category scoring system** to determine the uniqueness of newly registered MyIP content. The protocol performs a deep scan of the **entire MySocial database** to compare it against existing content and assign an **originality score** based on the following criteria:
