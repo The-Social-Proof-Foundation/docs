@@ -26,7 +26,7 @@ We believe in empowering developers with the tools and resources needed to creat
 
 ### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Learn more about how MySocial's blockchain is built.</td><td></td><td></td><td><a href="blockchain/overview.md">overview.md</a></td></tr><tr><td>📷 <strong>Content Ownership</strong></td><td>Learn how MySocial ensures true ownership.</td><td></td><td></td><td><a href="identity/overview.md">overview.md</a></td></tr><tr><td>💻 <strong>Developer Tools</strong></td><td>Learn about the excelent suit of dev tools.</td><td></td><td></td><td><a href="developer-tools/cli.md">cli.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Learn more about how MySocial's blockchain is built.</td><td></td><td></td><td><a href="blockchain/overview.md">overview.md</a></td></tr><tr><td>📷 <strong>Content Ownership</strong></td><td>Learn how MySocial ensures true ownership.</td><td></td><td></td><td><a href="content-ownership/overview.md">overview.md</a></td></tr><tr><td>💻 <strong>Developer Tools</strong></td><td>Learn about the excelent suit of dev tools.</td><td></td><td></td><td><a href="developer-tools/overview.md">overview.md</a></td></tr></tbody></table>
 
 ***
 
