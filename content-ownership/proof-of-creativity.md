@@ -32,6 +32,10 @@ PoC uses a **multi-category scoring system** to determine the uniqueness of newl
 
 The final **PoC score** provides an assessment of how unique the content is within MySocial.
 
+
+
+<figure><img src="../.gitbook/assets/Proof-of-Creativity (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Disputing Content
 
 PoC also enforces **content integrity** through automatic redirection of funds and dispute resolution mechanisms:
