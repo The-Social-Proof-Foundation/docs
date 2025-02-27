@@ -53,20 +53,9 @@ Phase 3 - from February 20th, 2025 to February 27th, 2025, at 12:00 PM CST.
 • Token Pre-Sale Ends: Concluding the pre-sale and allocating resources to develop the blockchain further.
 
 
-# **Phase 3: Token Listing&#x20;**_**(Upcoming)**_
-
-In this phase, we’ll list our token on Uniswap to facilitate trading:
-
-• Continued Marketing Campaign: Launch mission-driven videos and demos of what is to come.
-
-• Launch $MYSO on Uniswap: Making the token available for trading on the Uniswap platform on March 6th, 2025, at 12:00 PM CST.
-
-
-### **Phase 4: Platform Launch&#x20;**_**(Upcoming)**_ 
+# **Phase 3: Testnet Launch&#x20;**_**(Upcoming)**_ 
 
 This phase marks the official launch of the MySocial platform and its core features:
-
-• Security Audit: Conducting a thorough audit by a reputable security firm to ensure platform integrity.
 
 • Testnet Launch: Deploying a test network for trial and feedback.
 
@@ -77,6 +66,14 @@ This phase marks the official launch of the MySocial platform and its core featu
 • Open sourcing SDKs, APIs, and CLIs: Providing developers with tools to build on MySocial.
 
 • Node Infrastructure Setup: Establishing the necessary infrastructure to support network operations.
+
+# **Phase 4: Token Listing&#x20;**_**(Upcoming)**_
+
+In this phase, we’ll list our token on Uniswap to facilitate trading:
+
+• Continued Marketing Campaign: Launch mission-driven videos and demos of what is to come.
+
+• Launch $MySo on Uniswap: Making the token available for trading on the Uniswap platform on April 24th, 2025, at 12:00 PM CST.
 
 
 # **Phase 5: Ecosystem Expansion&#x20;**_**(Upcoming)**_ 
