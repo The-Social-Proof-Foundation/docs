@@ -31,6 +31,7 @@
   * [Intent Signing](identity/wallets/intent-signing.md)
 * [zkLogin](identity/zkLogin.md)
 * [Social Graphs](identity/social-graphs.md)
+* [Reputation](identity/reputation.md)
 
 ## Content Ownership
 
