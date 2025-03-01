@@ -15,8 +15,6 @@ layout:
 
 # Reputation
 
-## Overview
-
 The Reputation system helps maintain network security and transaction integrity through transparent on-chain data. This documentation explains how the system works, its technical implementation, and integration options for developers.
 
 ## Technical Implementation
