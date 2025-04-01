@@ -1,0 +1,145 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "MySocial Documentation",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/roadmap",
+              "getting-started/tokenomics",
+              "getting-started/decentralization",
+              "getting-started/governance",
+              "getting-started/whitepaper"
+            ]
+          },
+          {
+            "group": "Blockchain",
+            "pages": [
+              "blockchain/overview",
+              "blockchain/scaling-roadmap",
+              "blockchain/security",
+              "blockchain/bridge",
+              "blockchain/platforms",
+              "blockchain/advertise",
+              "blockchain/ai-agents"
+            ]
+          },
+          {
+            "group": "Identity",
+            "pages": [
+              "identity/overview",
+              "identity/name-service",
+              "identity/wallets",
+              "identity/wallets/keys-and-addreses",
+              "identity/wallets/signatures",
+              "identity/wallets/multisig",
+              "identity/wallets/intent-signing",
+              "identity/zkLogin",
+              "identity/social-graphs",
+              "identity/reputation"
+            ]
+          },
+          {
+            "group": "Content Ownership",
+            "pages": [
+              "content-ownership/overview",
+              "content-ownership/intellectual-property",
+              "content-ownership/proof-of-creativity",
+              "content-ownership/content-moderation"
+            ]
+          },
+          {
+            "group": "Storage",
+            "pages": [
+              "storage/overview",
+              "storage/site-hosting",
+              "storage/media-storage"
+            ]
+          },
+          {
+            "group": "Order Book",
+            "pages": [
+              "order-book/overview",
+              "order-book/tokens",
+              "order-book/content"
+            ]
+          },
+          {
+            "group": "Developer Tools",
+            "pages": [
+              "developer-tools/overview",
+              "developer-tools/faucet",
+              "developer-tools/cli",
+              "developer-tools/api",
+              "developer-tools/graphql",
+              "developer-tools/typescript",
+              "developer-tools/typescript/typescript-sdk",
+              "developer-tools/typescript/frontend-components",
+              "developer-tools/rust"
+            ]
+          },
+          {
+            "group": "Nodes & Validators",
+            "pages": [
+              "nodes-and-validators/run-a-full-node",
+              "nodes-and-validators/run-a-validator"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mysocial.network/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "API Reference",
+          "href": "https://mysocial.network/api",
+          "icon": "terminal"
+        },
+        {
+          "anchor": "Libraries",
+          "href": "https://mysocial.network/libraries",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:brandon@mysocial.network"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://docs.mysocial.network"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mysocial_chain",
+      "github": "https://github.com/the-social-proof-foundation"
+    }
+  }
+}
