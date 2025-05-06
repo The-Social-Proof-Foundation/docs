@@ -49,8 +49,7 @@
 ## Order Book
 
 * [Overview](order-book/overview.md)
-* [Tokens](order-book/tokens.md)
-* [Content](order-book/content.md)
+* [Social Proof Tokens](order-book/social-proof-tokens.md)
 
 ## Developer Tools
 
