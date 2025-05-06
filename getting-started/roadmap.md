@@ -17,7 +17,33 @@ layout:
     visible: true
 ---
 
-# **Phase 1: Establishing the Foundation (Done)**
+# Roadmap
+
+{% stepper %}
+{% step %}
+## **Establishing the Foundation (Done)**
+
+In this initial phase, we’re laying the groundwork for MySocial by focusing on:
+
+***
+
+* [x] Core Team Formation: Assembling a skilled team to drive the project’s vision.
+* [x] Tokenomics Design: Developing a sustainable economic model for the platform.
+* [x] Technical Architecture Design: Creating a robust and scalable system architecture.
+* [x] Frontend MVP Development: Building a Minimum Viable Product to showcase core functionalities.
+* [x] Branding and Marketing: Establishing the MySocial brand and initiating marketing efforts.
+* [x] Documentation & Tutorials: Preparing comprehensive guides for users and developers.
+* [x] Outreach and Community Building: Engaging with potential users and fostering a community around MySocial.
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+{% endstepper %}
+
+## **Phase 1: Establishing the Foundation (Done)**
 
 In this initial phase, we’re laying the groundwork for MySocial by focusing on:
 
@@ -35,8 +61,7 @@ In this initial phase, we’re laying the groundwork for MySocial by focusing on
 
 • Outreach and Community Building: Engaging with potential users and fostering a community around MySocial.
 
-
-# **Phase 2: Token Pre-Sale&#x20;(Done)**_
+## **Phase 2: Token Pre-Sale (Done)**\_
 
 This phase involves launching our token pre-sale to early backers and community members:
 
@@ -52,8 +77,7 @@ Phase 3 - from February 20th, 2025 to February 27th, 2025, at 12:00 PM CST.
 
 • Token Pre-Sale Ends: Concluding the pre-sale and allocating resources to develop the blockchain further.
 
-
-# **Phase 3: Testnet Launch&#x20;**_**(Upcoming)**_ 
+## **Phase 3: Testnet Launch&#x20;**_**(Upcoming)**_
 
 This phase marks the official launch of the MySocial platform and its core features:
 
@@ -67,7 +91,7 @@ This phase marks the official launch of the MySocial platform and its core featu
 
 • Node Infrastructure Setup: Establishing the necessary infrastructure to support network operations.
 
-# **Phase 4: Token Listing&#x20;**_**(Upcoming)**_
+## **Phase 4: Token Listing&#x20;**_**(Upcoming)**_
 
 In this phase, we’ll list our token on Uniswap to facilitate trading:
 
@@ -75,8 +99,7 @@ In this phase, we’ll list our token on Uniswap to facilitate trading:
 
 • Launch $MySo on Uniswap: Making the token available for trading on the Uniswap platform on April 24th, 2025, at 12:00 PM CST.
 
-
-# **Phase 5: Ecosystem Expansion&#x20;**_**(Upcoming)**_ 
+## **Phase 5: Ecosystem Expansion&#x20;**_**(Upcoming)**_
 
 In this phase, we’ll focus on expanding the MySocial ecosystem:
 
@@ -92,8 +115,7 @@ In this phase, we’ll focus on expanding the MySocial ecosystem:
 
 • Partnership Announcements: Revealing collaborations with strategic partners to enhance platform capabilities.
 
-
-# **Phase 6: Advanced Feature Implementation&#x20;**_**(Upcoming)**_ 
+## **Phase 6: Advanced Feature Implementation&#x20;**_**(Upcoming)**_
 
 This phase involves implementing advanced features to enhance user experience:
 
@@ -104,7 +126,6 @@ This phase involves implementing advanced features to enhance user experience:
 • Tutorials and Building Guides: Providing comprehensive resources to assist users and developers.
 
 • Development of Rorqual & Shoal++: Implementing technologies to achieve three times faster throughput, enhancing platform performance.
-
 
 We are committed to transparency and welcome any feedback or suggestions to improve MySocial.
 
