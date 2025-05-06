@@ -42,10 +42,6 @@
               "identity/profile",
               "identity/name-service",
               "identity/wallets",
-              "identity/wallets/keys-and-addreses",
-              "identity/wallets/signatures",
-              "identity/wallets/multisig",
-              "identity/wallets/intent-signing",
               "identity/zkLogin",
               "identity/social-graphs",
               "identity/reputation"
