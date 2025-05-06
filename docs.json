@@ -71,8 +71,7 @@
             "group": "Order Book",
             "pages": [
               "order-book/overview",
-              "order-book/tokens",
-              "order-book/content"
+              "order-book/social-proof-tokens"
             ]
           },
           {
