@@ -17,7 +17,7 @@ layout:
 
 MySocial is integrating a **decentralized storage network** to ensure **secure, scalable, and efficient** data storage for all MyIP-registered content. Instead of relying on traditional centralized solutions, we are building a **high-integrity, censorship-resistant, and low-cost** storage solution tailored for social media content.
 
-Our approach is inspired by advancements in decentralized storage outlined in the **[Walrus Whitepaper](https://docs.walrus.site/walrus.pdf)**, but with key modifications to align with MySocial’s content ownership and monetization framework.
+Our approach leverages the decentralized media storage and content preservation events outlined in the **[MySocial Whitepaper (page 21)](https://www.mysocial.network/MySocial.pdf)**, with implementations specific to MySocial's content ownership and monetization framework.
 
 ## Why Decentralized Storage?
 
@@ -29,7 +29,7 @@ Decentralized storage is critical for Web3 applications, particularly social pla
 
 ## MySocial Storage Architecture
 
-MySocial’s storage network is designed to optimize efficiency, privacy, and accessibility. Key characteristics of this system include:
+MySocial's storage network is designed to optimize efficiency, privacy, and accessibility. Key characteristics of this system include:
 
 ### **1. Advanced Encoding for Efficient Storage**
 MySocial employs **redundancy-aware encoding** to distribute files across multiple storage nodes with minimal replication overhead. This allows for:
@@ -50,9 +50,9 @@ Storage nodes prioritize **fast, low-latency access** to MyIP content by:
 - Supporting **partial file requests**, reducing bandwidth requirements.
 
 ### **4. Token-Based Storage Model**
-MySocial’s storage network is **governed by token incentives**, meaning:
+MySocial's storage network is **governed by token incentives**, meaning:
 - Users must allocate **storage resources** for their content.
 - Storage nodes receive **economic rewards** for maintaining data availability.
 - Staked tokens ensure **long-term commitments** to content persistence.
 
-By leveraging cutting-edge decentralized storage principles, MySocial’s network will be a **highly scalable, censorship-resistant, and efficient** solution tailored for social media and content ownership.
+By leveraging cutting-edge decentralized storage principles, MySocial's network will be a **highly scalable, censorship-resistant, and efficient** solution tailored for social media and content ownership.

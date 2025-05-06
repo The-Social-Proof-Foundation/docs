@@ -36,7 +36,7 @@ In this initial phase, we’re laying the groundwork for MySocial by focusing on
 • Outreach and Community Building: Engaging with potential users and fostering a community around MySocial.
 
 
-# **Phase 2: Token Pre-Sale&#x20;**_**(In Progress)**_
+# **Phase 2: Token Pre-Sale&#x20;(Done)**_
 
 This phase involves launching our token pre-sale to early backers and community members:
 

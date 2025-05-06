@@ -21,7 +21,7 @@ MySocial uses an advanced on-chain trading protocol that merges the precision of
 
 ### On-Chain CLOB Matching
 
-MySocial’s core order-matching engine runs entirely on-chain, ensuring transparency, verifiability, and decentralization. The CLOB maintains an active list of buy and sell limit orders, matching them based on price-time priority. This guarantees efficient price discovery while ensuring minimal slippage for large orders.
+MySocial's core order-matching engine runs entirely on-chain, ensuring transparency, verifiability, and decentralization. The CLOB maintains an active list of buy and sell limit orders, matching them based on price-time priority. This guarantees efficient price discovery while ensuring minimal slippage for large orders.
 
 Orders submitted to the MySocial order book are executed based on the following logic:
 
@@ -29,15 +29,15 @@ Orders submitted to the MySocial order book are executed based on the following 
 2. If no match exists, the order remains on the book, waiting for execution.
 3. If a market order is placed, it will execute against existing orders at the best available price.
 
-### AMM Liquidity Pool as a Fallback
+### AMM Dedicated Trading for Social Proof Tokens
 
-To maintain continuous liquidity, MySocial incorporates an AMM fallback mechanism that interacts with liquidity pools. If an order remains unmatched on the CLOB due to a lack of liquidity at a specific price level, the system routes the remainder of the order to AMM pools to provide instant execution.
+MySocial incorporates a dedicated AMM (Automated Market Maker) mechanism specifically for trading social proof tokens. Unlike the CLOB which handles traditional asset pairs, the AMM liquidity pools are purpose-built for social token swapping.
 
-This method ensures that:
+This specialized approach ensures that:
 
-* Traders receive the best possible price using order book matching first.
-* Unmatched portions of market orders are executed against an AMM pool when necessary.
-* Liquidity providers (LPs) earn fees by supplying assets to AMM pools, supporting deeper liquidity.
+* Social Proof Tokens have continuous liquidity through dedicated pools.
+* Users can efficiently swap social tokens without relying on order book matching.
+* Liquidity providers (LPs) earn fees by supplying assets to these specialized AMM pools.
 
 ### Security and Finality
 
@@ -51,8 +51,8 @@ Additionally, MySocial:
 
 ### Scalability & Performance
 
-The MySocial trading protocol is designed to scale with increasing demand. The order book can process thousands of transactions per second, ensuring rapid order execution even during peak market activity. AMM integration further enhances liquidity, making the platform well-suited for high-volume trading driven by social media interactions.
+The MySocial trading protocol is designed to scale with increasing demand. The order book can process thousands of transactions per second, ensuring rapid order execution even during peak market activity. The dedicated AMM for social tokens enhances the ecosystem's liquidity, making the platform well-suited for high-volume trading driven by social media interactions.
 
 ## Conclusion
 
-MySocial’s trading engine is not a traditional standalone CLOB or AMM but a hybrid system that optimizes both approaches. By prioritizing order book execution first and falling back to AMMs when necessary, we ensure both efficiency and continuous liquidity. This innovation allows MySocial to support a high-speed, low-cost, decentralized trading experience, perfectly aligned with the needs of a social media-based blockchain ecosystem.
+MySocial's trading engine combines a traditional CLOB with a dedicated AMM system for social tokens. By utilizing the CLOB for standard trading pairs and specialized AMMs for social proof tokens, we ensure both efficiency and continuous liquidity across different asset types. This innovation allows MySocial to support a high-speed, low-cost, decentralized trading experience, perfectly aligned with the needs of a social media-based blockchain ecosystem.

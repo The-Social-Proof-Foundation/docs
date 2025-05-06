@@ -16,7 +16,11 @@ layout:
 # Whitepaper
 
 {% hint style="info" %}
-The technical whitepaper will be released alongside our testnet launch on **April 3rd, 2025**. In the meantime, we encourage you to explore our documentation to learn about our platform's core features, architecture, and technical specifications.
+Our technical whitepaper is now available at [https://www.mysocial.network/whitepaper](https://www.mysocial.network/whitepaper).
+
+The whitepaper was last updated on **May 2nd, 2025**.
+
+We encourage you to explore our documentation to learn about our platform's core features, architecture, and technical specifications.
 {% endhint %}
 
 
