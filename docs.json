@@ -39,6 +39,7 @@
             "group": "Identity",
             "pages": [
               "identity/overview",
+              "identity/profile",
               "identity/name-service",
               "identity/wallets",
               "identity/wallets/keys-and-addreses",

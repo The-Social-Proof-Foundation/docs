@@ -23,6 +23,7 @@
 ## Identity
 
 * [Overview](identity/overview.md)
+* [Profile](identity/profile.md)
 * [Name Service](identity/name-service.md)
 * [Wallets](identity/wallets.md)
   * [Keys and Addresses](identity/wallets/keys-and-addreses.md)
