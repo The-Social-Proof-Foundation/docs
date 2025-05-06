@@ -58,8 +58,8 @@ In this phase, we'll list our token on Uniswap to facilitate trading:
 
 ***
 
-* [ ] Continued Marketing Campaign: Launch mission-driven videos and demos of what is to come.
-* [ ] Launch $MySo on Uniswap: Making the token available for trading on the Uniswap platform on April 24th, 2025, at 12:00 PM CST.
+* [x] Continued Marketing Campaign: Launch mission-driven videos and demos of what is to come.
+* [x] Launch $MySo on Uniswap: Making the token available for trading on the Uniswap platform on April 24th, 2025, at 12:00 PM CST.
 {% endstep %}
 
 {% step %}
