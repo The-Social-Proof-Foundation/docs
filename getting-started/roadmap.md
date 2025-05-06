@@ -37,9 +37,9 @@ In this initial phase, we're laying the groundwork for MySocial by focusing on:
 {% endstep %}
 
 {% step %}
-## **Token Pre-Sale (Done)**
+## **Token Pre-Sale & Listing (Done)**
 
-This phase involves launching our token pre-sale to early backers and community members:
+This phase involves launching our token pre-sale to early backers and listing the token on Uniswap:
 
 ***
 
@@ -49,15 +49,6 @@ This phase involves launching our token pre-sale to early backers and community 
   * [x] Phase 2 - from February 6th, 2025 to February 13th, 2025, at 12:00 PM CST.
   * [x] Phase 3 - from February 20th, 2025 to February 27th, 2025, at 12:00 PM CST.
 * [x] Token Pre-Sale Ends: Concluding the pre-sale and allocating resources to develop the blockchain further.
-{% endstep %}
-
-{% step %}
-## **Token Listing (Done)**
-
-In this phase, we'll list our token on Uniswap to facilitate trading:
-
-***
-
 * [x] Continued Marketing Campaign: Launch mission-driven videos and demos of what is to come.
 * [x] Launch $MySo on Uniswap: Making the token available for trading on the Uniswap platform on April 24th, 2025, at 12:00 PM CST.
 {% endstep %}
@@ -87,8 +78,6 @@ In this phase, we'll focus on expanding the MySocial ecosystem:
 * [ ] Genesis Block Launch Event: Celebrating the creation of the first block in the MySocial blockchain.
 * [ ] MySocial Bridge: Developing a bridge to facilitate interoperability with other networks.
 * [ ] Staking and DAO Program: Introducing staking mechanisms and a Decentralized Autonomous Organization for community governance.
-* [ ] Developer Grant Announcement: Offering grants to encourage development within the MySocial ecosystem.
-* [ ] Partnership Announcements: Revealing collaborations with strategic partners to enhance platform capabilities.
 {% endstep %}
 
 {% step %}
