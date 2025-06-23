@@ -4,63 +4,78 @@
 
 ## Getting Started
 
+* [Whitepaper](getting-started/whitepaper.md)
+* [Decentralization](getting-started/decentralization.md)
 * [Roadmap](getting-started/roadmap.md)
 * [Tokenomics](getting-started/tokenomics.md)
-* [Decentralization](getting-started/decentralization.md)
-* [Governance](getting-started/governance.md)
-* [Whitepaper](getting-started/whitepaper.md)
 
 ## Blockchain
 
 * [Overview](blockchain/overview.md)
+* [Bridge](blockchain/bridge.md)
+* [Order Book](blockchain/order-book.md)
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
-* [Bridge](blockchain/bridge.md)
-* [Platforms](blockchain/platforms.md)
-* [Advertise](blockchain/advertise.md)
-* [AI Agents](blockchain/ai-agents.md)
+* [Social](blockchain/social.md)
+* [Wallets](blockchain/wallets.md)
+* Order Book
+  * [Order Book](blockchain/order-book/order-book.md)
+  * [Trading Pairs](blockchain/order-book/trading-pairs.md)
+* Social
+  * [Overview](blockchain/social/overview.md)
+  * [Advertise](blockchain/social/advertise.md)
+  * [Block List](blockchain/social/block-list.md)
+  * [Governance](blockchain/social/governance.md)
+  * [Name Service](blockchain/social/name-service.md)
+  * [Platforms](blockchain/social/platforms.md)
+  * [Posts](blockchain/social/posts.md)
+  * [Profile](blockchain/social/profile.md)
+  * [Reputation](blockchain/social/reputation.md)
+  * [Social Graphs](blockchain/social/social-graphs.md)
+  * [zkLogin](blockchain/social/zkLogin.md)
 
-## Identity
+## Social Proof Tokens
 
-* [Overview](identity/overview.md)
-* [Profile](identity/profile.md)
-* [Name Service](identity/name-service.md)
-* [Wallets](identity/wallets.md)
-* [zkLogin](identity/zkLogin.md)
-* [Social Graphs](identity/social-graphs.md)
-* [Reputation](identity/reputation.md)
+* [Overview](social-proof-tokens/overview.md)
+* [Virality Threshold](social-proof-tokens/virality-threshold.md)
+* [Fair Launch Auctions](social-proof-tokens/fair-launch-auctions.md)
+* [AMM Trading Engine](social-proof-tokens/amm-trading-engine.md)
+* [Fee Distribution](social-proof-tokens/fee-distribution.md)
+* [Token Pool Management](social-proof-tokens/token-pool-management.md)
 
-## Content Ownership
+## Proof of Creativity
 
-* [Overview](content-ownership/overview.md)
-* [Intellectual Property](content-ownership/intellectual-property.md)
-* [Proof of Creativity](content-ownership/proof-of-creativity.md)
-* [Content Moderation](content-ownership/content-moderation.md)
+* [Overview](proof-of-creativity/overview.md)
+* [Content Analysis & Oracle System](proof-of-creativity/content-analysis.md)
+* [PoC Badge System](proof-of-creativity/badge-system.md)
+* [Revenue Redirection System](proof-of-creativity/revenue-redirection.md)
+* [Community Dispute System](proof-of-creativity/dispute-system.md)
+* [Social Proof Token Integration](proof-of-creativity/token-integration.md)
 
-## Storage
+## My Information Property
 
-* [Overview](storage/overview.md)
-* [Site Hosting](storage/site-hosting.md)
-* [Media Storage](storage/media-storage.md)
+* [Overview](my-information-property/overview.md)
+* [AI Agents](my-information-property/ai-agents.md)
+* [Intellectual Property](my-information-property/intellectual-property.md)
 
-## Order Book
+## File Storage
 
-* [Overview](order-book/overview.md)
-* [Social Proof Tokens](order-book/social-proof-tokens.md)
+* [Overview](file-storage/overview.md)
+* [Media Storage](file-storage/media-storage.md)
+* [Site Hosting](file-storage/site-hosting.md)
 
-## Developer Tools
+## Developers
 
-* [Overview](developer-tools/overview.md)
-* [Faucet](developer-tools/faucet.md)
-* [CLI](developer-tools/cli.md)
-* [API](developer-tools/api.md)
-* [GraphQL](developer-tools/graphql.md)
-* [Typescript](developer-tools/typescript.md)
-  * [Typescript SDK](developer-tools/typescript/typescript-sdk.md)
-  * [Frontend Components](developer-tools/typescript/frontend-components.md)
-* [Rust](developer-tools/rust.md)
-
-## Nodes & Validators
-
-* [Run a Full Node](nodes-and-validators/run-a-full-node.md)
-* [Run a Validator](nodes-and-validators/run-a-validator.md)
+* [Overview](developers/overview.md)
+* [API](developers/api.md)
+* [CLI](developers/cli.md)
+* [Faucet](developers/faucet.md)
+* [GraphQL](developers/graphql.md)
+* [Rust](developers/rust.md)
+* [TypeScript](developers/typescript.md)
+* TypeScript
+  * [Frontend Components](developers/typescript/frontend-components.md)
+  * [TypeScript SDK](developers/typescript/typescript-sdk.md)
+* Nodes and Validators
+  * [Run a Full Node](developers/nodes-and-validators/run-a-full-node.md)
+  * [Run a Validator](developers/nodes-and-validators/run-a-validator.md)

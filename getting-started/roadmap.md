@@ -62,7 +62,6 @@ This phase marks the official launch of the MySocial platform and its core featu
 
 * [x] Testnet Launch: Deploying a test network for trial and feedback.
 * [x] Testnet Faucet Activation: Enabling users to obtain test tokens for experimentation.
-* [x] Google Chrome Wallet Extension: Releasing a browser extension for seamless user interaction.
 * [x] Open sourcing SDKs, APIs, and CLIs: Providing developers with tools to build on MySocial.
 * [x] Node Infrastructure Setup: Establishing the necessary infrastructure to support network operations.
 {% endstep %}

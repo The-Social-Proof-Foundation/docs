@@ -17,6 +17,10 @@ layout:
 
 The Reputation system helps maintain network security and transaction integrity through transparent on-chain data. This documentation explains how the system works, its technical implementation, and integration options for developers.
 
+{% hint style="info" %}
+The Reputation system will be implemented post-mainnet launch.
+{% endhint %}
+
 ## Technical Implementation
 
 ### Reputation Metrics

@@ -16,80 +16,109 @@
           {
             "group": "Getting Started",
             "pages": [
-              "getting-started/roadmap",
-              "getting-started/tokenomics",
+              "getting-started/whitepaper",
               "getting-started/decentralization",
-              "getting-started/governance",
-              "getting-started/whitepaper"
+              "getting-started/roadmap",
+              "getting-started/tokenomics"
             ]
           },
           {
             "group": "Blockchain",
             "pages": [
               "blockchain/overview",
+              "blockchain/bridge",
+              "blockchain/order-book",
               "blockchain/scaling-roadmap",
               "blockchain/security",
-              "blockchain/bridge",
-              "blockchain/platforms",
-              "blockchain/advertise",
-              "blockchain/ai-agents"
+              "blockchain/social",
+              "blockchain/wallets",
+              {
+                "group": "Order Book",
+                "pages": [
+                  "blockchain/order-book/order-book",
+                  "blockchain/order-book/trading-pairs"
+                ]
+              },
+              {
+                "group": "Social",
+                "pages": [
+                  "blockchain/social/overview",
+                  "blockchain/social/advertise",
+                  "blockchain/social/block-list",
+                  "blockchain/social/governance",
+                  "blockchain/social/name-service",
+                  "blockchain/social/platforms",
+                  "blockchain/social/posts",
+                  "blockchain/social/profile",
+                  "blockchain/social/reputation",
+                  "blockchain/social/social-graphs",
+                  "blockchain/social/zkLogin"
+                ]
+              }
             ]
           },
           {
-            "group": "Identity",
+            "group": "Social Proof Tokens",
             "pages": [
-              "identity/overview",
-              "identity/profile",
-              "identity/name-service",
-              "identity/wallets",
-              "identity/zkLogin",
-              "identity/social-graphs",
-              "identity/reputation"
+              "social-proof-tokens/overview",
+              "social-proof-tokens/virality-threshold",
+              "social-proof-tokens/fair-launch-auctions",
+              "social-proof-tokens/amm-trading-engine",
+              "social-proof-tokens/fee-distribution",
+              "social-proof-tokens/token-pool-management"
             ]
           },
           {
-            "group": "Content Ownership",
+            "group": "Proof of Creativity",
             "pages": [
-              "content-ownership/overview",
-              "content-ownership/intellectual-property",
-              "content-ownership/proof-of-creativity",
-              "content-ownership/content-moderation"
+              "proof-of-creativity/overview",
+              "proof-of-creativity/content-analysis",
+              "proof-of-creativity/badge-system",
+              "proof-of-creativity/revenue-redirection",
+              "proof-of-creativity/dispute-system",
+              "proof-of-creativity/token-integration"
             ]
           },
           {
-            "group": "Storage",
+            "group": "My Information Property",
             "pages": [
-              "storage/overview",
-              "storage/site-hosting",
-              "storage/media-storage"
+              "my-information-property/overview",
+              "my-information-property/ai-agents",
+              "my-information-property/intellectual-property"
             ]
           },
           {
-            "group": "Order Book",
+            "group": "File Storage",
             "pages": [
-              "order-book/overview",
-              "order-book/social-proof-tokens"
+              "file-storage/overview",
+              "file-storage/media-storage",
+              "file-storage/site-hosting"
             ]
           },
           {
-            "group": "Developer Tools",
+            "group": "Developers",
             "pages": [
-              "developer-tools/overview",
-              "developer-tools/faucet",
-              "developer-tools/cli",
-              "developer-tools/api",
-              "developer-tools/graphql",
-              "developer-tools/typescript",
-              "developer-tools/typescript/typescript-sdk",
-              "developer-tools/typescript/frontend-components",
-              "developer-tools/rust"
-            ]
-          },
-          {
-            "group": "Nodes & Validators",
-            "pages": [
-              "nodes-and-validators/run-a-full-node",
-              "nodes-and-validators/run-a-validator"
+              "developers/overview",
+              "developers/api",
+              "developers/cli",
+              "developers/faucet",
+              "developers/graphql",
+              "developers/rust",
+              "developers/typescript",
+              {
+                "group": "TypeScript",
+                "pages": [
+                  "developers/typescript/frontend-components",
+                  "developers/typescript/typescript-sdk"
+                ]
+              },
+              {
+                "group": "Nodes and Validators",
+                "pages": [
+                  "developers/nodes-and-validators/run-a-full-node",
+                  "developers/nodes-and-validators/run-a-validator"
+                ]
+              }
             ]
           }
         ]
@@ -139,3 +168,4 @@
     }
   }
 }
+
