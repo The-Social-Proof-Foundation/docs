@@ -71,7 +71,7 @@ The MyIP system includes:
 
 - **MyIP Objects**: Core encrypted data containers with pricing and access controls
 - **Registry System**: Global tracking of MyIP ownership and relationships
-- **Purchase Mechanics**: Secure payment processing with MYS tokens
+- **Purchase Mechanics**: Secure payment processing with MySo tokens
 - **Subscription Engine**: Time-based access with automatic expiry
 - **Encryption Integration**: Seal-based encryption for data protection
 

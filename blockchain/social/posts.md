@@ -38,7 +38,7 @@ Each post has granular permission controls:
 - **Allow Reactions**: Control emoji and text reactions
 - **Allow Reposts**: Permit content sharing
 - **Allow Quotes**: Enable quote reposts with commentary
-- **Allow Tips**: Accept direct MYS token tips
+- **Allow Tips**: Accept direct MySo token tips
 
 ## Social Interactions
 
@@ -56,7 +56,7 @@ reaction_count: u64,                        // Total reactions
 - **Engagement Metrics**: Used for Social Proof Token viral thresholds
 
 ### Tipping System
-- **Direct Tips**: Send MYS tokens directly to post creators
+- **Direct Tips**: Send MySo tokens directly to post creators
 - **Comment Tips**: Tip commenters with automatic revenue sharing
   - **80%** goes to commenter
   - **20%** goes to original post owner
@@ -117,7 +117,7 @@ public struct PredictionData has key, store {
 ```
 
 - **Multi-Option Betting**: Up to 10 prediction outcomes per post
-- **Community Staking**: Users bet MYS tokens on prediction outcomes
+- **Community Staking**: Users bet MySo tokens on prediction outcomes
 - **Automated Resolution**: Smart contract-based outcome determination
 - **Reward Distribution**: Winners share prize pool proportionally
 - **Platform Fees**: Configurable fees for prediction market operation

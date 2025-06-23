@@ -76,7 +76,7 @@ For derivative content (above similarity threshold):
 
 ### 4. Community Governance
 - Post owners can dispute PoC decisions
-- Community votes with MYS tokens at stake
+- Community votes with MySo tokens at stake
 - Winning side shares rewards from losing voters
 - Democratic resolution of edge cases
 
@@ -95,9 +95,9 @@ Redirect % = (Base Redirect % × Delta Percentage)
 ```
 
 ### Dispute Mechanics
-- **Dispute Cost**: 5 MYS + 1 MYS protocol fee
+- **Dispute Cost**: 5 MySo + 1 MySo protocol fee
 - **Voting Period**: 7 epochs
-- **Stake Range**: 1-100 MYS per vote
+- **Stake Range**: 1-100 MySo per vote
 - **Resolution**: Stake-weighted voting determines outcome
 
 ## Integration Points

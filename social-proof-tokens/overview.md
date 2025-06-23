@@ -69,7 +69,7 @@ Social Proof Tokens transform social interactions into **tradeable financial ins
 - **Profile Tokens**: Invest directly in creators and their success
 - **Post Tokens**: Bet on content virality and engagement
 - **Dynamic Pricing**: AMM with quadratic pricing curves
-- **Real Trading**: Buy and sell tokens for real MYS value
+- **Real Trading**: Buy and sell tokens for real MySo value
 
 ### 🚀 **Viral Threshold System**
 - **Automatic Activation**: Tokens become tradeable when content hits viral metrics
@@ -100,7 +100,7 @@ Social Proof Tokens transform social interactions into **tradeable financial ins
 ### 2. Pre-Launch Auctions
 For fair token distribution:
 - **Auction Period**: 1-3 hours for posts, 1-3 days for profiles
-- **Community Bidding**: Users contribute MYS to auction pool
+- **Community Bidding**: Users contribute MySo to auction pool
 - **Fair Allocation**: Tokens distributed proportionally to contributions
 - **Price Discovery**: Initial token price set by auction results
 
