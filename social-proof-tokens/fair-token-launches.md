@@ -13,11 +13,11 @@ layout:
     visible: true
 ---
 
-# Fair Launch Auctions
+# Fair Token Launches
 
-Fair Launch Auctions ensure equitable distribution of Social Proof Tokens when content or creators reach viral thresholds. This system prevents insider advantages and gives the entire community equal opportunity to participate in token launches.
+Fair Token Launches ensure equitable distribution of Social Proof Tokens when content or creators reach viral thresholds. This system prevents insider advantages and gives the entire community equal opportunity to participate in token launches.
 
-## How Fair Launch Auctions Work
+## How Fair Token Launches Work
 
 ### Auction Initiation Process
 1. **Viral Threshold Achievement**: Content reaches the required viral score

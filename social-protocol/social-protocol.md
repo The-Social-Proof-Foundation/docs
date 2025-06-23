@@ -13,7 +13,7 @@ layout:
     visible: true
 ---
 
-# Social Features
+# Social Protocol Features
 
 MySocial's social layer provides comprehensive blockchain-based social networking capabilities that enable true user ownership, cross-platform portability, and innovative monetization mechanisms.
 

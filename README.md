@@ -28,7 +28,7 @@ Welcome to **MySocial**, the layer-1 blockchain that's redefining the future of 
 
 ### Platform Features
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🤝 Social Mechanics</strong></td><td>Understand how our social features work.</td><td></td><td></td><td><a href="blockchain/social/overview.md">overview.md</a></td></tr><tr><td>💾 <strong>Storage</strong></td><td>Learn about our decentralized storage solutions.</td><td></td><td></td><td><a href="file-storage/overview.md">overview.md</a></td></tr><tr><td>⚙️ <strong>Core</strong></td><td>Explore our fundamental infrastructure.</td><td></td><td></td><td><a href="blockchain/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🤝 Social Mechanics</strong></td><td>Understand how our social features work.</td><td></td><td></td><td><a href="blockchain/social/overview.md">overview.md</a></td></tr><tr><td>💾 <strong>File Storage</strong></td><td>Discover our revolutionary decentralized storage system with Red Hat encoding.</td><td></td><td></td><td><a href="file-storage/overview.md">overview.md</a></td></tr><tr><td>⚙️ <strong>Core Infrastructure</strong></td><td>Explore our foundational blockchain technology.</td><td></td><td></td><td><a href="blockchain/overview.md">overview.md</a></td></tr></tbody></table>
 
 ### Developer Resources
 

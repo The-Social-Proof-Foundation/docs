@@ -20,7 +20,6 @@
 * [Wallets](blockchain/wallets.md)
 * Order Book
   * [Order Book](blockchain/order-book/order-book.md)
-  * [Trading Pairs](blockchain/order-book/trading-pairs.md)
 * Social
   * [Overview](blockchain/social/overview.md)
   * [Advertise](blockchain/social/advertise.md)
@@ -55,13 +54,18 @@
 ## My Information Property
 
 * [Overview](my-information-property/overview.md)
-* [AI Agents](my-information-property/ai-agents.md)
-* [Intellectual Property](my-information-property/intellectual-property.md)
+* [Information Marketplace](my-information-property/information-marketplace.md)
+* [Encryption System](my-information-property/myip-encryption.md)
+* [Access Control & Subscriptions](my-information-property/access-control.md)
+* [Future Use Cases](my-information-property/future-use-cases.md)
+* [AI Agents & LLM's](my-information-property/ai-agents-llm.md)
 
 ## File Storage
 
 * [Overview](file-storage/overview.md)
-* [Media Storage](file-storage/media-storage.md)
+* [Architecture](file-storage/architecture.md)
+* [Storage Operations](file-storage/storage-operations.md)
+* [Storage Costs & Fees](file-storage/storage-costs-fees.md)
 * [Site Hosting](file-storage/site-hosting.md)
 
 ## Developers

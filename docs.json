@@ -35,8 +35,7 @@
               {
                 "group": "Order Book",
                 "pages": [
-                  "blockchain/order-book/order-book",
-                  "blockchain/order-book/trading-pairs"
+                  "blockchain/order-book/order-book"
                 ]
               },
               {
@@ -83,15 +82,20 @@
             "group": "My Information Property",
             "pages": [
               "my-information-property/overview",
-              "my-information-property/ai-agents",
-              "my-information-property/intellectual-property"
+              "my-information-property/information-marketplace",
+              "my-information-property/myip-encryption",
+              "my-information-property/access-control",
+              "my-information-property/future-use-cases",
+              "my-information-property/ai-agents-llm"
             ]
           },
           {
             "group": "File Storage",
             "pages": [
               "file-storage/overview",
-              "file-storage/media-storage",
+              "file-storage/architecture",
+              "file-storage/storage-operations",
+              "file-storage/storage-costs-fees",
               "file-storage/site-hosting"
             ]
           },
