@@ -28,7 +28,7 @@ Welcome to **MySocial**, the layer-1 blockchain that's redefining the future of 
 
 ### Developer Resources
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Understand all the tools avalible.</td><td></td><td></td><td><a href="developers/overview.md">overview.md</a></td></tr><tr><td>🛠️ <strong>Typescript SDK</strong></td><td>Access our frontend TS development kit.</td><td></td><td></td><td><a href="developers/typescript.md">typescript.md</a></td></tr><tr><td>🌐 API</td><td>Browse and add blazing fast RESTful endpoints.</td><td></td><td></td><td><a href="developers/api.md">api.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Understand all the tools avalible.</td><td></td><td></td><td><a href="developers/overview.md">overview.md</a></td></tr><tr><td>🛠️ <strong>Typescript SDK</strong></td><td>Access our frontend TS development kit.</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>🌐 API</td><td>Browse and add blazing fast RESTful endpoints.</td><td></td><td></td><td><a href="developers/api.md">api.md</a></td></tr></tbody></table>
 
 ***
 
