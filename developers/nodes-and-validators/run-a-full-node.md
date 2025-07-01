@@ -17,7 +17,7 @@ layout:
 
 Operating a MySocial Full Node enables you to validate blockchain activities, contributing to the network's security and decentralization.
 
-If you haven't already, you need to [install MySocial CLI](../developer-tools/cli.md) on your system.
+If you haven't already, you need to [install MySocial CLI](../cli.md) on your system.
 
 ## Hardware Requirements
 

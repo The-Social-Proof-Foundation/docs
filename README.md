@@ -1,6 +1,6 @@
 ---
 icon: file-lines
-cover: .gitbook/assets/cover.png
+cover: .gitbook/assets/docs-cover-photo (1).png
 coverY: 0
 layout:
   cover:
@@ -24,18 +24,14 @@ Welcome to **MySocial**, the layer-1 blockchain that's redefining the future of 
 
 ### Core Features
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>💰 Social Proof Tokens</strong></td><td>Discover how our token system revolutionizes social value.</td><td></td><td></td><td><a href="social-proof-tokens/overview.md">overview.md</a></td></tr><tr><td>🎨 <strong>Proof of Creativity</strong></td><td>Learn how we protect and reward original content.</td><td></td><td></td><td><a href="proof-of-creativity/overview.md">overview.md</a></td></tr><tr><td>📝 <strong>MyIP</strong></td><td>Explore our encrypted data monetization system.</td><td></td><td></td><td><a href="my-information-property/overview.md">overview.md</a></td></tr></tbody></table>
-
-### Platform Features
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🤝 Social Mechanics</strong></td><td>Understand how our social features work.</td><td></td><td></td><td><a href="blockchain/social/overview.md">overview.md</a></td></tr><tr><td>💾 <strong>File Storage</strong></td><td>Discover our revolutionary decentralized storage system with Red Hat encoding.</td><td></td><td></td><td><a href="file-storage/overview.md">overview.md</a></td></tr><tr><td>⚙️ <strong>Core Infrastructure</strong></td><td>Explore our foundational blockchain technology.</td><td></td><td></td><td><a href="blockchain/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>💰 Social Proof Tokens</strong></td><td>Discover how SPT tokens revolutionizes social value.</td><td></td><td></td><td><a href="social-proof-tokens/overview.md">overview.md</a></td></tr><tr><td>🎨 <strong>Proof of Creativity</strong></td><td>Learn how we protect and reward original content.</td><td></td><td></td><td><a href="proof-of-creativity/overview.md">overview.md</a></td></tr><tr><td>🖼️ <strong>MyIP</strong></td><td>Explore the encrypted data monetization system.</td><td></td><td></td><td><a href="my-information-property/overview.md">overview.md</a></td></tr></tbody></table>
 
 ### Developer Resources
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Begin your journey with MySocial.</td><td></td><td></td><td><a href="getting-started/whitepaper.md">whitepaper.md</a></td></tr><tr><td>🛠️ <strong>Developer Tools</strong></td><td>Access our comprehensive development kit.</td><td></td><td></td><td><a href="developers/overview.md">overview.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>🚀 Getting Started</strong></td><td>Understand all the tools avalible.</td><td></td><td></td><td><a href="developers/overview.md">overview.md</a></td></tr><tr><td>🛠️ <strong>Typescript SDK</strong></td><td>Access our frontend TS development kit.</td><td></td><td></td><td><a href="developers/typescript.md">typescript.md</a></td></tr><tr><td>🌐 API</td><td>Browse and add blazing fast RESTful endpoints.</td><td></td><td></td><td><a href="developers/api.md">api.md</a></td></tr></tbody></table>
 
 ***
 
-Have questions or need developer support? Join our community on [Telegram](https://t.me/mysocial_chain), where you can connect with our team and fellow developers.
+Have any questions or need developer support? Join our community on [Telegram](https://t.me/mysocial_chain), where you can connect with our team and fellow developers.
 
 Let's build the future of social media together. 🚀

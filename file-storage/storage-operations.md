@@ -1,5 +1,5 @@
 ---
-icon: cycle
+icon: database
 layout:
   title:
     visible: true
@@ -322,4 +322,4 @@ Storage redundancy levels offer a transparent trade-off between security guarant
 
 **Documentation Usage**: Track documentation usage to identify areas needing improvement or clarification.
 
-MySocial's storage operations provide enterprise-grade reliability and performance while maintaining the security and decentralization that Web3 applications require. Through continuous innovation and optimization, these operations enable new classes of applications that were previously impossible with traditional storage solutions. 
+MySocial's storage operations provide enterprise-grade reliability and performance while maintaining the security and decentralization that Web3 applications require. Through continuous innovation and optimization, these operations enable new classes of applications that were previously impossible with traditional storage solutions.

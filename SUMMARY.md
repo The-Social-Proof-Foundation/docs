@@ -13,25 +13,24 @@
 
 * [Overview](blockchain/overview.md)
 * [Bridge](blockchain/bridge.md)
-* [Order Book](blockchain/order-book.md)
+* [Order Book](blockchain/order-book/README.md)
+  * [Order Book](blockchain/order-book/order-book.md)
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Social](blockchain/social.md)
 * [Wallets](blockchain/wallets.md)
-* Order Book
-  * [Order Book](blockchain/order-book/order-book.md)
-* Social
-  * [Overview](blockchain/social/overview.md)
-  * [Advertise](blockchain/social/advertise.md)
-  * [Block List](blockchain/social/block-list.md)
-  * [Governance](blockchain/social/governance.md)
-  * [Name Service](blockchain/social/name-service.md)
-  * [Platforms](blockchain/social/platforms.md)
-  * [Posts](blockchain/social/posts.md)
-  * [Profile](blockchain/social/profile.md)
-  * [Reputation](blockchain/social/reputation.md)
-  * [Social Graphs](blockchain/social/social-graphs.md)
-  * [zkLogin](blockchain/social/zkLogin.md)
+* [Social](blockchain/social-1/README.md)
+  * [Overview](blockchain/social-1/overview.md)
+  * [Advertise](blockchain/social-1/advertise.md)
+  * [Block List](blockchain/social-1/block-list.md)
+  * [Governance](blockchain/social-1/governance.md)
+  * [Name Service](blockchain/social-1/name-service.md)
+  * [Platforms](blockchain/social-1/platforms.md)
+  * [Posts](blockchain/social-1/posts.md)
+  * [Profile](blockchain/social-1/profile.md)
+  * [Reputation](blockchain/social-1/reputation.md)
+  * [Social Graphs](blockchain/social-1/social-graphs.md)
+  * [zkLogin](blockchain/social-1/zklogin.md)
 
 ## Social Proof Tokens
 
@@ -77,9 +76,9 @@
 * [GraphQL](developers/graphql.md)
 * [Rust](developers/rust.md)
 * [TypeScript](developers/typescript.md)
-* TypeScript
+* [TypeScript](developers/typescript-1/README.md)
   * [Frontend Components](developers/typescript/frontend-components.md)
   * [TypeScript SDK](developers/typescript/typescript-sdk.md)
-* Nodes and Validators
+* [Nodes and Validators](developers/nodes-and-validators/README.md)
   * [Run a Full Node](developers/nodes-and-validators/run-a-full-node.md)
   * [Run a Validator](developers/nodes-and-validators/run-a-validator.md)

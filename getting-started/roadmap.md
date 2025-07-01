@@ -21,7 +21,7 @@ layout:
 
 {% stepper %}
 {% step %}
-## **Establishing the Foundation (Done)**
+### **Establishing the Foundation (Done)**
 
 In this initial phase, we're laying the groundwork for MySocial by focusing on:
 
@@ -37,7 +37,7 @@ In this initial phase, we're laying the groundwork for MySocial by focusing on:
 {% endstep %}
 
 {% step %}
-## **Token Pre-Sale & Listing (Done)**
+### **Token Pre-Sale & Listing (Done)**
 
 This phase involves launching our token pre-sale to early backers and listing the token on Uniswap:
 
@@ -54,7 +54,7 @@ This phase involves launching our token pre-sale to early backers and listing th
 {% endstep %}
 
 {% step %}
-## **Testnet Launch (Done)**
+### **Testnet Launch (Done)**
 
 This phase marks the official launch of the MySocial platform and its core features:
 
@@ -67,7 +67,7 @@ This phase marks the official launch of the MySocial platform and its core featu
 {% endstep %}
 
 {% step %}
-## **Ecosystem Expansion (Upcoming)**
+### **Ecosystem Expansion (Upcoming)**
 
 In this phase, we'll focus on expanding the MySocial ecosystem:
 
@@ -80,7 +80,7 @@ In this phase, we'll focus on expanding the MySocial ecosystem:
 {% endstep %}
 
 {% step %}
-## **Advanced Feature Implementation (Upcoming)**
+### **Advanced Feature Implementation (Upcoming)**
 
 This phase involves implementing advanced features to enhance user experience:
 
