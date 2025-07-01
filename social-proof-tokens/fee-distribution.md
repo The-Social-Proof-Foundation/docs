@@ -17,6 +17,10 @@ layout:
 
 The Social Proof Token fee distribution system ensures sustainable ecosystem economics while rewarding creators, platforms, and the broader community. This transparent, automated system distributes trading fees to support long-term platform growth and creator incentives.
 
+{% hint style="info" %}
+Note: The fee structure is subject to change based on a DAO majority vote.
+{% endhint %}
+
 ## Fee Structure Overview
 
 ### Total Trading Fee: 1.5%
