@@ -29,7 +29,7 @@ By transforming information into a liquid, tradeable asset, the MyIP marketplace
 
 ## Marketplace Architecture
 
-Any information—analytics, research, creative content, or professional insights—can be listed as a product. Creators set prices and access terms, and buyers can purchase one-time access or subscribe for updates, with all payments in MySo tokens. The smart contract enforces access rights, granting access automatically and securely upon payment confirmation.
+Any information such as analytics, research, creative content, or professional insights can be listed as MyIP. Users set prices and access terms, and buyers can purchase one-time access or subscribe for updates, with payments in MySo tokens. The smart contract enforces access rights, granting access automatically and securely upon payment confirmation.
 
 Metadata fields such as tags, data quality, sample size, collection method, and update frequency are available for each listing, making it easy for buyers to discover and filter relevant information.
 

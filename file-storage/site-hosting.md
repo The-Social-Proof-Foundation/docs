@@ -20,7 +20,7 @@ MySocial Site Hosting allows users to deploy fully decentralized websites using 
 Sites hosted on MySocial function similarly to traditional static websites but are distributed, verifiable, and tamper-proof. They can be associated with a MySocial username or content-based identifier, offering human-readable domain options for easy accessibility.
 
 {% hint style="info" %}
-Site Hosting will be implemented post-mainnet launch.
+Site Hosting will be avalible post-mainnet launch.
 {% endhint %}
 
 ## Features of MySocial Site Hosting

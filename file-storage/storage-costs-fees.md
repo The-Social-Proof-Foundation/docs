@@ -15,125 +15,160 @@ layout:
 
 # Storage Costs & Fees
 
-MySocial's file storage provides economical decentralized data management by combining efficient encoding with sustainable tokenomics. The pricing model addresses traditional trade-offs between cost and security while creating value for network participants.
+MySocial's tiered file storage provides economical decentralized data management through a revolutionary hot + cold storage model. The pricing framework combines efficient encoding with sustainable tokenomics, creating differentiated pricing tiers that optimize for both performance and cost while delivering value across the entire storage ecosystem.
 
-## Economic Model of Efficient Storage
+{% hint style="info" %}
+File Storage will be avalible post-mainnet launch.
+{% endhint %}
 
-### Cost-Security Balance
+## Tiered Economic Model: Hot + Cold Storage
 
-Traditional decentralized storage systems require users to choose between high costs for security or reduced security for affordability. Legacy networks require 25x or more storage overhead to achieve basic security guarantees, making them expensive for many applications.
+### Performance-Based Pricing Strategy
 
-MySocial's Red Hat encoding addresses this challenge by achieving enterprise-grade security with only 4.5x storage overhead—a 5-6x efficiency improvement that reduces storage costs while maintaining security.
+MySocial's breakthrough tiered storage model introduces the first performance-differentiated pricing in decentralized storage. Hot storage commands premium pricing for instant, sub-second access to frequently used files, while cold storage offers economical long-term archival with lazy loading capabilities. This tiered approach allows users to optimize costs based on their specific access patterns and performance requirements.
 
-### Upfront Payment, Distributed Value
+The unified feed system intelligently routes operations between tiers, ensuring users always receive optimal value. Files can migrate between tiers automatically based on access patterns, or users can manually control tier placement for specific performance or cost requirements. This flexibility creates a sustainable economic model that scales efficiently with diverse usage patterns.
 
-Storage represents a fundamentally different economic model than traditional blockchain operations. While smart contract execution happens instantly, storage is an intertemporal service where users pay upfront for data protection across extended time periods. Our economic design recognizes this reality and optimizes for sustainable long-term operation.
+### Hot Storage Premium Pricing
 
-When you store a file, you pay once in MySo tokens for your chosen storage duration. These fees are then distributed across time to storage nodes and stakers as compensation for maintaining your data's availability and security. This mechanism ensures both immediate storage confirmation and reliable long-term data protection.
+Hot storage operates on a premium pricing model that reflects the instant availability and high-performance infrastructure required. Built on Rust-based nodes with RAM and SSD optimization, hot storage provides sub-second access times that compete directly with centralized cloud storage while maintaining full decentralization.
 
-## MySo Token Integration and Pricing
+Hot storage pricing includes several components: immediate availability fees for instant file access, premium bandwidth costs for high-speed transfers, RAM and SSD infrastructure costs for optimal performance, and geographic redundancy fees for global availability. These costs are offset by the elimination of traditional CDN fees and the superior performance guarantees that enable new application architectures.
 
-### Native Token Economics
+### Cold Storage Economical Archival
 
-MySo tokens serve as the exclusive currency for all storage operations, creating direct utility that extends far beyond simple transaction fees. Every storage payment flows through MySocial's blockchain, strengthening the token's fundamental value while ensuring seamless integration with the broader MySocial ecosystem.
+Cold storage provides highly economical long-term archival using advanced erasure coding techniques. This tier is optimized for durability and cost-effectiveness rather than immediate access, making it ideal for backups, compliance data, content archives, and infrequently accessed files.
 
-The pricing mechanism maintains stability in real-world terms while protecting against token price volatility. Storage costs are calculated based on two simple factors: the amount of data being stored and the number of epochs through which the data will be maintained. This linear pricing model provides predictable costs that scale efficiently with your storage needs.
+Cold storage pricing benefits from economies of scale including batch processing efficiencies, optimized storage density, reduced infrastructure overhead, and automated lifecycle management. The lazy loading mechanism ensures that accessing cold storage files is seamless while maintaining the cost advantages of long-term archival.
 
-### Subsidy Framework for Growth
+## Unified Feed Economics and Intelligent Routing
 
-MySocial allocates a dedicated portion of MySo tokens specifically for storage subsidies, enabling widespread adoption during the network's growth phase. These subsidies allow users to access storage at significantly reduced rates compared to market prices while ensuring storage operators maintain viable business models.
+### Cost Optimization Through Smart Routing
 
-The subsidy system operates transparently through smart contracts, automatically reducing user costs while providing additional compensation to storage nodes. As the network matures and achieves economies of scale, subsidies naturally decrease while maintaining affordable storage pricing through improved operational efficiency.
+The unified feed system provides significant economic advantages by intelligently routing operations between storage tiers. Users pay a single, predictable fee structure while the system automatically optimizes for cost and performance. This approach eliminates the complexity of managing multiple storage systems while providing superior economic efficiency.
 
-## Delegated Proof-of-Stake Economics
+The unified feed economics include: intelligent tier selection to minimize costs, automatic migration to optimize pricing over time, predictive caching to reduce cold storage access fees, and bulk operations that leverage economies of scale across both tiers. Users benefit from simplified billing while receiving optimal performance and cost efficiency.
 
-### Staking for Network Security
+### Dynamic Tier Migration Economics
 
-MySo token holders can delegate their tokens to storage node operators, participating in network security regardless of whether they operate storage infrastructure directly. This delegated proof-of-stake mechanism creates a virtuous economic cycle where security, decentralization, and rewards align perfectly.
+Files can migrate between tiers based on access patterns, creating dynamic cost optimization. Frequently accessed files automatically move to hot storage for better performance, while inactive files migrate to cold storage for cost savings. Users can set migration policies based on their specific economic preferences and usage patterns.
 
-Storage nodes compete to attract stake from MySo holders, which governs data assignment and reward distribution. Higher-stake nodes receive more data storage responsibilities and correspondingly higher reward payments. This competition ensures optimal service quality while maximizing returns for both operators and delegators.
+Migration economics are designed to be cost-neutral or cost-positive for users. The system tracks access patterns and migration costs, ensuring that tier changes always provide economic benefits. This creates a self-optimizing storage system that continuously improves cost efficiency over time.
 
-### Reward Distribution Mechanics
+## MySo Token Integration Across Storage Tiers
 
-The economic model distributes rewards based on actual performance and stake allocation. Storage nodes earn commission from total storage payments, while stakers receive the majority of rewards proportional to their delegated stake. This structure incentivizes both operational excellence and long-term network participation.
+### Unified Token Economics
 
-Rewards begin at modest levels but scale dramatically as network adoption increases. While storage operators face linear cost increases with additional data, stakers benefit from increased rewards without proportional cost increases, creating attractive long-term returns for MySo token holders who support network security.
+MySo tokens serve as the exclusive currency for all storage operations across both hot and cold tiers, creating direct utility that strengthens the token's fundamental value. Every storage payment flows through MySocial's blockchain, ensuring seamless integration with the broader MySocial ecosystem while providing economic incentives for optimal tier usage.
 
-## Intelligent Fee Structure
+The tiered pricing mechanism maintains stability in real-world terms while protecting against token price volatility. Storage costs are calculated based on data size, storage duration, and tier selection, providing predictable costs that scale efficiently with storage needs across both performance levels.
 
-### Transparent Pricing Formula
+### Tier-Specific Subsidy Framework
 
-MySocial's storage pricing operates through a clear, auditable formula that ensures fairness for all participants:
+MySocial allocates dedicated MySo tokens for storage subsidies across both storage tiers, enabling widespread adoption during the network's growth phase. Hot storage subsidies support premium infrastructure investment, while cold storage subsidies ensure affordable long-term archival access for all users.
 
-**User Payment**: Storage_Price × (1 - Subsidy_Rate)  
-**Node Revenue**: Storage_Price × (1 + Subsidy_Rate) × Commission  
-**Staker Revenue**: Storage_Price × (1 + Subsidy_Rate) × (1 - Commission)  
-**Subsidy Payment**: Storage_Price × 2 × Subsidy_Rate
+The subsidy framework operates differently across tiers: hot storage subsidies reduce premium pricing to competitive levels, cold storage subsidies ensure archival costs remain minimal, cross-tier subsidies support intelligent migration and optimization, and early adopter subsidies provide additional benefits for users helping bootstrap the network.
 
-This mathematical precision eliminates hidden fees and ensures predictable costs for users while guaranteeing sustainable compensation for storage providers. Every transaction is recorded on MySocial's blockchain, creating complete transparency in fee distribution and network economics.
+## Delegated Proof-of-Stake Across Storage Tiers
 
-### Dynamic Commission Optimization
+### Multi-Tier Staking Economics
 
-Commission rates can adjust based on network conditions and competitive pressures, ensuring storage operators maintain viable margins while passing efficiency gains to users. As the network grows and achieves economies of scale, market forces naturally optimize pricing to benefit all participants.
+MySo token holders can delegate to storage node operators across both hot and cold storage tiers, participating in network security and earning rewards regardless of infrastructure specialization. This creates specialized staking opportunities where delegators can choose operators based on tier preferences, geographic requirements, and performance characteristics.
 
-Higher network utilization increases total reward pools, enabling operators to maintain profitability even with lower per-unit margins. This scaling effect creates a positive feedback loop where growth benefits everyone while maintaining sustainable long-term economics.
+Hot storage operators require higher stake amounts reflecting premium infrastructure investments and performance requirements. Cold storage operators can participate with lower stake thresholds while focusing on durability and cost efficiency. This tiered staking model ensures optimal capital allocation across different storage requirements.
 
-## Deflationary Token Mechanics
+### Differentiated Reward Distribution
 
-### Strategic Burning Mechanisms
+The economic model distributes rewards based on tier performance, actual storage provided, and stake allocation. Hot storage operators earn higher commission rates reflecting infrastructure costs and performance requirements, while cold storage operators benefit from volume-based rewards and lower operational overhead.
 
-MySocial implements intelligent token burning that strengthens network performance while creating deflationary pressure on MySo tokens. Two primary burning mechanisms ensure optimal network behavior:
+Stakers receive proportional rewards based on their delegated tier preferences: hot storage delegation provides higher per-unit rewards but requires larger stake amounts, cold storage delegation offers steady, volume-based returns with lower barriers to entry, and mixed delegation enables diversified exposure across both storage tiers.
 
-**Stake Shift Penalties**: Short-term stake movements incur penalty fees that are partially burned and partially distributed to long-term stakers. This mechanism prevents disruptive stake volatility that would require expensive data migration between nodes.
+## Intelligent Tiered Fee Structure
 
-**Performance Slashing**: Staking with underperforming storage nodes results in slashing penalties, with portions of these fees permanently burned. This creates strong incentives for delegators to choose reliable operators while supporting overall network performance.
+### Transparent Multi-Tier Pricing
 
-### Economic Sustainability Through Scarcity
+MySocial's tiered storage pricing operates through clear, auditable formulas that ensure fairness across all storage tiers and use cases:
 
-Token burning creates controlled scarcity that supports long-term token value while funding network security improvements. Unlike arbitrary burning mechanisms, MySocial's approach directly ties token destruction to network performance optimization, ensuring every burned token contributes to enhanced system quality.
+**Hot Storage Pricing:**
+- Base Storage Fee × Hot Tier Multiplier × (1 - Hot Subsidy Rate)
+- Premium Access Fee for sub-second availability
+- Geographic Redundancy Fee for global hot storage
+- Performance Guarantee Fee for SLA compliance
 
-The deflationary pressure supports MySo token appreciation while maintaining storage affordability through operational efficiency improvements. This balance ensures sustainable growth that benefits users, operators, and token holders simultaneously.
+**Cold Storage Pricing:**
+- Base Storage Fee × Cold Tier Discount × (1 - Cold Subsidy Rate)
+- Archival Processing Fee for long-term encoding
+- Retrieval Fee for lazy loading from cold storage
+- Durability Premium for enhanced erasure coding
 
-## Capital Efficiency at Scale
+**Unified Feed Fees:**
+- Intelligent Routing Fee for tier optimization
+- Migration Fee for automatic tier changes
+- Analytics Fee for access pattern optimization
+- Cross-Tier Coordination Fee for seamless operation
 
-### Network Growth Benefits
+### Dynamic Commission Optimization Across Tiers
 
-MySocial's economic design improves capital efficiency as the network scales. Storage operators face linear cost increases with additional data, requiring proportional revenue growth to maintain profitability. Stakers benefit from increased rewards without corresponding cost increases, creating advantages as network adoption grows.
+Commission rates adjust based on tier-specific network conditions and competitive pressures. Hot storage operators maintain higher margins reflecting infrastructure investments, while cold storage operators benefit from volume economies and operational efficiency. The unified feed system ensures commission optimization benefits all participants while maintaining sustainable tier economics.
 
-This dynamic enables the network to pass efficiency gains to users through reduced storage prices while maintaining operator profitability through higher commission rates. The result is a self-balancing system that optimizes for user adoption, operational sustainability, and staker returns.
+Higher network utilization increases reward pools across both tiers, enabling operators to maintain profitability while passing efficiency gains to users. This scaling effect creates positive feedback loops where growth benefits everyone while maintaining sustainable long-term economics across all storage tiers.
 
-### Competitive Market Dynamics
+## Advanced Economic Features
 
-As storage demand increases, competition among operators drives innovation and efficiency improvements. Operators must continuously optimize their infrastructure and reduce operational costs to maintain competitive advantage, creating downward pressure on storage prices that benefits all users.
+### Predictive Pricing and Cost Management
 
-The delegated staking mechanism ensures this competition remains fair and merit-based. Operators who provide superior service attract more stake and earn higher rewards, while underperforming operators face reduced delegation and potential slashing penalties.
+The tiered storage system employs predictive algorithms to optimize costs across storage tiers. Users can set cost targets and performance requirements, with the system automatically managing tier placement to meet economic goals. This includes predictive migration scheduling, cost-based access optimization, and automated tier selection based on usage patterns.
 
-## Practical Cost Examples
+### Enterprise Tier Management
 
-### Storage Duration and Pricing
+Enterprise users can implement sophisticated tier management policies including: compliance-driven tier selection for regulatory requirements, performance-based tier allocation for business-critical data, cost-optimized lifecycle management for different data types, and automated tier governance for large-scale deployments.
 
-Storage costs scale linearly with both data size and storage duration, providing complete predictability for budget planning. Whether you're storing gigabytes for a month or terabytes for a year, the pricing formula remains consistent and transparent.
+## Deflationary Token Mechanics Across Tiers
 
-The epoch-based system divides time into manageable periods, allowing precise control over storage duration and cost optimization. Users can extend storage periods as needed or allow files to expire naturally, providing complete flexibility in data lifecycle management.
+### Enhanced Burning Mechanisms
 
-### Real-World Accessibility
+MySocial implements intelligent token burning across both storage tiers that strengthens network performance while creating deflationary pressure. Tier-specific burning mechanisms include: hot storage performance penalties for sub-optimal service, cold storage durability penalties for data integrity failures, cross-tier migration penalties for inefficient tier usage, and unified feed optimization rewards for superior routing performance.
 
-Subsidy support makes MySocial storage accessible for creators, developers, and enterprises of all sizes. Early adopters benefit from significantly reduced costs while helping bootstrap network growth, creating a thriving ecosystem that benefits from first-mover advantages.
+The burning mechanisms ensure optimal behavior across all storage tiers while supporting MySo token value through controlled scarcity tied directly to network performance optimization.
 
-The MySo token integration ensures simple payment processing without complex multi-token management. All storage operations use the same token that powers MySocial's social features, creating seamless user experience across the entire platform.
+## Practical Tiered Cost Examples
+
+### Real-World Pricing Scenarios
+
+**Content Creator (Mixed Usage):**
+- Active content: Hot storage for immediate fan access
+- Content archive: Cold storage for long-term preservation
+- Dynamic migration: Popular content auto-promotes to hot tier
+- Cost optimization: 60% savings versus all-hot storage
+
+**Enterprise Backup (Compliance-Focused):**
+- Active data: Hot storage for business operations
+- Compliance archive: Cold storage for regulatory requirements
+- Automated policies: Tier migration based on data age
+- Cost efficiency: 80% savings versus traditional enterprise storage
+
+**Developer Assets (Performance-Critical):**
+- Application binaries: Hot storage for fast deployment
+- Historical versions: Cold storage for version control
+- CI/CD integration: Automated tier management
+- Performance guarantee: Sub-second access for critical assets
+
+### Subsidy Impact Across Tiers
+
+Early adopters benefit from substantial subsidies across both storage tiers: hot storage subsidies reduce premium costs by up to 70%, cold storage subsidies provide near-free archival for early users, migration subsidies eliminate tier-change costs during growth phase, and loyalty rewards provide ongoing benefits for long-term network supporters.
 
 ## Future Economic Evolution
 
-### Sustainable Long-Term Vision
+### Sustainable Long-Term Tier Economics
 
-MySocial's storage economics are designed for sustainable operation across decades of growth. The mathematical precision of the pricing model ensures fair compensation for all participants while maintaining affordability that enables mainstream adoption.
+MySocial's tiered storage economics are designed for sustainable operation across decades of growth and technological advancement. The mathematical precision of the multi-tier pricing model ensures fair compensation for all participants while maintaining affordability across different performance requirements.
 
-As hardware costs decrease and operational efficiency improves, these benefits automatically flow to users through reduced storage prices. The network's design anticipates technological advancement and economic evolution, ensuring MySocial remains competitive with centralized alternatives while providing superior security and decentralization.
+As hardware costs decrease and operational efficiency improves, benefits automatically flow to users through reduced storage prices across both tiers. The tiered design anticipates technological advancement and economic evolution, ensuring MySocial remains competitive with centralized alternatives while providing superior security, decentralization, and cost optimization.
 
-### Innovation Incentive Alignment
+### Innovation Incentives Across Storage Tiers
 
-The economic model creates strong incentives for continued innovation in storage efficiency, security protocols, and operational optimization. Storage operators who develop superior technology and processes earn higher returns, driving continuous improvement across the entire network.
+The economic model creates strong incentives for continued innovation in both hot and cold storage infrastructure. Hot storage operators who develop superior performance technology earn higher returns, while cold storage operators who achieve better durability and cost efficiency benefit from increased delegation and reward distribution.
 
-This innovation-focused approach ensures MySocial's storage system evolves with advancing technology while maintaining the fundamental advantages of decentralization, security, and user ownership that define the MySocial ecosystem.
+This innovation-focused approach ensures MySocial's tiered storage system evolves with advancing technology while maintaining the fundamental advantages of decentralization, security, and user ownership that define the MySocial ecosystem.
 
-*Storage costs and economic parameters are governed by community consensus and adjusted through MySocial's transparent governance processes.* 
+*Storage costs and economic parameters across all tiers are governed by community consensus and adjusted through MySocial's transparent governance processes.*
