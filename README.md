@@ -1,6 +1,6 @@
 ---
 icon: file-lines
-cover: .gitbook/assets/docs-cover-photo (1).png
+cover: .gitbook/assets/docs-cover-photo (2).png
 coverY: 0
 layout:
   cover:
