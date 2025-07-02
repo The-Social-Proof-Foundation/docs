@@ -1,5 +1,5 @@
 ---
-icon: gavel
+icon: brackets-curly
 layout:
   title:
     visible: true
@@ -13,5 +13,8 @@ layout:
     visible: true
 ---
 
-# Fair Launch Auctions
+# Typescript
 
+{% hint style="info" %}
+The Typescript SDK and documentation will be published when the mainnet is launched.
+{% endhint %}

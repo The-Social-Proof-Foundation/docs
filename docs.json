@@ -55,7 +55,7 @@
             "pages": [
               "social-proof-tokens/overview",
               "social-proof-tokens/virality-threshold",
-              "social-proof-tokens/fair-launch-auctions",
+              "social-proof-tokens/fair-token-launches",
               "social-proof-tokens/amm-trading-engine",
               "social-proof-tokens/fee-distribution",
               "social-proof-tokens/token-pool-management"
@@ -80,7 +80,7 @@
               "my-information-property/myip-encryption",
               "my-information-property/access-control",
               "my-information-property/future-use-cases",
-              "my-information-property/ai-agents-llm"
+              "my-information-property/ai-agents"
             ]
           },
           {
@@ -103,13 +103,6 @@
               "developers/graphql",
               "developers/rust",
               "developers/typescript",
-              {
-                "group": "TypeScript",
-                "pages": [
-                  "developers/typescript/frontend-components",
-                  "developers/typescript/typescript-sdk"
-                ]
-              },
               {
                 "group": "Nodes and Validators",
                 "pages": [

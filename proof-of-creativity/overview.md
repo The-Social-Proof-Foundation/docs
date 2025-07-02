@@ -13,128 +13,53 @@ layout:
     visible: true
 ---
 
-# Overview 
+# Overview
 
-Content ownership is a core pillar of MySocial, ensuring that creators have full control over their work, identity, and audience. Unlike traditional social platforms that claim rights over user-generated content, MySocial records ownership on-chain, preventing unauthorized use and ensuring creators receive proper recognition and monetization opportunities. Intellectual property protection, proof of creativity, and fair content moderation all stem from this foundation, making content ownership essential to a more transparent and user-driven social experience.  
+Content ownership is a core pillar of MySocial, ensuring creators have full control over their work, identity, and audience. Unlike traditional social platforms that claim rights over user-generated content, MySocial records ownership on-chain, preventing unauthorized use and ensuring creators receive proper recognition and monetization opportunities. Intellectual property protection, proof of creativity, and fair content moderation all stem from this foundation, making content ownership essential to a more transparent and user-driven social experience.
 
-With MySocial's **Proof of Creativity** protocol, original content is not only protected but also rewarded. If someone copies and pastes content without making significant changes, the system can recognize the original creator and automatically redirect monetization to them. This ensures that creativity is properly attributed and prevents low-effort duplication from profiting unfairly. Content remains accessible, portable across platforms, and protected against censorship while still allowing communities to implement their own moderation policies. This approach ensures that creators—not corporations—dictate how their content is used, shared, and monetized across the ecosystem.
+With MySocial's Proof of Creativity (PoC) protocol, original content is protected and rewarded. The system recognizes the original creator of content and can automatically redirect monetization to them if someone copies and pastes content without significant changes. This ensures creativity is properly attributed and prevents low-effort duplication from profiting unfairly. Content remains accessible, portable across platforms, and protected against censorship, while still allowing communities to implement their own moderation policies. Creators—not corporations—dictate how their content is used, shared, and monetized across the ecosystem.
 
-# Proof of Creativity (PoC)
+## Proof of Creativity (PoC)
 
-Proof of Creativity is MySocial's **content ownership and revenue redistribution system** that automatically detects derivative content and ensures original creators receive fair compensation for their work.
+PoC is MySocial's content ownership and revenue redistribution system that automatically detects derivative content and ensures original creators receive fair compensation for their work. It is not just about content verification, but a comprehensive system for content ownership protection and automatic revenue redistribution.
 
-## What Proof of Creativity Actually Does
+### Automated Content Analysis
 
-PoC is **NOT** just about content verification. It's a comprehensive system for **content ownership protection and automatic revenue redistribution**:
+The system uses oracle-based similarity detection for images, videos, and audio, with configurable similarity thresholds (default 95%). Advanced fingerprinting and comparison algorithms provide real-time analysis of newly posted content.
 
-### 🔍 **Automated Content Analysis**
-- Oracle-based similarity detection for images, videos, and audio
-- Configurable similarity thresholds per media type (default 95%)
-- Advanced content fingerprinting and comparison algorithms
-- Real-time analysis of newly posted content
+### PoC Badge System
 
-### 🏆 **PoC Badge System**
-- **Original Content**: Receives a PoC badge for verified unique content
-- **Badge Benefits**: Enhanced discoverability and creator credibility
-- **Automatic Integration**: Badges sync with Social Proof Token pools
-- **Community Recognition**: Visual proof of content originality
+Original content receives a PoC badge for verified uniqueness, which enhances discoverability and creator credibility. Badges are automatically integrated with Social Proof Token pools and provide visual proof of content originality.
 
-### 💰 **Revenue Redistribution Engine**
-- **Automatic Detection**: When similarity exceeds threshold, revenue is redirected
-- **Dynamic Percentage**: Redirection amount scales with similarity score
-- **Real-time Application**: Immediate effect on all future earnings
-- **Token Pool Sync**: Social Proof Tokens automatically redirect revenue
+### Revenue Redistribution Engine
 
-### ⚖️ **Community Dispute System**
-- **Stake-based Voting**: Community can challenge PoC decisions
-- **Economic Incentives**: Winning voters share rewards from losing side
-- **Dispute Types**: Challenge badges or revenue redirections
-- **Democratic Resolution**: Community consensus determines outcomes
+When similarity exceeds the threshold, revenue is redirected to the original creator. The redirection amount scales with the similarity score and is applied in real time to all future earnings, including Social Proof Token pools.
+
+### Community Dispute System
+
+Community members can challenge PoC decisions through stake-based voting. Economic incentives reward accurate voting, and the system supports challenges to badges or revenue redirections, with democratic resolution by community consensus.
 
 ## How It Works
 
-### 1. Content Submission & Analysis
-When content is posted:
-1. Oracle analyzes content for similarity to existing works
-2. Compares against similarity threshold for media type
-3. Identifies potential original creators if similarity found
-4. Makes automated decision: Badge or Redirection
-
-### 2. PoC Badge Issuance
-For original content (below similarity threshold):
-- PoC badge automatically issued to post
-- Badge ID linked to post permanently
-- Enhanced social proof and discoverability
-- Integration with Social Proof Token economics
-
-### 3. Revenue Redirection
-For derivative content (above similarity threshold):
-- Calculates redirection percentage based on similarity score
-- Automatically redirects revenue to original creator
-- Applies to all monetization (tips, token sales, etc.)
-- Updates in real-time across all systems
-
-### 4. Community Governance
-- Post owners can dispute PoC decisions
-- Community votes with MySo tokens at stake
-- Winning side shares rewards from losing voters
-- Democratic resolution of edge cases
+When content is posted, the oracle analyzes it for similarity to existing works. If the content is original (below the similarity threshold), a PoC badge is issued and linked to the post. For derivative content (above the threshold), the system calculates a redirection percentage based on the similarity score and automatically redirects revenue to the original creator. All monetization, including tips and token sales, is updated in real time. Post owners can dispute PoC decisions, with the community voting on the outcome.
 
 ## Technical Implementation
 
-### Similarity Thresholds
-- **Images**: 95% similarity threshold
-- **Videos**: 95% similarity threshold  
-- **Audio**: 95% similarity threshold
-- **Configurable**: Adjustable by governance
+Similarity thresholds are set at 95% for images, videos, and audio by default, but are configurable by governance. The revenue redirection formula is:
 
-### Revenue Redirection Formula
 ```
 Delta = (Similarity Score - Threshold) / (100 - Threshold)
 Redirect % = (Base Redirect % × Delta Percentage)
 ```
 
-### Dispute Mechanics
-- **Dispute Cost**: 5 MySo + 1 MySo protocol fee
-- **Voting Period**: 7 epochs
-- **Stake Range**: 1-100 MySo per vote
-- **Resolution**: Stake-weighted voting determines outcome
+Disputes cost 5 MySo plus a 1 MySo protocol fee, with a 7-epoch voting period and a stake range of 1-100 MySo per vote. Stake-weighted voting determines the outcome.
 
 ## Integration Points
 
-### Social Proof Tokens
-- PoC badges enhance token pool value
-- Revenue redirections automatically apply to token earnings
-- Community confidence reflected in token prices
-
-### MyIP Integration
-- PoC can be applied to encrypted MyIP content
-- Revenue redirections apply to MyIP sales
-- Original creators protected across all monetization
-
-### Platform Features
-- Automatic moderation assistance
-- Content authenticity verification
-- Creator protection and fair compensation
+PoC badges enhance token pool value and automatically apply revenue redirections to token earnings. The system integrates with MyIP for encrypted content and supports platform features like moderation assistance and content authenticity verification.
 
 ## Benefits
 
-### For Original Creators
-- **Automatic Protection**: No manual claims needed
-- **Fair Compensation**: Receive revenue from derivative works
-- **Enhanced Credibility**: PoC badges prove originality
-- **Community Support**: Dispute system provides recourse
-
-### For Platforms
-- **Reduced Moderation**: Automated content verification
-- **Legal Protection**: Clear ownership and attribution
-- **User Trust**: Transparent content authenticity
-- **Economic Incentives**: Fair creator compensation
-
-### For the Ecosystem
-- **Quality Content**: Incentivizes original creation
-- **Fair Economy**: Ensures creators are compensated
-- **Community Governance**: Democratic dispute resolution
-- **Transparency**: All decisions and redirections are public
+Original creators benefit from automatic protection, fair compensation, and enhanced credibility. Platforms gain reduced moderation costs, legal protection, and user trust. The ecosystem as a whole benefits from quality content, a fair economy, community governance, and transparency.
 
 Proof of Creativity creates a self-regulating ecosystem where original content is rewarded and derivative works fairly compensate their sources, fostering a sustainable creative economy.

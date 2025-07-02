@@ -26,5 +26,5 @@ The MySocial **Command Line Interface (CLI)** is a powerful tool that allows dev
 The MySocial CLI is a vital tool for developers looking to integrate blockchain functionality into their applications. With its powerful command set, it simplifies on-chain interactions, making blockchain development more accessible and efficient.
 
 {% hint style="info" %}
-The CLI will be published when the testnet is launched.
+The CLI will be published when the mainnet is launched.
 {% endhint %}

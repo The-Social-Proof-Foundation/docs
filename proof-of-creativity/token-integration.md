@@ -15,184 +15,55 @@ layout:
 
 # Social Proof Token Integration
 
-The Proof of Creativity system seamlessly integrates with MySocial's **Social Proof Tokens**, ensuring that token economics reflect content authenticity and original creators receive fair compensation from token trading activities.
+The Proof of Creativity system seamlessly integrates with MySocial's Social Proof Tokens, ensuring that token economics reflect content authenticity and original creators receive fair compensation from token trading activities.
 
 ## Integration Overview
 
-PoC decisions automatically impact Social Proof Token pools:
-
-- **PoC Badges**: Enhance token pool value and market confidence
-- **Revenue Redirection**: Applies to all token trading fees and revenue
-- **Real-time Sync**: Token pools immediately reflect PoC status changes
-- **Market Transparency**: Traders know the true revenue distribution
+PoC decisions automatically impact Social Proof Token pools. PoC badges enhance token pool value and market confidence, while revenue redirection applies to all token trading fees and revenue. Token pools immediately reflect PoC status changes, providing market transparency for traders.
 
 ## How Token Pools Work
 
-### Token Pool Structure
-Each token pool contains PoC revenue redirection data that determines how trading fees are distributed between current and original creators.
-
-### PoC Data Synchronization
-Token pools automatically synchronize with their associated posts using `update_token_poc_data`, ensuring consistent revenue distribution rules.
+Each token pool contains PoC revenue redirection data that determines how trading fees are distributed between current and original creators. Token pools automatically synchronize with their associated posts, ensuring consistent revenue distribution rules.
 
 ## Revenue Distribution in Token Trading
 
-### Creator Fee Distribution
-When users trade Social Proof Tokens, **1% creator fees** are automatically subject to PoC redirection through `distribute_creator_fee_from_pool`, which splits payments between original and current creators based on redirection percentages.
+When users trade Social Proof Tokens, 1% creator fees are automatically subject to PoC redirection, splitting payments between original and current creators based on redirection percentages. For every token trade, fees are distributed as follows:
+- 1.0% Creator Fee (subject to PoC redirection)
+- 0.25% Platform Fee (to platform treasury)
+- 0.25% Ecosystem Fee (to ecosystem treasury)
 
-### Trading Fee Breakdown
-For every token trade, fees are distributed as:
-- **1.0% Creator Fee**: Subject to PoC redirection
-- **0.25% Platform Fee**: Goes to platform treasury  
-- **0.25% Ecosystem Fee**: Goes to ecosystem treasury
-
-**Example with PoC Redirection:**
-- Trade Value: 1000 MYS
-- Creator Fee: 10 MYS
-- PoC Redirection: 60% (6 MYS to original creator)
-- Post Owner Receives: 4 MYS (40% remainder)
+For example, on a 1000 MySo trade with a 60% PoC redirection, the original creator receives 6 MySo and the post owner receives 4 MySo.
 
 ## Market Impact of PoC Status
 
-### Badge Holder Advantages
-**Original Content (PoC Badge)**:
-- **Full Revenue**: 100% of creator fees go to post owner
-- **Market Confidence**: Clear authenticity signal for investors
-- **Premium Valuation**: Original content commands higher prices
-- **Reduced Risk**: No revenue redirection uncertainty
-
-### Derivative Content Considerations
-**Derivative Content (Revenue Redirection)**:
-- **Shared Revenue**: Portion of creator fees redirected to original creator
-- **Market Disclosure**: Redirection percentage visible to all traders
-- **Value Adjustment**: Token prices typically reflect revenue sharing
-- **Transparency**: Clear understanding of fee distribution
+Original content with a PoC badge receives full revenue, market confidence, premium valuation, and reduced risk. Derivative content with revenue redirection shares creator fees, with the redirection percentage visible to all traders. Token prices typically reflect revenue sharing, and all fee distributions are transparent.
 
 ## Automatic Synchronization
 
-### Event-Driven Updates
-When PoC analysis completes, the system automatically triggers token pool synchronization by emitting `TokenPoolSyncNeededEvent` events.
-
-### Sync Process
-1. **PoC Analysis Completes**: Oracle determines badge or redirection
-2. **Post Updated**: PoC data stored in post object
-3. **Event Emitted**: System signals need for token pool update
-4. **Pool Synchronization**: Token pool PoC data updated to match post
-5. **Market Notification**: Traders informed of PoC status changes
+When PoC analysis completes, the system triggers token pool synchronization, updating PoC data and notifying traders of status changes. If PoC status changes after pool creation, token pools immediately reflect the new status, and trading continues with updated revenue distribution.
 
 ## Token Pool Creation
 
-### Post Token Requirements
-For a post to have an associated token pool, it must:
-- **Viral Threshold**: Reach 100+ viral points (likes×1 + comments×3 + tips×10)
-- **Community Interest**: Demonstrate sufficient engagement
-- **Market Demand**: Users must want to trade tokens for this content
-
-### Pre-Launch Auctions
-**Auction Process**:
-1. **Viral Post**: Content reaches viral threshold
-2. **Auction Launch**: 1-3 hour auction period for posts
-3. **Community Bidding**: Users contribute MYS for token allocation
-4. **Pool Creation**: Auction finalizes and creates token pool
-5. **PoC Integration**: Existing PoC data automatically applied to pool
-
-### Post-Auction PoC Updates
-If PoC status changes after token pool creation:
-- **Dispute Resolution**: Community disputes can alter PoC status
-- **Automatic Updates**: Token pools immediately reflect changes
-- **Trading Continuity**: Trading continues with updated revenue distribution
+A post must reach 100+ viral points (likes×1 + comments×3 + tips×10) to be eligible for a token pool. The auction process includes a 1-3 hour period for posts, community bidding, and pool creation, with PoC data automatically applied. Disputes can alter PoC status, and token pools update accordingly.
 
 ## Economic Examples
 
-### Original Content Token Trading
-**Scenario**: Alice's original art (PoC badge) reaches viral threshold
-- **Token Pool Created**: 10,000 tokens distributed via auction
-- **User Buys**: Bob purchases 100 tokens for 500 MYS
-- **Creator Fee**: 5 MYS (1% of trade value)
-- **PoC Status**: No redirection (original content)
-- **Result**: Alice receives full 5 MYS creator fee
-
-### Derivative Content Token Trading  
-**Scenario**: Carol's derivative art (60% redirection to Alice) has token pool
-- **User Sells**: David sells 50 tokens for 300 MYS
-- **Creator Fee**: 3 MYS (1% of trade value)
-- **PoC Redirection**: 60% to Alice, 40% to Carol
-- **Result**: Alice receives 1.8 MYS, Carol receives 1.2 MYS
-
-### Complex Trading Chain
-**Scenario**: Multiple levels of derivative content
-- **Original**: Alice (PoC badge)
-- **Derivative 1**: Bob (75% redirection to Alice)
-- **Derivative 2**: Carol reposts Bob's content
-- **Trading**: Users trade tokens for Carol's repost
-- **Revenue Flow**: Trading fees split between platform, then post owner (Bob), then PoC redirection (Alice)
+- **Original Content:** Alice's art reaches viral threshold, a token pool is created, and she receives the full creator fee from trading.
+- **Derivative Content:** Carol's derivative art (60% redirection to Alice) results in trading fees split 60/40 between Alice and Carol.
+- **Complex Trading Chain:** Multiple levels of derivative content result in trading fees split among all relevant creators according to PoC rules.
 
 ## Market Transparency Features
 
-### Pool Information Display
-Token pools provide complete PoC information through functions like `get_poc_redirect_to`, `get_poc_redirect_percentage`, and `has_poc_redirection`.
-
-### Trading Interface Benefits
-- **Clear Disclosure**: Revenue redirection percentages prominently displayed
-- **Creator Attribution**: Original creator addresses shown for derivative content
-- **Revenue Preview**: Traders can see exactly how fees will be distributed
-- **Historical Data**: Track creator earnings from both original and derivative content
+Token pools provide complete PoC information, including redirection percentages and creator attribution. Traders can preview revenue distribution and track historical earnings.
 
 ## Risk and Compliance
 
-### For Token Traders
-**Due Diligence Factors**:
-- **PoC Status**: Check if content is original or derivative
-- **Redirection Percentage**: Understand revenue sharing arrangements
-- **Creator History**: Research both current and original creators
-- **Dispute Risk**: Consider potential for PoC disputes affecting revenue
-
-### For Content Creators
-**Earnings Optimization**:
-- **Original Content**: Maximize earnings by creating truly original work
-- **PoC Badge Value**: Badges increase token pool attractiveness
-- **Market Positioning**: Use PoC status as marketing advantage
-- **Long-term Revenue**: Original creators benefit from all derivative uses
-
-### For Platforms
-**Compliance Benefits**:
-- **Transparent Attribution**: Clear creator compensation records
-- **Legal Framework**: On-chain evidence of revenue sharing
-- **Dispute Resolution**: Established process for handling conflicts
-- **Creator Retention**: Fair compensation encourages continued participation
+Traders should check PoC status, redirection percentages, and creator history before trading. Creators can optimize earnings by producing original content and leveraging PoC badges. Platforms benefit from transparent attribution, legal compliance, and reduced disputes.
 
 ## Integration with Dispute System
 
-### Dispute Impact on Token Trading
-When PoC disputes are submitted:
-- **Trading Continues**: Token markets remain active during disputes
-- **Revenue Uncertainty**: Some traders may adjust positions during voting
-- **Resolution Impact**: Dispute outcomes immediately affect future fee distribution
-
-### Post-Dispute Adjustments
-If disputes change PoC status:
-- **Immediate Updates**: Token pools sync with new PoC decisions
-- **Market Adjustment**: Prices typically adjust to reflect new revenue structures
-- **Historical Preservation**: Past fee distributions are not reversed
-- **Future Clarity**: Clear revenue distribution going forward
+PoC disputes can affect token trading, with outcomes immediately reflected in revenue distribution. Past fee distributions are not reversed, but future clarity is ensured.
 
 ## Ecosystem Benefits
 
-### For the Creator Economy
-- **Fair Compensation**: Original creators earn from derivative uses
-- **Innovation Incentive**: Rewards original creativity over copying
-- **Passive Income**: Ongoing earnings from successful content
-- **Market Recognition**: PoC badges signal authenticity and value
-
-### For Token Markets
-- **Informed Trading**: Complete transparency about revenue flows
-- **Risk Assessment**: Clear understanding of earning potential
-- **Quality Signal**: PoC badges indicate authentic, original content
-- **Market Efficiency**: Accurate pricing based on true revenue distribution
-
-### For Platform Ecosystem
-- **Legal Compliance**: Automated creator attribution and compensation
-- **Reduced Disputes**: Clear revenue sharing reduces conflicts
-- **Creator Retention**: Fair compensation encourages quality content
-- **Market Growth**: Transparent, fair markets attract more participants
-
-The integration between Proof of Creativity and Social Proof Tokens creates a **transparent, fair, and economically efficient** system that protects creator rights while enabling vibrant token markets based on authentic content value. 
+The integration between Proof of Creativity and Social Proof Tokens creates a transparent, fair, and economically efficient system that protects creator rights while enabling vibrant token markets based on authentic content value. 

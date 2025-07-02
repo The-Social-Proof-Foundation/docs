@@ -34,7 +34,7 @@
 
 * [Overview](social-proof-tokens/overview.md)
 * [Virality Threshold](social-proof-tokens/virality-threshold.md)
-* [Fair Launch Auctions](social-proof-tokens/fair-launch-auctions.md)
+* [Fair Token Launches](social-proof-tokens/fair-token-launches.md)
 * [AMM Trading Engine](social-proof-tokens/amm-trading-engine.md)
 * [Fee Distribution](social-proof-tokens/fee-distribution.md)
 * [Token Pool Management](social-proof-tokens/token-pool-management.md)
@@ -55,7 +55,7 @@
 * [Encryption System](my-information-property/myip-encryption.md)
 * [Access Control & Subscriptions](my-information-property/access-control.md)
 * [Future Use Cases](my-information-property/future-use-cases.md)
-* [AI Agents & LLM's](my-information-property/ai-agents-llm.md)
+* [AI Agents](my-information-property/ai-agents.md)
 
 ## File Storage
 
@@ -73,9 +73,7 @@
 * [Faucet](developers/faucet.md)
 * [GraphQL](developers/graphql.md)
 * [Rust](developers/rust.md)
-* [TypeScript](developers/typescript/README.md)
-  * [Frontend Components](developers/typescript/frontend-components.md)
-  * [TypeScript SDK](developers/typescript/typescript-sdk.md)
+* [TypeScript](developers/typescript.md)
 * [Nodes and Validators](developers/nodes-and-validators/README.md)
   * [Run a Full Node](developers/nodes-and-validators/run-a-full-node.md)
   * [Run a Validator](developers/nodes-and-validators/run-a-validator.md)

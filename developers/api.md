@@ -20,5 +20,5 @@ The MySocial **API** provides developers with seamless access to on-chain data, 
 With the MySocial API, developers can interact with the blockchain in real-time, leveraging authentication mechanisms to ensure secure operations. The API supports RESTful and GraphQL queries, providing flexibility in data retrieval and interaction. Whether building analytics dashboards, content discovery platforms, or blockchain-based marketplaces, the API is an essential tool for seamless blockchain integration.
 
 {% hint style="info" %}
-The API endpoints will be published when the testnet is launched.
+The API endpoints will be published when the mainnet is launched.
 {% endhint %}

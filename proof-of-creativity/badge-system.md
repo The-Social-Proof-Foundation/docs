@@ -29,132 +29,30 @@ A PoC badge is an **on-chain verification** that content has been analyzed by th
 
 ## Badge Issuance Process
 
-### 1. Content Submission
-When a post with media content is created, the system automatically triggers PoC analysis through the `create_post` function.
-
-### 2. Oracle Analysis
-The oracle system processes the content:
-- **Image Analysis**: CLIP embeddings generate 512-dimensional vectors
-- **Audio Analysis**: Shazam-style acoustic fingerprinting creates unique hashes
-- **Video Analysis**: Frame extraction plus audio track processing
-- **Database Search**: Timescale Vector AI searches for similar content
-
-### 3. Originality Determination
-The oracle compares similarity scores against thresholds:
-- **Below 95% similarity**: Content considered original
-- **Oracle confidence**: High/medium/low confidence levels provided
-- **Original creator detection**: If similarity found, identifies potential source
-
-### 4. Smart Contract Decision
-The oracle calls `analyze_and_update_post` with the similarity analysis results.
-
-If content is determined original (similarity < threshold):
-- **Badge Creation**: Unique PoC badge ID generated
-- **Post Update**: Badge ID linked to post permanently
-- **Registry Update**: Badge count incremented in PoC registry
-- **Event Emission**: Badge issuance broadcasted to network
+When a post with media content is created, the system automatically triggers PoC analysis. The oracle processes the content using CLIP embeddings for images, acoustic fingerprinting for audio, and frame extraction for video. The system compares similarity scores against a 95% threshold. If the content is original, a unique PoC badge ID is generated, linked to the post, and recorded in the PoC registry.
 
 ## Badge Properties
 
-### Technical Structure
-Each post contains optional PoC badge information and revenue redirection settings that are automatically managed by the system.
-
-### Badge Characteristics
-- **Unique Identifier**: Each badge has a distinct ID
-- **Immutable**: Once issued, badges cannot be revoked (except through disputes)
-- **Timestamped**: Creation time permanently recorded
-- **Media-Specific**: Badge type reflects content media type (image/video/audio)
-- **Post-Linked**: Badge permanently associated with specific post
+Each badge has a unique identifier, is immutable once issued (except through disputes), is timestamped, and is media-specific. Badges are permanently associated with the post and tracked in the PoC registry.
 
 ## Badge Benefits
 
-### For Content Creators
-- **Proof of Originality**: Verifiable evidence of content authenticity
-- **Enhanced Reputation**: Increased credibility and trustworthiness
-- **Social Recognition**: Visual indicator of creativity and originality
-- **Economic Advantages**: Potential for premium monetization
-- **Legal Protection**: On-chain evidence for intellectual property claims
-
-### For Social Proof Tokens
-- **Value Enhancement**: PoC badges increase token pool attractiveness
-- **Confidence Signal**: Market confidence in authentic content creator
-- **Revenue Optimization**: No revenue redirection = full creator compensation
-- **Trading Premium**: Original content tokens command higher prices
-
-### For Platforms
-- **Content Quality**: Higher quality content with verified authenticity
-- **User Trust**: Enhanced platform credibility through verification
-- **Reduced Disputes**: Clear originality evidence reduces conflicts
-- **Algorithm Benefits**: Authentic content prioritized in feeds
+For content creators, PoC badges provide verifiable proof of originality, enhanced reputation, social recognition, economic advantages, and legal protection. For Social Proof Tokens, badges increase token pool value, market confidence, and revenue optimization. Platforms benefit from higher content quality, user trust, reduced disputes, and improved content algorithms.
 
 ## Badge Display and Verification
 
-### Visual Indicators
-- **Badge Icon**: Distinctive visual marker on posts
-- **Verification Checkmark**: Clear originality indication
-- **Metadata Display**: Badge information accessible to users
-- **Time Stamp**: Creation time and verification date shown
-
-### Verification Process
-Anyone can verify a badge by:
-1. **On-Chain Lookup**: Query blockchain for badge details
-2. **Post Inspection**: Check post's `poc_badge_id` field
-3. **Registry Confirmation**: Verify badge in PoC registry
-4. **Event History**: Review badge issuance events
+Badges are visually indicated on posts with icons, checkmarks, and metadata. Anyone can verify a badge by querying the blockchain, inspecting the post's badge field, or reviewing the PoC registry and event history.
 
 ## Badge Statistics and Analytics
 
-The PoC Registry tracks comprehensive badge statistics including total badges issued, revenue redirections created, disputes submitted, and votes cast.
-
-### Available Metrics
-- **Badge Issuance Rate**: Badges issued over time
-- **Media Type Breakdown**: Distribution across image/video/audio
-- **Creator Performance**: Badge counts per creator
-- **Platform Activity**: Badge issuance by platform
-- **Quality Trends**: Originality rates over time
+The PoC Registry tracks badge issuance rates, media type breakdowns, creator performance, platform activity, and originality trends over time.
 
 ## Integration with Ecosystem
 
-### Social Proof Tokens
-PoC badges automatically integrate with token economics:
-- **Token Pool Enhancement**: Badges increase pool value perception
-- **Revenue Clarity**: No redirection confusion for investors
-- **Market Confidence**: Clear originality signal for trading
-- **Automatic Sync**: Badge status synchronized with token pools
-
-### MyIP Integration  
-PoC badges complement MyIP intellectual property system:
-- **Originality Evidence**: Badges support IP ownership claims
-- **Licensing Benefits**: Original content commands premium licensing fees
-- **Legal Standing**: Blockchain evidence for legal proceedings
-- **Attribution Tracking**: Clear creator identification
-
-### Platform Features
-- **Search Enhancement**: Badge holders receive discoverability benefits
-- **Recommendation Systems**: Original content prioritized in algorithms  
-- **Moderation Assistance**: Badges help identify authentic vs duplicate content
-- **Creator Programs**: Badge holders eligible for enhanced platform benefits
+PoC badges automatically integrate with token economics, MyIP intellectual property claims, and platform features like search, recommendations, and moderation. Badge holders receive discoverability benefits and may be eligible for enhanced platform programs.
 
 ## Badge Lifecycle
 
-### Creation
-1. **Content Posted**: Media content submitted to platform
-2. **Oracle Analysis**: Automated similarity detection performed
-3. **Originality Confirmed**: Content passes threshold requirements
-4. **Badge Minted**: Unique badge ID created and linked to post
-5. **Notification**: Creator notified of badge issuance
-
-### Maintenance
-- **Immutable Status**: Badges cannot be modified post-issuance
-- **Dispute Protection**: Community dispute system provides recourse
-- **Historical Preservation**: Badge history permanently maintained
-- **Cross-Platform Recognition**: Badges recognized across MySocial ecosystem
-
-### Potential Revocation
-Only through community dispute process:
-- **Dispute Filing**: Challenge must be submitted with stake
-- **Community Voting**: Token-weighted community decision
-- **Evidence Review**: Comprehensive evaluation of originality claims
-- **Democratic Resolution**: Community consensus determines outcome
+Badges are created when content passes originality analysis, minted as unique IDs, and linked to posts. They are immutable but can be challenged through the community dispute process. Badge history is permanently maintained and recognized across the MySocial ecosystem.
 
 The PoC badge system creates a trusted, transparent, and economically valuable verification system that benefits creators, platforms, and the broader MySocial ecosystem while maintaining community governance over disputed cases. 

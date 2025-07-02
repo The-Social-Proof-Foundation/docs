@@ -20,5 +20,5 @@ The MySocial GraphQL API offers a flexible and efficient way for developers to q
 With GraphQL, developers can easily fetch user profiles, content metadata, transaction histories, and more in a single request. The MySocial GraphQL API is designed to provide real-time updates, enabling seamless interactions for social applications, marketplaces, and blockchain explorers. By leveraging GraphQL’s query efficiency, developers can create dynamic and scalable applications with minimal complexity.
 
 {% hint style="info" %}
-The GraphQL playground and examples will be published when the testnet is launched.
+The GraphQL playground and examples will be published when the mainnet is launched.
 {% endhint %}

@@ -16,5 +16,5 @@ layout:
 # Rust
 
 {% hint style="info" %}
-Content will be available shortly. Please check back soon!
+The Rust SDK and documentation will be published when the mainnet is launched.
 {% endhint %}

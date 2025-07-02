@@ -15,23 +15,13 @@ layout:
 
 # Revenue Redirection System
 
-The Proof of Creativity revenue redirection system ensures that **original creators receive fair compensation** when their content is used as the basis for derivative works. This automatic system protects creator rights while allowing derivative content to exist and generate revenue.
+The Proof of Creativity revenue redirection system ensures that original creators receive fair compensation when their content is used as the basis for derivative works. This automatic system protects creator rights while allowing derivative content to exist and generate revenue.
 
 ## How Revenue Redirection Works
 
-When the oracle detects that content is **derivative** (similarity above threshold), the system automatically redirects a portion of all future revenue from that content to the original creator.
+When the oracle detects that content is derivative (similarity above threshold), the system automatically redirects a portion of all future revenue from that content to the original creator. The process involves similarity analysis, threshold comparison (default 95%), original creator identification, redirection calculation, and post update to apply revenue rules to all monetization sources.
 
-### Automatic Detection Process
-
-1. **Similarity Analysis**: Oracle determines content similarity score
-2. **Threshold Comparison**: Score compared against 95% similarity threshold
-3. **Original Creator Identification**: System identifies the original content creator
-4. **Redirection Calculation**: Percentage calculated based on similarity score
-5. **Post Update**: Revenue redirection rules applied to all future monetization
-
-### Redirection Formula
-
-The system uses a **dynamic scaling formula** to determine redirection percentage:
+The redirection percentage is calculated using:
 
 ```
 Delta = (Similarity Score - Threshold) / (100 - Threshold)
@@ -41,148 +31,38 @@ Redirect Percentage = (Base Redirect % × Delta) / 100
 **Example Calculations:**
 
 | Similarity Score | Threshold | Delta | Final Redirect % |
-| ---------------- | --------- | ----- | ---------------- |
-| 96%              | 95%       | 20%   | 20%              |
-| 98%              | 95%       | 60%   | 60%              |
-| 99%              | 95%       | 80%   | 80%              |
-| 100%             | 95%       | 100%  | 100%             |
+|------------------|----------|-------|------------------|
+| 96%              | 95%      | 20%   | 20%              |
+| 98%              | 95%      | 60%   | 60%              |
+| 99%              | 95%      | 80%   | 80%              |
+| 100%             | 95%      | 100%  | 100%             |
 
-This ensures **proportional compensation** - higher similarity results in higher redirection.
+This ensures proportional compensation—higher similarity results in higher redirection.
 
 ## Technical Implementation
 
-### Smart Contract Structure
-
-Each post contains revenue redirection settings that specify the target address and percentage for redirecting earnings to original creators.
-
-### Redirection Application
-
-The system applies revenue redirection to **all monetization sources**:
-
-#### Direct Tips to Posts
-
-When users tip posts using `tip_post`, the system automatically applies PoC redirection through `apply_poc_redirection_and_transfer`.
-
-#### Social Proof Token Sales
-
-Revenue redirection is automatically applied to creator fees from token trading through `distribute_creator_fee_from_pool` and `apply_token_poc_redirection`.
-
-#### Comment and Repost Tips
-
-The system handles **complex tip scenarios**:
-
-* **Comment Tips**: 80% to commenter, 20% to post owner (with PoC redirection on post owner's share)
-* **Repost Tips**: 50% to reposter, 50% to original post (with PoC redirection applied to both if applicable)
+Each post contains revenue redirection settings specifying the target address and percentage for redirecting earnings. Redirection applies to all monetization sources, including direct tips, Social Proof Token sales, and complex scenarios like comment and repost tips. For example, comment tips are split 80/20 between commenter and post owner, with PoC redirection applied to the post owner's share; repost tips are split 50/50, with redirection applied to both shares if applicable.
 
 ## Revenue Split Examples
 
-### Basic Tip Scenario
-
-**Original Content**: Alice creates original artwork (PoC badge issued)**Derivative Content**: Bob posts 98% similar content (60% redirection to Alice)**Tip**: Carol tips Bob's post 100 MySo
-
-**Result:**
-
-* Alice receives: 60 MySo (redirected portion)
-* Bob receives: 40 MySo (remaining portion)
-
-### Social Proof Token Scenario
-
-**Token Trading**: Users buy/sell tokens for Bob's derivative content**Creator Fee**: 1% of trading volume goes to "creator"**PoC Redirection**: 60% of creator fees redirected to Alice
-
-**Example Trade**: 1000 MySo token purchase generates 10 MySo creator fee
-
-* Alice receives: 6 MySo (60% redirection)
-* Bob receives: 4 MySo (40% remainder)
-
-### Complex Repost Scenario
-
-**Chain of Content**: Alice (original) → Bob (derivative, 60% redirect) → Carol (reposts Bob's content)**Tip**: David tips Carol's repost 100 MySo
-
-**Revenue Split:**
-
-1. **Repost Split**: 50 MySo to Carol, 50 MySo to Bob's original post
-2. **PoC Redirection on Bob's share**: 30 MySo to Alice, 20 MySo to Bob
-3. **Final Result**: Carol: 50 MySo, Alice: 30 MySo, Bob: 20 MySo
+- **Basic Tip:** If Bob posts 98% similar content to Alice's original, and Carol tips Bob 100 MySo, Alice receives 60 MySo (60% redirected), Bob receives 40 MySo.
+- **Token Trading:** If a 1% creator fee on a 1000 MySo trade is split 60/40, Alice receives 6 MySo, Bob receives 4 MySo.
+- **Complex Repost:** If David tips Carol's repost of Bob's derivative content, the split is 50 MySo to Carol, 50 MySo to Bob's post, with 30 MySo redirected to Alice and 20 MySo to Bob.
 
 ## Token Pool Integration
 
-### Automatic Synchronization
-
-Revenue redirection automatically applies to Social Proof Token pools through `update_token_poc_data`, which copies PoC settings from posts to their associated token pools.
-
-### Real-time Updates
-
-* **Post Analysis**: When PoC analysis completes, token pools are notified
-* **Sync Events**: Events emitted to trigger automatic pool synchronization
-* **Consistent Rules**: Token trading and post monetization use identical redirection rules
+Revenue redirection automatically applies to Social Proof Token pools, with real-time updates and consistent rules for token trading and post monetization.
 
 ## Economic Impact
 
-### For Original Creators
-
-* **Passive Income**: Receive compensation without active enforcement
-* **Proportional Rewards**: Higher similarity = higher compensation
-* **Broad Coverage**: Applies to all revenue streams from derivative content
-* **No Action Required**: Automatic detection and redirection
-
-### For Derivative Content Creators
-
-* **Fair Use**: Can still create derivative content and earn revenue
-* **Transparency**: Clear knowledge of redirection rules upfront
-* **Residual Income**: Retain portion of revenue based on originality added
-* **Legal Clarity**: On-chain evidence of compensation to original creator
-
-### For the Ecosystem
-
-* **Innovation Incentive**: Rewards original creativity over copying
-* **Legal Framework**: Provides clear compensation mechanism
-* **Reduced Disputes**: Automatic resolution of many ownership conflicts
-* **Creator Retention**: Encourages continued content creation
+Original creators benefit from passive income, proportional rewards, and broad coverage across all revenue streams. Derivative creators retain a portion of revenue and have legal clarity. The ecosystem benefits from innovation incentives, a clear legal framework, reduced disputes, and creator retention.
 
 ## Administrative Features
 
-### Configuration Management
-
-The PoC configuration system manages redirect percentages and similarity thresholds for different media types, all adjustable through governance.
-
-### Governance Controls
-
-* **Threshold Adjustment**: Community can modify similarity thresholds
-* **Base Percentage**: Default redirection percentage can be updated
-* **Media-Specific Rules**: Different rules for images, videos, audio
-* **Emergency Controls**: Admin override capabilities for system issues
-
-## Monitoring and Analytics
-
-### Revenue Tracking
-
-The system provides comprehensive analytics through the PoC Registry, tracking redirections created, disputes submitted, and voting activity.
-
-### Available Metrics
-
-* **Redirection Volume**: Total MySo redirected to original creators
-* **Content Analysis**: Percentage of content requiring redirection
-* **Creator Benefits**: Individual creator earnings from redirections
-* **Platform Health**: Impact on content quality and creator retention
+PoC configuration manages redirect percentages and similarity thresholds, all adjustable through governance. The system provides analytics on redirection volume, content analysis, creator benefits, and platform health.
 
 ## Integration with Dispute System
 
-### Challenge Mechanism
+Revenue redirections can be disputed by post owners, with community voting determining outcomes. If a dispute overturns a redirection, future revenue rules are removed, but historical redirections are not reversed. Badge issuance may result from successful disputes.
 
-Revenue redirections can be disputed through the community system:
-
-* **Post Owner Rights**: Derivative content creators can challenge redirections
-* **Evidence Submission**: Provide proof of originality or fair use
-* **Community Voting**: Token-weighted community decision
-* **Reversible Outcomes**: Successful disputes can remove redirections
-
-### Dispute Resolution Impact
-
-If a dispute overturns a redirection:
-
-* **Historical Revenue**: Past redirections are not reversed
-* **Future Revenue**: Redirection rules removed going forward
-* **Badge Potential**: Successful dispute may result in PoC badge issuance
-* **Registry Update**: Statistics updated to reflect resolution
-
-The revenue redirection system creates a **fair, transparent, and economically efficient** method for compensating original creators while allowing derivative content to exist and thrive within the MySocial ecosystem.
+The revenue redirection system creates a fair, transparent, and economically efficient method for compensating original creators while allowing derivative content to exist and thrive within the MySocial ecosystem.

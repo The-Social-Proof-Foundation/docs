@@ -15,11 +15,12 @@ layout:
 
 # Platforms
 
-MySocial's platform protocol enables anyone to create and operate their own social media platform while leveraging the shared infrastructure, user base, and monetization features of the MySocial ecosystem.
+MySocial's platform protocol empowers anyone to launch and operate a social media platform, all while leveraging the shared infrastructure, user base, and monetization features of the MySocial ecosystem. Whether you're building a niche community or a large-scale network, the protocol provides the tools and flexibility needed to create a unique experience.
 
 ## Platform Creation & Management
 
-### Platform Registration
+To get started, developers define key platform attributes such as name, tagline, branding, and links:
+
 ```move
 public struct Platform has key {
     name: String,                    // Platform name
@@ -36,32 +37,21 @@ public struct Platform has key {
 }
 ```
 
-### Platform Lifecycle
-- **Development**: Initial platform creation and testing
-- **Alpha**: Limited testing with select users
-- **Beta**: Broader testing before full launch
-- **Live**: Full production platform operation
-- **Maintenance**: Temporary service interruption
-- **Sunset**: Planned platform shutdown
-- **Shutdown**: Platform permanently closed
+**Lifecycle stages:**
+- Development
+- Alpha
+- Beta
+- Live
+- Maintenance
+- Sunset
+- Shutdown
 
-### Platform Features
-- **Custom Branding**: Logo, colors, and visual identity
-- **Terms & Policies**: Custom terms of service and privacy policies
-- **Multi-Platform Support**: Web, mobile, and desktop applications
-- **Developer Control**: Full platform management by creator
-- **Community Management**: Moderation tools and user management
+Each stage reflects the platform's operational status, from initial creation to full production and eventual deprecation if needed. Platforms can be customized with branding, terms, and policies, and support web, mobile, and desktop applications. Developers have full control over platform management, including moderation and user management tools.
 
 ## User Management
 
-### Platform Membership
-- **Open Registration**: Users can join any approved platform
-- **Profile Integration**: Existing MySocial profiles work across platforms
-- **Cross-Platform Identity**: Same identity across multiple platforms
-- **Platform-Specific Features**: Custom functionality per platform
-- **Migration Support**: Easy switching between platforms
+Users can join any approved platform using their existing MySocial profiles, ensuring seamless cross-platform identity. Each platform can offer custom features and support easy migration between platforms. Moderation is handled through a combination of code-based controls and community guidelines:
 
-### Moderation System
 ```move
 // Platform moderation capabilities
 moderators: VecSet<address>,           // Platform moderators
@@ -69,33 +59,21 @@ blocked_profiles: VecSet<address>,     // Blocked users
 joined_profiles: VecSet<address>,      // Platform members
 ```
 
-- **Moderator Management**: Add/remove platform moderators
-- **User Blocking**: Block problematic users from platform
-- **Content Moderation**: Platform-specific content policies
-- **Community Guidelines**: Custom rules and enforcement
-- **Appeal Processes**: Dispute resolution for moderation decisions
-
-### User Interactions
-- **Platform Joining**: Users explicitly join platforms they want to use
-- **Content Syndication**: Posts can appear across multiple platforms
-- **Platform-Specific Feeds**: Curated content for each platform
-- **Cross-Platform Discovery**: Find content from other platforms
-- **Unified Social Graph**: Connections work across all platforms
+Moderators can be added or removed, users can be blocked, and content policies are enforced at the platform level. Dispute resolution and appeals are supported for moderation decisions. Users explicitly join platforms they wish to use, and content can be syndicated across multiple platforms. Each platform curates its own feed, but the unified social graph ensures connections persist across the ecosystem.
 
 ## Governance & Economics
 
-### Platform Treasury
+Each platform maintains a treasury for managing funds and distributing incentives:
+
 ```move
 treasury: Balance<MYS>,              // Platform MySo treasury
 ```
 
-- **Revenue Collection**: Platforms earn fees from user activity
-- **Treasury Management**: Developer controls platform funds
-- **Token Airdrops**: Distribute tokens to users and moderators
-- **Platform Incentives**: Reward active users and creators
-- **Economic Sustainability**: Self-sustaining platform economics
+Platforms earn fees from user activity, manage their own funds, and can distribute tokens to users and moderators. Incentives are available for active participation, and platforms are designed for economic sustainability.
 
-### DAO Governance (Optional)
+**Optional DAO governance:**
+Platforms can enable community-driven decisions with configurable parameters:
+
 ```move
 wants_dao_governance: bool,           // Enable DAO governance
 delegate_count: Option<u64>,          // Number of delegates
@@ -103,125 +81,40 @@ voting_period_epochs: Option<u64>,    // Voting duration
 quorum_votes: Option<u64>,           // Required votes for proposals
 ```
 
-- **Democratic Governance**: Community-driven platform decisions
-- **Delegate System**: Elected representatives for governance
-- **Proposal System**: Submit and vote on platform changes
-- **Quadratic Voting**: Fair voting with stake-based influence
-- **Community Ownership**: Shared platform control and benefits
+DAO governance enables democratic decision-making, proposal submission, and voting, with options for quadratic voting and shared platform ownership.
 
-### Revenue Streams
-- **Trading Fees**: Earn from Social Proof Token trading
-- **Content Tips**: Platform fee on user tips
-- **MyIP Sales**: Revenue from encrypted content sales
-- **Advertising**: Promoted content and advertising revenue
-- **Subscription Services**: Premium platform features
+**Revenue streams include:**
+- Trading fees from Social Proof Token trading
+- Content tips
+- MyIP sales
+- Advertising
+- Subscription services
+
+These mechanisms support both platform operations and creator incentives.
 
 ## Integration with MySocial Features
 
-### Social Proof Tokens
-- **Platform Tokens**: Platforms can have their own tradeable tokens
-- **Creator Tokens**: Support for user and content tokens
-- **Revenue Sharing**: Platforms earn fees from token trading
-- **Community Investment**: Platform tokens represent community ownership
-- **Governance Rights**: Token holders participate in platform decisions
-
-### Proof of Creativity
-- **Content Protection**: PoC applies to all platform content
-- **Revenue Redirection**: Automatic compensation for original creators
-- **Quality Assurance**: PoC badges enhance platform content quality
-- **Community Disputes**: Platform moderators can participate in PoC disputes
-- **Creator Protection**: Platforms benefit from creator-friendly policies
-
-### MyIP Integration
-- **Gated Content**: Platforms can host encrypted premium content
-- **Revenue Sharing**: Platforms earn from MyIP sales
-- **Access Control**: Platform-specific access to encrypted content
-- **Creator Tools**: Enhanced monetization options for platform creators
-- **Premium Features**: Subscription and one-time purchase options
+Platforms can issue their own tradeable tokens, support creator tokens, and participate in revenue sharing from token trading. Token holders may have governance rights and participate in platform decisions. Proof of Creativity ensures content protection and quality, with revenue redirection and dispute resolution available for original creators. MyIP integration allows platforms to host encrypted premium content, manage access, and offer enhanced monetization tools for creators.
 
 ## Platform Types & Use Cases
 
-### Social Media Platforms
-- **General Social**: Twitter/Facebook-style platforms
-- **Niche Communities**: Specialized interest groups
-- **Professional Networks**: LinkedIn-style business platforms
-- **Creator Platforms**: YouTube/TikTok-style content platforms
-- **Community Forums**: Reddit-style discussion platforms
-
-### Specialized Platforms
-- **Gaming Communities**: Game-specific social platforms
-- **Educational Platforms**: Learning and knowledge sharing
-- **Marketplace Platforms**: Social commerce and trading
-- **News Platforms**: Journalism and information sharing
-- **Entertainment Platforms**: Media and entertainment focused
-
-### Enterprise Solutions
-- **Corporate Social**: Internal company social networks
-- **Brand Communities**: Customer engagement platforms
-- **Support Platforms**: Customer service and community support
-- **Partner Networks**: B2B collaboration platforms
-- **Event Platforms**: Conference and event-specific social spaces
+MySocial supports a wide range of platform types, from general social networks and niche communities to professional, creator, and discussion platforms. Specialized use cases include gaming, education, marketplaces, news, entertainment, and enterprise solutions such as internal company networks, brand communities, and event platforms.
 
 ## Developer Tools & APIs
 
-### Platform Development
-- **Creation Tools**: Easy platform setup and configuration
-- **Customization APIs**: Extensive platform customization options
-- **Integration SDKs**: TypeScript and Rust development kits
-- **Testing Framework**: Alpha and beta testing tools
-- **Deployment Support**: Production deployment assistance
-
-### Management Dashboard
-- **Analytics**: User engagement and platform performance metrics
-- **Moderation Tools**: Content and user management interfaces
-- **Treasury Management**: Financial controls and token distribution
-- **User Management**: Member and moderator administration
-- **Content Management**: Post and comment moderation tools
-
-### API Access
-- **Platform APIs**: Programmatic platform management
-- **User APIs**: Access to platform user data and interactions
-- **Content APIs**: Manage posts, comments, and media
-- **Analytics APIs**: Performance and engagement data
-- **Integration APIs**: Connect with external services
+Developers have access to:
+- Creation tools and customization APIs
+- SDKs for TypeScript and Rust
+- Testing frameworks for platform development
+- Management dashboards for analytics, moderation, treasury, and user management
+- APIs for programmatic management of platforms, users, content, and analytics, as well as integration with external services
 
 ## Benefits
 
-### For Platform Creators
-- **Low Barrier to Entry**: Easy platform creation with minimal technical requirements
-- **Shared Infrastructure**: Leverage MySocial's robust blockchain infrastructure
-- **Built-in User Base**: Access to existing MySocial users
-- **Monetization Ready**: Multiple revenue streams from day one
-- **Network Effects**: Benefit from ecosystem growth
-
-### For Users
-- **Platform Choice**: Select platforms that match your interests
-- **Portable Identity**: Same profile and connections across platforms
-- **Enhanced Features**: Access to advanced MySocial features
-- **Community Participation**: Engage with like-minded users
-- **Investment Opportunities**: Social Proof Tokens for platform investment
-
-### For the Ecosystem
-- **Innovation**: Diverse platforms drive feature innovation
-- **Competition**: Healthy competition improves user experience
-- **Specialization**: Platforms can focus on specific use cases
-- **Growth**: More platforms attract more users to the ecosystem
-- **Sustainability**: Platform fees support ecosystem development
+Platform creators benefit from low barriers to entry, shared infrastructure, a built-in user base, and ready-to-use monetization features. Users enjoy platform choice, portable identity, advanced features, and investment opportunities. The ecosystem as a whole benefits from innovation, competition, specialization, and sustainable growth supported by platform fees.
 
 ## Platform Approval & Quality
 
-### Approval Process
-- **Initial Review**: New platforms reviewed for compliance
-- **Quality Standards**: Platforms must meet minimum quality requirements
-- **Community Guidelines**: Adherence to MySocial ecosystem standards
-- **Ongoing Monitoring**: Continuous compliance and quality assessment
-- **Community Feedback**: User input on platform quality and behavior
+New platforms undergo an initial review for compliance and must meet minimum quality standards and community guidelines. Ongoing monitoring and community feedback help maintain quality and adherence to ecosystem standards. Key metrics include user engagement, content quality, community health, platform stability, and innovation.
 
-### Quality Metrics
-- **User Engagement**: Active user participation and retention
-- **Content Quality**: High-quality, original content creation
-- **Community Health**: Positive user interactions and low toxicity
-- **Platform Stability**: Reliable operation and uptime
-- **Innovation**: Unique features and value proposition
-
-MySocial's platform system creates a thriving ecosystem of diverse social media experiences while maintaining the benefits of shared infrastructure, portable identity, and unified monetization features.
+> MySocial's platform system enables a diverse ecosystem of social media experiences, all benefiting from shared infrastructure, portable identity, and unified monetization features.

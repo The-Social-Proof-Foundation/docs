@@ -15,74 +15,28 @@ layout:
 
 # Overview
 
-Your identity on MySocial is more than just a username, it's your on-chain presence, fully owned and controlled by you. With MySocial, your profile, connections, and reputation exist independently of any platform, ensuring true ownership and portability. Unlike traditional social networks, where your identity is locked to a single company, MySocial leverages the blockchain to give users full control over their social graph and content. From human-readable names via Name Service to private and seamless authentication with zkLogin, MySocial ensures both security and accessibility.
+Your identity on MySocial is more than just a username, it's your on-chain presence, fully owned and controlled by you. With MySocial, your profile, connections, and tokens exist independently of any platform, ensuring true ownership and portability. Unlike traditional social networks, where your identity is locked to a single company, MySocial leverages the blockchain to give users full control over their social graph and content. From human-readable names via Name Service to private and seamless authentication with zkLogin, MySocial ensures both security and accessibility.
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>🔤 <strong>Name Service</strong></td><td>Discover how MySocial's Name Service provides human-readable identities.</td><td></td><td></td><td><a href="name-service.md">name-service.md</a></td></tr><tr><td>🔒 <strong>zkLogin</strong></td><td>Learn how zkLogin enables private and seamless authentication.</td><td></td><td></td><td><a href="zkLogin.md">zkLogin.md</a></td></tr><tr><td>💰 <strong>Tokens</strong></td><td>Explore the future of tokens on MySocial.</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
 # Social Mechanics
 
-MySocial's social mechanics form the foundation of all user interactions, providing a comprehensive system for content creation, social connections, and community engagement built directly into the blockchain.
+MySocial's social mechanics are designed to provide a robust, on-chain foundation for user interactions, content creation, and community engagement. Every user has a blockchain-verified profile and social graph, ensuring true ownership and portability of identity, connections, and content across platforms. Features like Name Service and zkLogin further enhance accessibility and privacy.
 
 ## Core Social Features
 
-### 📝 **Posts & Content**
-- **Rich Content Support**: Text, images, videos, audio, and mixed media
-- **Flexible Post Types**: Standard posts, reposts, quote reposts, and predictions
-- **Metadata Integration**: JSON metadata for enhanced functionality
-- **Content Permissions**: Granular control over interactions (comments, reactions, reposts)
-- **Nested Comments**: Multi-level comment threads with full interaction support
+Users can create and share a wide range of content, including text, images, video, and audio. The platform supports flexible post types—such as standard posts, reposts, quotes, and predictions—each with customizable permissions for comments, reactions, and sharing. Nested comments and real-time notifications foster rich, multi-level discussions and engagement. The social graph enables users to build connections, discover new people, and maintain a portable identity and reputation across the ecosystem.
 
-### 👥 **Social Graph & Connections**
-- **Following System**: Build and manage social connections
-- **Profile-Based Identity**: Blockchain-verified user profiles
-- **Social Discovery**: Find and connect with users across platforms
-- **Reputation Tracking**: On-chain reputation and social proof
-- **Cross-Platform Portability**: Social connections work across all MySocial platforms
+Engagement is further enhanced by features like reactions, direct tips using MySo tokens, and mentions. Platform integration allows for customizable rules, moderation tools, and user permissions, supporting diverse community experiences while leveraging the shared protocol.
 
-### 🎯 **Engagement Mechanics**
-- **Reactions**: Emoji and text-based reactions to posts and comments
-- **Tips**: Direct MySo token tips to creators and commenters
-- **Reposts & Quotes**: Share content with optional commentary
-- **Mentions**: Tag users in posts and comments
-- **Social Notifications**: Real-time engagement tracking
+## Advanced and Monetization Features
 
-### 🏛️ **Platform Integration**
-- **Multi-Platform Support**: Content and connections work across platforms
-- **Platform-Specific Features**: Customizable interaction rules per platform
-- **Moderation Tools**: Platform-level content management
-- **User Permissions**: Platform join/leave mechanics with approval systems
-
-## Advanced Features
-
-### 🔮 **Prediction Markets**
-- **Prediction Posts**: Create posts with multiple outcome options
-- **Community Betting**: Users stake MySo tokens on prediction outcomes
-- **Automated Resolution**: Smart contract-based outcome determination
-- **Reward Distribution**: Winners share the prize pool proportionally
-- **Market Analytics**: Track prediction accuracy and user performance
-
-### 📢 **Promoted Content**
-- **Content Promotion**: Pay-per-view advertising system
-- **View Duration Tracking**: Minimum view times for payment
-- **Budget Management**: Set spending limits and view targets
-- **Analytics**: Detailed promotion performance metrics
-- **Audience Targeting**: Platform-based targeting options
-
-### 🔒 **Gated Content**
-- **Subscription Integration**: Posts can require active subscriptions
-- **MyIP Integration**: Link posts to encrypted information assets
-- **Access Control**: Fine-grained permission management
-- **Premium Content**: Monetize exclusive content directly
-
-### 🛡️ **Content Moderation**
-- **Community Reporting**: User-driven content flagging system
-- **Platform Moderation**: Platform-specific moderation tools
-- **Automated Filtering**: Integration with content analysis systems
-- **Appeal Processes**: Democratic dispute resolution mechanisms
+MySocial introduces advanced mechanics such as prediction markets, where users can create posts with multiple outcomes and stake tokens on predictions. Gated content and subscription models allow creators to monetize exclusive posts, with fine-grained access control and integration with encrypted assets via MyIP. Promoted content and pay-per-view advertising are supported, complete with analytics and budget management. Content moderation combines community reporting, platform-specific tools, and automated filtering to maintain a healthy environment.
 
 ## Technical Architecture
 
-### Content Management
+Content and interactions are managed on-chain using Move structs, providing transparency and composability. For example:
+
 ```move
 public struct Post has key, store {
     id: UID,
@@ -96,78 +50,16 @@ public struct Post has key, store {
 }
 ```
 
-### Interaction Tracking
-- **Reaction Counts**: Real-time aggregation of all reactions
-- **Engagement Metrics**: Likes, comments, reposts, tips
-- **Social Proof**: Transparent interaction history
-- **Performance Analytics**: Content reach and engagement rates
-
-### Permission System
-- **Per-Post Controls**: Enable/disable comments, reactions, reposts, quotes, tips
-- **Platform Rules**: Override permissions based on platform policies
-- **User Preferences**: Individual user interaction preferences
-- **Block List Integration**: Automatic filtering of blocked users
+Engagement metrics—such as reactions, comments, reposts, and tips—are tracked in real time, providing transparent social proof and analytics. Permissions can be set per post, overridden by platform rules, or customized by user preferences, with block list integration for automatic filtering.
 
 ## Integration Points
 
-### Social Proof Tokens
-- **Viral Detection**: Social metrics trigger token creation
-- **Engagement Weighting**: Comments worth 3x likes, tips worth 10x
-- **Real-time Tracking**: Continuous monitoring for viral thresholds
-- **Token Integration**: Social proof directly impacts token value
+Social proof tokens are generated when content reaches viral thresholds, with engagement metrics weighted to reflect true influence. The Proof of Creativity system analyzes content for originality and awards badges, while MyIP integration enables gated posts, revenue sharing, and advanced access control.
 
-### Proof of Creativity
-- **Content Analysis**: All posts analyzed for originality
-- **Badge Integration**: PoC badges displayed on posts
-- **Revenue Redirection**: Automatic application to social interactions
-- **Community Verification**: Social proof supports PoC decisions
+## Platform Ecosystem and Benefits
 
-### MyIP Integration
-- **Gated Posts**: Link posts to encrypted information assets
-- **Revenue Sharing**: Tips and token earnings can flow to MyIP
-- **Access Control**: Social proof can gate premium content
-- **Content Monetization**: Multiple revenue streams per post
+Platforms built on MySocial benefit from revenue sharing, advanced moderation, and streamlined audiences. The unified social graph and portable identity system ensure that users and content can move freely between platforms, amplifying network effects and ecosystem growth.
 
-## Platform Ecosystem
+For users, MySocial offers true ownership, monetization opportunities, portability, and privacy controls. Creators enjoy direct monetization, audience ownership, and content protection. Platforms gain access to a broad user base and new revenue streams, while developers can build on open, composable social primitives and focus on innovation.
 
-### Platform Features
-- **Custom Branding**: Platforms can customize appearance and rules
-- **Revenue Sharing**: Platforms earn from user activity
-- **Community Management**: Advanced moderation and admin tools
-- **User Onboarding**: Streamlined platform joining processes
-
-### Cross-Platform Benefits
-- **Portable Identity**: Profiles work across all platforms
-- **Unified Social Graph**: Connections persist between platforms
-- **Content Syndication**: Posts can appear on multiple platforms
-- **Ecosystem Growth**: Network effects benefit all platforms
-
-## Benefits
-
-### For Users
-- **True Ownership**: Blockchain-verified content and social connections
-- **Monetization**: Multiple ways to earn from social activity
-- **Portability**: Never lose followers or content when switching platforms
-- **Privacy Control**: Granular permissions and interaction management
-
-### For Creators
-- **Direct Monetization**: Tips, tokens, and premium content sales
-- **Audience Ownership**: Followers belong to creator, not platform
-- **Content Protection**: PoC system protects original work
-- **Analytics**: Detailed performance and engagement data
-
-### For Platforms
-- **User Acquisition**: Tap into existing MySocial user base
-- **Revenue Generation**: Earn from user activity and transactions
-- **Reduced Development**: Core social features provided by protocol
-- **Network Effects**: Benefit from ecosystem growth
-
-### For Developers
-- **Open Protocol**: Build on standardized social primitives
-- **Composability**: Combine social features with custom functionality
-- **Interoperability**: Integrate with existing MySocial ecosystem
-- **Innovation**: Focus on unique features rather than basic social mechanics
-
-MySocial's social mechanics create a rich, interoperable social ecosystem where users own their data, creators are fairly compensated, and platforms can focus on unique value rather than rebuilding basic social infrastructure.
-
-
+MySocial's social mechanics create a rich, interoperable ecosystem where users own their data, creators are fairly compensated, and platforms can focus on delivering unique value rather than rebuilding basic social infrastructure.
