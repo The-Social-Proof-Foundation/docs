@@ -19,6 +19,8 @@ Content ownership is a core pillar of MySocial, ensuring creators have full cont
 
 With MySocial's Proof of Creativity (PoC) protocol, original content is protected and rewarded. The system recognizes the original creator of content and can automatically redirect monetization to them if someone copies and pastes content without significant changes. This ensures creativity is properly attributed and prevents low-effort duplication from profiting unfairly. Content remains accessible, portable across platforms, and protected against censorship, while still allowing communities to implement their own moderation policies. Creators—not corporations—dictate how their content is used, shared, and monetized across the ecosystem.
 
+<figure><img src="../.gitbook/assets/Proof-of-Creativity (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Proof of Creativity (PoC)
 
 PoC is MySocial's content ownership and revenue redistribution system that automatically detects derivative content and ensures original creators receive fair compensation for their work. It is not just about content verification, but a comprehensive system for content ownership protection and automatic revenue redistribution.
