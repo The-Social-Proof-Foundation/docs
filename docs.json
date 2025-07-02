@@ -33,12 +33,6 @@
               "blockchain/social",
               "blockchain/wallets",
               {
-                "group": "Order Book",
-                "pages": [
-                  "blockchain/order-book/order-book"
-                ]
-              },
-              {
                 "group": "Social",
                 "pages": [
                   "blockchain/social/overview",
