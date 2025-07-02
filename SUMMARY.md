@@ -13,7 +13,7 @@
 
 * [Overview](blockchain/overview.md)
 * [Bridge](blockchain/bridge.md)
-* [Order Book](blockchain/order-book/order-book.md)
+* [Order Book](blockchain/order-book.md)
 * [Scaling Roadmap](blockchain/scaling-roadmap.md)
 * [Security](blockchain/security.md)
 * [Social](blockchain/social/README.md)
