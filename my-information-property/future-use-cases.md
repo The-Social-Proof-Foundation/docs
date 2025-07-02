@@ -17,9 +17,7 @@ layout:
 
 ## The Rise of aUniversal Data Income through AI Agents
 
-MyIP is at the forefront of a new era where human life itself generates valuable, monetizable data. As AI and ubiquitous computing become more prevalent, every aspect of daily existence from health and movement to preferences and social interactions can contribute to a new type of data income.
-
-> **Key Principle:** The next wave of the information economy will be driven by AI agents. These agents will not only process and analyze vast amounts of personal and collective data, but will also act on behalf of users to unlock new forms of value, automate transactions, and enable entirely new business models. MyIP is designed to empower individuals to control, monetize, and benefit from the information they generate, with AI agents as the primary enablers of this transformation.
+MyIP is a new protocol where human life itself generates valuable, monetizable data. As AI and ubiquitous computing become more prevalent, every aspect of daily existence from health and movement to preferences and social interactions can contribute to a new type of data income.
 
 ## From Social Media to Life Analytics
 
