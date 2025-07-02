@@ -15,16 +15,7 @@ layout:
 
 # Scaling Roadmap
 
-As MySocial prepares to launch its mainnet, we are committed to ensuring that our blockchain infrastructure can scale efficiently to meet increasing user demands. Our current implementation utilizes the Sui blockchain, which employs the Narwhal and Bullshark protocols to achieve high throughput and low latency. To further enhance performance and aim for a throughput of **1 million transactions per second (TPS)**, we plan to integrate advanced consensus mechanisms, specifically Rorqual and Shoal++.
-
-## Current Implementation
-
-Sui is a Layer 1 blockchain that utilizes a Delegated Proof-of-Stake (DPoS) consensus mechanism. Its architecture is designed for scalability and efficiency, employing parallel transaction processing to achieve high throughput. The consensus mechanism comprises two primary components:
-
-1. Narwhal: Acts as a mempool and data availability layer, organizing transactions into a Directed Acyclic Graph (DAG) to ensure efficient data dissemination.
-2. Bullshark: Serves as the consensus engine, ordering the transactions provided by Narwhal using a Byzantine Fault Tolerant (BFT) protocol to achieve agreement across the network.
-
-This combination allows Sui to process transactions efficiently, but as MySocial scales, further enhancements are necessary to meet our ambitious performance targets of 1 million+ TPS.
+As MySocial prepares to launch its mainnet, we are committed to ensuring that our blockchain infrastructure can scale efficiently to meet increasing user demands. Our current implementation employs the Narwhal and Bullshark protocols to achieve high throughput and low latency. To further enhance performance and aim for a throughput of **1 million transactions per second (TPS)**, we plan to integrate advanced consensus mechanisms, specifically Rorqual and Shoal++.
 
 ## Integration of Rorqual
 

@@ -15,6 +15,6 @@ layout:
 
 # Whitepaper
 
-We encourage you to explore our Whitepaper to learn about our platform's core features, architecture, and technical specifications.
+For a comprehensive overview of MySocial's architecture, protocols, and technical design decisions, please refer to our Whitepaper.
 
 {% embed url="https://www.mysocial.network/whitepaper" %}
