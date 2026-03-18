@@ -17,7 +17,7 @@ layout:
 
 ## The Rise of aUniversal Data Income through AI Agents
 
-MyIP is a new protocol where human life itself generates valuable, monetizable data. As AI and ubiquitous computing become more prevalent, every aspect of daily existence from health and movement to preferences and social interactions can contribute to a new type of data income.
+MyData is a new protocol where human life itself generates valuable, monetizable data. As AI and ubiquitous computing become more prevalent, every aspect of daily existence from health and movement to preferences and social interactions can contribute to a new type of data income.
 
 ## From Social Media to Life Analytics
 
@@ -25,13 +25,13 @@ The evolution from social media to life analytics is already underway:
 
 - **Today:** Creators monetize insights from social media analytics, engagement patterns, and content optimization.
 - **Near Future:** Wearable technology and smart environments will expand this model, generating streams of health, lifestyle, and behavioral data.
-- **Platform Support:** MyIP is designed to handle both static and real-time data, supporting everything from research findings to live analytics.
+- **Platform Support:** MyData is designed to handle both static and real-time data, supporting everything from research findings to live analytics.
 
 ## The Value of Human Data in the Age of AI Agents
 
 As AI becomes more integrated into the economy, the value of uniquely human data—emotions, creativity, and subjective experiences will only increase. AI agents will be the main players in extracting, processing, and leveraging this data for both personal and collective benefit.
 
-- **Automated Revenue Streams:** MyIP supports background data collection and dynamic pricing, allowing users to benefit from their data without constant oversight. AI agents will manage these processes, optimizing for user-defined goals.
+- **Automated Revenue Streams:** MyData supports background data collection and dynamic pricing, allowing users to benefit from their data without constant oversight. AI agents will manage these processes, optimizing for user-defined goals.
 - **Labor Market Adaptation:** The system is designed to adapt to changes in the labor market, ensuring that human experience remains a primary source of value even as automation advances, with AI agents acting as intermediaries and facilitators.
 
 ## Advanced Use Cases: AI Agents at the Center
@@ -44,9 +44,9 @@ While many future use cases are possible, the most transformative are expected t
 - **New Economic Models:** Information wealth distribution and social capital as new forms of value, with AI agents facilitating fair and efficient allocation.
 - **Digital Real Estate:** Data is treated as a unique asset, with mechanisms for inheritance, geographic value, and demographic uniqueness—all managed and transacted by AI agents.
 
-## MyIP Ecosystem: Integrated and User-Aligned
+## MyData Ecosystem: Integrated and User-Aligned
 
-The MyIP ecosystem is unique in its integration of social, financial, and security infrastructure:
+The MyData ecosystem is unique in its integration of social, financial, and security infrastructure:
 
 - **Social Proof Tokens**
 - **Proof of Creativity**
@@ -57,4 +57,4 @@ This approach enables secure, profitable personal data monetization while ensuri
 
 ---
 
-> *This vision represents the potential of the MyIP system to create new economic opportunities, with AI agents as the key enablers, while maintaining human agency and dignity in an increasingly automated world.* 
+> *This vision represents the potential of the MyData system to create new economic opportunities, with AI agents as the key enablers, while maintaining human agency and dignity in an increasingly automated world.* 

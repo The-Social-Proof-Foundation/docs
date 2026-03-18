@@ -164,9 +164,9 @@ Price = Base Price + (Quadratic Coefficient × Supply²)
 
 ## Integration Points
 
-### MyIP Integration
-- Token pools can represent access to premium MyIP content
-- Revenue from MyIP sales can flow to token holders
+### MyData Integration
+- Token pools can represent access to premium MyData content
+- Revenue from MyData sales can flow to token holders
 - Encrypted content can be gated by token ownership
 
 ### Platform Economics

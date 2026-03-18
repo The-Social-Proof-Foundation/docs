@@ -31,7 +31,7 @@ Engagement is further enhanced by features like reactions, direct tips using MyS
 
 ## Advanced and Monetization Features
 
-MySocial introduces advanced mechanics such as prediction markets, where users can create posts with multiple outcomes and stake tokens on predictions. Gated content and subscription models allow creators to monetize exclusive posts, with fine-grained access control and integration with encrypted assets via MyIP. Promoted content and pay-per-view advertising are supported, complete with analytics and budget management. Content moderation combines community reporting, platform-specific tools, and automated filtering to maintain a healthy environment.
+MySocial introduces advanced mechanics such as prediction markets, where users can create posts with multiple outcomes and stake tokens on predictions. Gated content and subscription models allow creators to monetize exclusive posts, with fine-grained access control and integration with encrypted assets via MyData. Promoted content and pay-per-view advertising are supported, complete with analytics and budget management. Content moderation combines community reporting, platform-specific tools, and automated filtering to maintain a healthy environment.
 
 ## Technical Architecture
 
@@ -54,7 +54,7 @@ Engagement metrics—such as reactions, comments, reposts, and tips—are tracke
 
 ## Integration Points
 
-Social proof tokens are generated when content reaches viral thresholds, with engagement metrics weighted to reflect true influence. The Proof of Creativity system analyzes content for originality and awards badges, while MyIP integration enables gated posts, revenue sharing, and advanced access control.
+Social proof tokens are generated when content reaches viral thresholds, with engagement metrics weighted to reflect true influence. The Proof of Creativity system analyzes content for originality and awards badges, while MyData integration enables gated posts, revenue sharing, and advanced access control.
 
 ## Platform Ecosystem and Benefits
 

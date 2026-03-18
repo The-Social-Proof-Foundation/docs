@@ -58,7 +58,7 @@ Disputes cost 5 MySo plus a 1 MySo protocol fee, with a 7-epoch voting period an
 
 ## Integration Points
 
-PoC badges enhance token pool value and automatically apply revenue redirections to token earnings. The system integrates with MyIP for encrypted content and supports platform features like moderation assistance and content authenticity verification.
+PoC badges enhance token pool value and automatically apply revenue redirections to token earnings. The system integrates with MyData for encrypted content and supports platform features like moderation assistance and content authenticity verification.
 
 ## Benefits
 

@@ -15,7 +15,7 @@ layout:
 
 # Site Hosting
 
-MySocial Site Hosting allows users to deploy fully decentralized websites using the same principles as MyIP and file storage. This system eliminates the need for traditional web hosting infrastructure by leveraging MySocial's decentralized storage network. Developers and creators can seamlessly publish, update, and manage websites using MySo tokens, making them censorship-resistant and persistently available.
+MySocial Site Hosting allows users to deploy fully decentralized websites using the same principles as MyData and file storage. This system eliminates the need for traditional web hosting infrastructure by leveraging MySocial's decentralized storage network. Developers and creators can seamlessly publish, update, and manage websites using MySo tokens, making them censorship-resistant and persistently available.
 
 Sites hosted on MySocial function similarly to traditional static websites but are distributed, verifiable, and tamper-proof. They can be associated with a MySocial username or content-based identifier, offering human-readable domain options for easy accessibility.
 
@@ -27,7 +27,7 @@ Site Hosting will be avalible post-mainnet launch.
 
 MySocial Site Hosting requires no traditional servers. Users simply upload their site's source files, pay storage fees in MySo tokens, and MySocial handles storage and retrieval through the decentralized network. Sites can use MySocial usernames or generated content-based identifiers for easy access.
 
-Sites are stored as on-chain objects and can be transferred between owners, but they maintain immutable versioning. No central authority can take down websites once they're published to the network. Sites integrate directly with MySocial identity systems, linking to MyIP content, profiles, and other MySocial assets.
+Sites are stored as on-chain objects and can be transferred between owners, but they maintain immutable versioning. No central authority can take down websites once they're published to the network. Sites integrate directly with MySocial identity systems, linking to MyData content, profiles, and other MySocial assets.
 
 The system supports subscription models where creators can store encrypted media and provide decryption keys only to paid subscribers or users who purchase content. While MySocial provides the decentralized storage, decryption happens client-side. This enables fully decentralized web experiences, including all required resources such as JavaScript, CSS, HTML, and media files.
 
@@ -49,6 +49,6 @@ Sites exist as on-chain objects that can be transferred between users like any o
 
 ### MySocial Integration
 
-Sites can embed MyIP media directly, ensuring decentralized content distribution throughout the user experience. Smart contracts enable dynamic functionality such as user authentication, content gating, and monetization using MySo tokens. Personalized sites can be automatically generated for NFTs, MySocial profiles, or other blockchain-linked assets.
+Sites can embed MyData media directly, ensuring decentralized content distribution throughout the user experience. Smart contracts enable dynamic functionality such as user authentication, content gating, and monetization using MySo tokens. Personalized sites can be automatically generated for NFTs, MySocial profiles, or other blockchain-linked assets.
 
 All hosting fees, storage costs, and related transactions are processed exclusively in MySo tokens, ensuring tight integration with the MySocial ecosystem and eliminating dependencies on external payment systems or tokens.

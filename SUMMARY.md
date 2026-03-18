@@ -48,14 +48,14 @@
 * [Community Dispute System](proof-of-creativity/dispute-system.md)
 * [Social Proof Token Integration](proof-of-creativity/token-integration.md)
 
-## My Information Property
+## MyData
 
-* [Overview](my-information-property/overview.md)
-* [Information Marketplace](my-information-property/information-marketplace.md)
-* [Encryption System](my-information-property/myip-encryption.md)
-* [Access Control & Subscriptions](my-information-property/access-control.md)
-* [Future Use Cases](my-information-property/future-use-cases.md)
-* [AI Agents](my-information-property/ai-agents.md)
+* [Overview](mydata/overview.md)
+* [Information Marketplace](mydata/information-marketplace.md)
+* [Encryption System](mydata/mydata-encryption.md)
+* [Access Control & Subscriptions](mydata/access-control.md)
+* [Future Use Cases](mydata/future-use-cases.md)
+* [AI Agents](mydata/ai-agents.md)
 
 ## File Storage
 

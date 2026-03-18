@@ -15,11 +15,11 @@ layout:
 
 # Access Control & Subscription Management
 
-MyIP transforms information access control into a powerful economic engine, turning every piece of data you create into a controllable asset. The system is designed to provide precise permissions, automated enforcement, and seamless monetization, forming the backbone of the information economy.
+MyData transforms information access control into a powerful economic engine, turning every piece of data you create into a controllable asset. The system is designed to provide precise permissions, automated enforcement, and seamless monetization, forming the backbone of the information economy.
 
 ## Models of Access
 
-Permanent access rights in MyIP function like digital property deeds. When a buyer purchases one-time access, they receive immutable, permanent rights, while you retain ownership and can continue to monetize the same information. This model is ideal for content that maintains value over time, such as research or educational materials.
+Permanent access rights in MyData function like digital property deeds. When a buyer purchases one-time access, they receive immutable, permanent rights, while you retain ownership and can continue to monetize the same information. This model is ideal for content that maintains value over time, such as research or educational materials.
 
 For evolving knowledge, dynamic subscription management automates the entire lifecycle. Smart contracts handle everything from payment processing to access granting and renewal reminders, freeing you to focus on content creation. Subscribers can choose durations that fit their needs, and the system ensures fair billing and seamless operation.
 
@@ -35,7 +35,7 @@ Subscription management is fully automated, including payment processing, renewa
 
 ## Advanced Features
 
-MyIP supports graduated access levels, from previews to premium and exclusive content, with dynamic filtering and watermarking based on subscription tier. Geographic and temporal restrictions allow for region-specific access, compliance with regulations, and scheduled releases for time-sensitive information.
+MyData supports graduated access levels, from previews to premium and exclusive content, with dynamic filtering and watermarking based on subscription tier. Geographic and temporal restrictions allow for region-specific access, compliance with regulations, and scheduled releases for time-sensitive information.
 
 ## Security, Privacy, and Compliance
 
@@ -45,8 +45,8 @@ Creators have real-time control over permissions, can manage bulk access, and en
 
 ## Integration and Scalability
 
-MyIP integrates with MySocial posts and profiles, supports cross-platform access, and provides APIs for third-party applications. The architecture is scalable, supports global delivery, and is ready for future innovations such as biometric authentication and AI agent access management.
+MyData integrates with MySocial posts and profiles, supports cross-platform access, and provides APIs for third-party applications. The architecture is scalable, supports global delivery, and is ready for future innovations such as biometric authentication and AI agent access management.
 
-This robust access control and subscription management system is the technical foundation for MyIP as a secure, scalable information marketplace, supporting new economic models in the information economy.
+This robust access control and subscription management system is the technical foundation for MyData as a secure, scalable information marketplace, supporting new economic models in the information economy.
 
 *Access control systems are continuously updated to address emerging security threats and technological advancements.* 

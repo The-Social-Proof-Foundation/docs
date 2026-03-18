@@ -49,7 +49,7 @@ The PoC Registry tracks badge issuance rates, media type breakdowns, creator per
 
 ## Integration with Ecosystem
 
-PoC badges automatically integrate with token economics, MyIP intellectual property claims, and platform features like search, recommendations, and moderation. Badge holders receive discoverability benefits and may be eligible for enhanced platform programs.
+PoC badges automatically integrate with token economics, MyData intellectual property claims, and platform features like search, recommendations, and moderation. Badge holders receive discoverability benefits and may be eligible for enhanced platform programs.
 
 ## Badge Lifecycle
 

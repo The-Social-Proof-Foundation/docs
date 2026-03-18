@@ -86,7 +86,7 @@ DAO governance enables democratic decision-making, proposal submission, and voti
 **Revenue streams include:**
 - Trading fees from Social Proof Token trading
 - Content tips
-- MyIP sales
+- MyData sales
 - Advertising
 - Subscription services
 
@@ -94,7 +94,7 @@ These mechanisms support both platform operations and creator incentives.
 
 ## Integration with MySocial Features
 
-Platforms can issue their own tradeable tokens, support creator tokens, and participate in revenue sharing from token trading. Token holders may have governance rights and participate in platform decisions. Proof of Creativity ensures content protection and quality, with revenue redirection and dispute resolution available for original creators. MyIP integration allows platforms to host encrypted premium content, manage access, and offer enhanced monetization tools for creators.
+Platforms can issue their own tradeable tokens, support creator tokens, and participate in revenue sharing from token trading. Token holders may have governance rights and participate in platform decisions. Proof of Creativity ensures content protection and quality, with revenue redirection and dispute resolution available for original creators. MyData integration allows platforms to host encrypted premium content, manage access, and offer enhanced monetization tools for creators.
 
 ## Platform Types & Use Cases
 

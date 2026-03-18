@@ -15,7 +15,7 @@ layout:
 
 # AI Agents
 
-AI agents in MySocial are designed to enhance, not replace, human creativity. They act as intelligent intermediaries, optimizing the value and accessibility of human-generated data within the MyIP marketplace. Rather than simply automating tasks, these agents analyze, curate, and recommend information, making it easier for users to discover, monetize, and benefit from their knowledge and experiences.
+AI agents in MySocial are designed to enhance, not replace, human creativity. They act as intelligent intermediaries, optimizing the value and accessibility of human-generated data within the MyData marketplace. Rather than simply automating tasks, these agents analyze, curate, and recommend information, making it easier for users to discover, monetize, and benefit from their knowledge and experiences.
 
 {% hint style="info" %}
 MySocial AI Agents will be implemented post-mainnet launch.
@@ -23,7 +23,7 @@ MySocial AI Agents will be implemented post-mainnet launch.
 
 ## AI-Powered Information Optimization
 
-The core of MySocial's AI agent system is intelligent data curation. Agents automatically assess the quality of MyIP data, enhance metadata, and suggest pricing based on real-time market demand. This means creators receive actionable feedback on how to optimize their content for maximum reach and monetization, while consumers benefit from more relevant, high-quality recommendations. The system also supports personalized search and filtering, making it easier to find exactly the information you need.
+The core of MySocial's AI agent system is intelligent data curation. Agents automatically assess the quality of MyData data, enhance metadata, and suggest pricing based on real-time market demand. This means creators receive actionable feedback on how to optimize their content for maximum reach and monetization, while consumers benefit from more relevant, high-quality recommendations. The system also supports personalized search and filtering, making it easier to find exactly the information you need.
 
 ## Consultation and Experience Trading
 
@@ -35,9 +35,9 @@ As the ecosystem evolves, AI agents will play a central role in optimizing user 
 
 ## Data for LLM Training
 
-MyIP's integration with AI ensures that only high-quality, human-verified data is used for training large language models. Blockchain verification, creator reputation, and Proof of Creativity all contribute to a transparent, ethical, and fairly compensated data marketplace. This approach supports sustainable AI development and ensures that contributors are rewarded for their input.
+MyData's integration with AI ensures that only high-quality, human-verified data is used for training large language models. Blockchain verification, creator reputation, and Proof of Creativity all contribute to a transparent, ethical, and fairly compensated data marketplace. This approach supports sustainable AI development and ensures that contributors are rewarded for their input.
 
-## InfoFi and Ecosystem Synergy
+## DataFi and Ecosystem Synergy
 
 The combination of Social Proof Tokens, Proof of Creativity, encryption, and access control creates a secure, transparent environment for AI-human data exchange. Community governance and transparent compensation models ensure that the interests of human contributors remain central as the platform grows.
 

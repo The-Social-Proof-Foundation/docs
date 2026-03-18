@@ -73,14 +73,14 @@
             ]
           },
           {
-            "group": "My Information Property",
+            "group": "MyData",
             "pages": [
-              "my-information-property/overview",
-              "my-information-property/information-marketplace",
-              "my-information-property/myip-encryption",
-              "my-information-property/access-control",
-              "my-information-property/future-use-cases",
-              "my-information-property/ai-agents"
+              "mydata/overview",
+              "mydata/information-marketplace",
+              "mydata/mydata-encryption",
+              "mydata/access-control",
+              "mydata/future-use-cases",
+              "mydata/ai-agents"
             ]
           },
           {

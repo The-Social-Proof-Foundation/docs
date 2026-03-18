@@ -43,7 +43,7 @@ public struct Comment has key, store {
 
 ## Monetization Integration
 
-Posts are tightly integrated with Social Proof Tokens, enabling viral content to trigger token creation based on engagement metrics. The protocol uses a weighted scoring system (likes, comments, tips) to determine eligibility for tokenization, with revenue from token trading flowing back to the post creator. Proof of Creativity (PoC) ensures originality, awarding badges and redirecting revenue for derivative content. MyIP integration allows posts to be linked to encrypted assets, supporting gated content, premium features, and fine-grained access control.
+Posts are tightly integrated with Social Proof Tokens, enabling viral content to trigger token creation based on engagement metrics. The protocol uses a weighted scoring system (likes, comments, tips) to determine eligibility for tokenization, with revenue from token trading flowing back to the post creator. Proof of Creativity (PoC) ensures originality, awarding badges and redirecting revenue for derivative content. MyData integration allows posts to be linked to encrypted assets, supporting gated content, premium features, and fine-grained access control.
 
 ## Advanced Features
 

@@ -123,6 +123,7 @@ Based on extensive research into Walrus (the actual technology underlying MySoci
 
 ## Lessons
 
+- **Terminology update (Mar 18, 2025)**: Replaced all MyIP → MyData and InfoFi → DataFi across docs. Renamed myip-encryption.md → mydata-encryption.md.
 - Walrus mainnet launched March 27, 2025 - documentation should reflect current live network status
 - Red Stuff encoding is the key technical innovation (2D erasure coding vs traditional 1D Reed-Solomon) - rebranded as "Red Hat"
 - WAL token (storage) and SUI token (gas) dual-token system is fundamental to understanding economics - adapted as MySo integration

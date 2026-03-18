@@ -15,7 +15,7 @@ layout:
 
 # Information Marketplace
 
-The MyIP marketplace is designed to turn information into a true asset class, enabling creators to monetize their data while providing buyers with secure, verifiable access. Unlike traditional content platforms, MyIP uses blockchain-based smart contracts to enforce access rights, ensuring that transactions are transparent, final, and trustless.
+The MyData marketplace is designed to turn information into a true asset class, enabling creators to monetize their data while providing buyers with secure, verifiable access. Unlike traditional content platforms, MyData uses blockchain-based smart contracts to enforce access rights, ensuring that transactions are transparent, final, and trustless.
 
 Any type of information—whether analytics, research, creative content, or professional insights—can be listed as a product. Creators have full control over pricing and access terms, and buyers can choose between one-time purchases or ongoing subscriptions. Payments are handled in MySo tokens, and as soon as a transaction is confirmed, access is granted automatically and securely.
 
@@ -25,11 +25,11 @@ The marketplace is flexible enough to support a wide range of use cases, from pe
 
 Integration with social media profiles and posts allows users to attach data products directly to their online presence, creating new opportunities for monetization and professional growth. The architecture is also suitable for professional services, research collaborations, and even real-world asset tokenization, making it a versatile foundation for the digital information economy.
 
-By transforming information into a liquid, tradeable asset, the MyIP marketplace opens up new economic opportunities for both individuals and organizations. The system is built to evolve, supporting secure, fair, and efficient data exchange as the digital economy grows.
+By transforming information into a liquid, tradeable asset, the MyData marketplace opens up new economic opportunities for both individuals and organizations. The system is built to evolve, supporting secure, fair, and efficient data exchange as the digital economy grows.
 
 ## Marketplace Architecture
 
-Any information such as analytics, research, creative content, or professional insights can be listed as MyIP. Users set prices and access terms, and buyers can purchase one-time access or subscribe for updates, with payments in MySo tokens. The smart contract enforces access rights, granting access automatically and securely upon payment confirmation.
+Any information such as analytics, research, creative content, or professional insights can be listed as MyData. Users set prices and access terms, and buyers can purchase one-time access or subscribe for updates, with payments in MySo tokens. The smart contract enforces access rights, granting access automatically and securely upon payment confirmation.
 
 Metadata fields such as tags, data quality, sample size, collection method, and update frequency are available for each listing, making it easy for buyers to discover and filter relevant information.
 
