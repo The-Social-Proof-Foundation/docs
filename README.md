@@ -32,6 +32,6 @@ Welcome to **MySocial**, the layer-1 blockchain that's redefining the future of 
 
 ***
 
-Have any questions or need developer support? Join our community on [Telegram](https://t.me/mysocial_chain), where you can connect with our team and fellow developers.
+Have any questions or need developer support? Join our community on [Telegram](https://t.me/myso_community), where you can connect with our team and fellow developers.
 
 Let's build the future of social media together. 🚀

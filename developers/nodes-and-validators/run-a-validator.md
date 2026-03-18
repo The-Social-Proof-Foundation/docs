@@ -195,4 +195,4 @@ To keep the node running continuously, consider using a process manager like lau
 
 To become an active validator, you need to stake a minimum amount of MySocial tokens. Ensure your wallet has the required tokens and follow the staking procedures as outlined in the MySocial documentation.
 
-By following these steps, you’ll have a MySocial Validator Node up and running, actively participating in the network’s consensus and contributing to its security and performance. If you have any issues, please reach out to us on out [Telegram channel](https://t.me/mysocial_chain) and we will be happy to help.
+By following these steps, you’ll have a MySocial Validator Node up and running, actively participating in the network’s consensus and contributing to its security and performance. If you have any issues, please reach out to us on out [Telegram channel](https://t.me/myso_community) and we will be happy to help.
